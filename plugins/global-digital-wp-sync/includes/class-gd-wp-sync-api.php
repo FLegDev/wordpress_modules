@@ -14,15 +14,31 @@ class GD_WP_Sync_API
             return new WP_Error('gd_wp_sync_missing_endpoint', __('Global Digital API endpoint is missing.', 'global-digital-wp-sync'));
         }
 
+        return $this->post_json($endpoint, $payload, $this->headers($settings), $settings, 'Payload accepted by Global Digital API.', 'Global Digital API returned an error.');
+    }
+
+    public function push_django_stats($payload, $settings)
+    {
+        $endpoint = isset($settings['django_stats_api_endpoint']) ? esc_url_raw($settings['django_stats_api_endpoint']) : '';
+
+        if (empty($endpoint)) {
+            return new WP_Error('gd_wp_sync_missing_django_stats_endpoint', __('Django statistics API endpoint is missing.', 'global-digital-wp-sync'));
+        }
+
+        return $this->post_json($endpoint, $payload, $this->django_stats_headers($settings), $settings, 'Payload accepted by Django statistics API.', 'Django statistics API returned an error.');
+    }
+
+    private function post_json($endpoint, $payload, $headers, $settings, $success_message, $error_message)
+    {
         $body = wp_json_encode($payload);
 
         if (false === $body) {
-            return new WP_Error('gd_wp_sync_json_error', __('Unable to encode Global Digital payload as JSON.', 'global-digital-wp-sync'));
+            return new WP_Error('gd_wp_sync_json_error', __('Unable to encode payload as JSON.', 'global-digital-wp-sync'));
         }
 
         $args = array(
             'timeout' => isset($settings['request_timeout']) ? max(5, (int) $settings['request_timeout']) : 20,
-            'headers' => $this->headers($settings),
+            'headers' => $headers,
             'body' => $body,
             'data_format' => 'body',
         );
@@ -40,7 +56,7 @@ class GD_WP_Sync_API
         return array(
             'success' => $success,
             'status_code' => $status_code,
-            'message' => $success ? 'Payload accepted by Global Digital API.' : 'Global Digital API returned an error.',
+            'message' => $success ? $success_message : $error_message,
             'body' => is_string($response_body) ? wp_trim_words($response_body, 80, '...') : '',
         );
     }
@@ -62,5 +78,24 @@ class GD_WP_Sync_API
         }
 
         return apply_filters('gd_wp_sync_api_headers', $headers, $settings);
+    }
+
+    private function django_stats_headers($settings)
+    {
+        $headers = array(
+            'Content-Type' => 'application/json; charset=utf-8',
+            'Accept' => 'application/json',
+            'User-Agent' => 'GlobalDigitalWPSync/' . (defined('GD_WP_SYNC_VERSION') ? GD_WP_SYNC_VERSION : '0.0.0'),
+        );
+
+        $token = isset($settings['django_stats_api_token']) ? trim((string) $settings['django_stats_api_token']) : '';
+        $header_name = isset($settings['django_stats_auth_header_name']) ? trim((string) $settings['django_stats_auth_header_name']) : 'Authorization';
+        $prefix = isset($settings['django_stats_auth_header_prefix']) ? trim((string) $settings['django_stats_auth_header_prefix']) : 'Bearer';
+
+        if ('' !== $token && '' !== $header_name) {
+            $headers[$header_name] = '' !== $prefix ? $prefix . ' ' . $token : $token;
+        }
+
+        return apply_filters('gd_wp_sync_django_stats_headers', $headers, $settings);
     }
 }

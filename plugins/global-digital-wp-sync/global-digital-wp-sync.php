@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Global Digital WP Sync
- * Description: Collects WordPress-only Global Digital metrics and pushes them to the Global Digital API.
- * Version: 0.1.0
+ * Description: Collects WordPress metrics for Global Digital and local Advanced Ads statistics for a Django stats API.
+ * Version: 0.2.0
  * Author: Global Digital
  * License: GPL-2.0-or-later
  * Text Domain: global-digital-wp-sync
@@ -12,13 +12,14 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('GD_WP_SYNC_VERSION', '0.1.0');
+define('GD_WP_SYNC_VERSION', '0.2.0');
 define('GD_WP_SYNC_FILE', __FILE__);
 define('GD_WP_SYNC_DIR', plugin_dir_path(__FILE__));
 define('GD_WP_SYNC_URL', plugin_dir_url(__FILE__));
 
 require_once GD_WP_SYNC_DIR . 'includes/class-gd-wp-sync.php';
 require_once GD_WP_SYNC_DIR . 'includes/class-gd-wp-sync-collector.php';
+require_once GD_WP_SYNC_DIR . 'includes/class-gd-wp-sync-advanced-ads-collector.php';
 require_once GD_WP_SYNC_DIR . 'includes/class-gd-wp-sync-api.php';
 require_once GD_WP_SYNC_DIR . 'includes/class-gd-wp-sync-admin.php';
 

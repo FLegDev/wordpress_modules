@@ -16,6 +16,11 @@ class GD_WP_Sync
     private $collector;
 
     /**
+     * @var GD_WP_Sync_Advanced_Ads_Collector
+     */
+    private $advanced_ads_collector;
+
+    /**
      * @var GD_WP_Sync_API
      */
     private $api;
@@ -28,6 +33,7 @@ class GD_WP_Sync
     public function init()
     {
         $this->collector = new GD_WP_Sync_Collector();
+        $this->advanced_ads_collector = new GD_WP_Sync_Advanced_Ads_Collector();
         $this->api = new GD_WP_Sync_API();
 
         add_action(self::CRON_HOOK, array($this, 'run_cron_sync'));
@@ -64,6 +70,13 @@ class GD_WP_Sync
             'auth_header_name' => 'Authorization',
             'auth_header_prefix' => 'Bearer',
             'request_timeout' => 20,
+            'advanced_ads_enabled' => 0,
+            'django_stats_api_endpoint' => '',
+            'django_stats_api_token' => '',
+            'django_stats_auth_header_name' => 'Authorization',
+            'django_stats_auth_header_prefix' => 'Bearer',
+            'advanced_ads_impressions_table' => '',
+            'advanced_ads_clicks_table' => '',
             'schedule_enabled' => 0,
             'schedule_period' => 'previous_day',
             'article_post_types' => 'post',
@@ -138,27 +151,48 @@ class GD_WP_Sync
         $payload = apply_filters('gd_wp_sync_payload', $payload, $settings, $trigger);
 
         $response = $this->api->push($payload, $settings);
+        $global_result = $this->format_api_result($response);
+        $advanced_ads_payload = null;
+        $advanced_ads_response = null;
+        $advanced_ads_result = null;
+
+        if (!empty($settings['advanced_ads_enabled'])) {
+            $advanced_ads_payload = $this->advanced_ads_collector->collect($period['start_date'], $period['end_date'], $settings);
+            $advanced_ads_payload['trigger'] = $trigger;
+            $advanced_ads_payload = apply_filters('gd_wp_sync_django_stats_payload', $advanced_ads_payload, $settings, $trigger);
+            $advanced_ads_response = $this->api->push_django_stats($advanced_ads_payload, $settings);
+            $advanced_ads_result = $this->format_api_result($advanced_ads_response);
+        }
 
         $result = array(
-            'success' => !is_wp_error($response) && !empty($response['success']),
+            'success' => !empty($global_result['success']) && (null === $advanced_ads_result || !empty($advanced_ads_result['success'])),
             'trigger' => $trigger,
             'period' => $period,
             'payload' => $payload,
+            'global_digital' => $global_result,
             'time' => current_time('mysql'),
         );
 
-        if (is_wp_error($response)) {
-            $result['message'] = $response->get_error_message();
-        } else {
-            $result['status_code'] = isset($response['status_code']) ? (int) $response['status_code'] : 0;
-            $result['message'] = isset($response['message']) ? $response['message'] : '';
-            $result['response_body'] = isset($response['body']) ? $response['body'] : '';
+        if (null !== $advanced_ads_result) {
+            $result['advanced_ads'] = array(
+                'payload' => $advanced_ads_payload,
+                'api' => $advanced_ads_result,
+            );
         }
+
+        $result['status_code'] = isset($global_result['status_code']) ? (int) $global_result['status_code'] : 0;
+        $result['message'] = $this->summarize_results($global_result, $advanced_ads_result);
+        $result['response_body'] = isset($global_result['body']) ? $global_result['body'] : '';
 
         $this->store_last_result($result);
         do_action('gd_wp_sync_after_push', $result, $payload, $settings);
 
-        return $response;
+        return array(
+            'success' => $result['success'],
+            'global_digital' => $global_result,
+            'advanced_ads' => $advanced_ads_result,
+            'message' => $result['message'],
+        );
     }
 
     public function preview_payload($start_date, $end_date)
@@ -170,7 +204,16 @@ class GD_WP_Sync
             return $period;
         }
 
-        return $this->collector->collect($period['start_date'], $period['end_date'], $settings);
+        $payload = $this->collector->collect($period['start_date'], $period['end_date'], $settings);
+
+        if (empty($settings['advanced_ads_enabled'])) {
+            return $payload;
+        }
+
+        return array(
+            'global_digital' => $payload,
+            'advanced_ads_stats' => $this->advanced_ads_collector->collect($period['start_date'], $period['end_date'], $settings),
+        );
     }
 
     public static function get_last_result()
@@ -183,6 +226,37 @@ class GD_WP_Sync
     private function store_last_result($result)
     {
         update_option(self::LAST_RESULT_OPTION, $result, false);
+    }
+
+    private function format_api_result($response)
+    {
+        if (is_wp_error($response)) {
+            return array(
+                'success' => false,
+                'message' => $response->get_error_message(),
+                'status_code' => 0,
+                'body' => '',
+            );
+        }
+
+        return array(
+            'success' => !empty($response['success']),
+            'message' => isset($response['message']) ? $response['message'] : '',
+            'status_code' => isset($response['status_code']) ? (int) $response['status_code'] : 0,
+            'body' => isset($response['body']) ? $response['body'] : '',
+        );
+    }
+
+    private function summarize_results($global_result, $advanced_ads_result)
+    {
+        $messages = array();
+        $messages[] = 'Global Digital: ' . (isset($global_result['message']) ? $global_result['message'] : '');
+
+        if (null !== $advanced_ads_result) {
+            $messages[] = 'Django Stats: ' . (isset($advanced_ads_result['message']) ? $advanced_ads_result['message'] : '');
+        }
+
+        return implode(' ', array_filter($messages));
     }
 
     private function normalize_period($start_date, $end_date)
@@ -254,7 +328,7 @@ class GD_WP_Sync
                 WP_CLI::error(isset($response['message']) ? $response['message'] : 'Global Digital API rejected the payload.');
             }
 
-            WP_CLI::success('Global Digital payload sent.');
+            WP_CLI::success('Global Digital sync completed.');
         });
     }
 }

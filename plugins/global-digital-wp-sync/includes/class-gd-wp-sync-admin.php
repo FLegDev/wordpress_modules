@@ -58,6 +58,21 @@ class GD_WP_Sync_Admin
         $this->field('request_timeout', __('Timeout requete', 'global-digital-wp-sync'), 'number', 'gd_wp_sync_api');
 
         add_settings_section(
+            'gd_wp_sync_django_stats',
+            __('API statistiques Django', 'global-digital-wp-sync'),
+            '__return_false',
+            'global-digital-wp-sync'
+        );
+
+        $this->field('advanced_ads_enabled', __('Activer Advanced Ads', 'global-digital-wp-sync'), 'checkbox', 'gd_wp_sync_django_stats');
+        $this->field('django_stats_api_endpoint', __('Endpoint statistiques Django', 'global-digital-wp-sync'), 'url', 'gd_wp_sync_django_stats');
+        $this->field('django_stats_api_token', __('Jeton API Django', 'global-digital-wp-sync'), 'password', 'gd_wp_sync_django_stats');
+        $this->field('django_stats_auth_header_name', __('Header authentification Django', 'global-digital-wp-sync'), 'text', 'gd_wp_sync_django_stats');
+        $this->field('django_stats_auth_header_prefix', __('Prefixe authentification Django', 'global-digital-wp-sync'), 'text', 'gd_wp_sync_django_stats');
+        $this->field('advanced_ads_impressions_table', __('Table impressions Advanced Ads', 'global-digital-wp-sync'), 'text', 'gd_wp_sync_django_stats');
+        $this->field('advanced_ads_clicks_table', __('Table clics Advanced Ads', 'global-digital-wp-sync'), 'text', 'gd_wp_sync_django_stats');
+
+        add_settings_section(
             'gd_wp_sync_collection',
             __('Donnees WordPress', 'global-digital-wp-sync'),
             '__return_false',
@@ -115,7 +130,7 @@ class GD_WP_Sync_Admin
 
         foreach ($defaults as $key => $default) {
             if (!isset($input[$key])) {
-                if ('schedule_enabled' === $key) {
+                if ('schedule_enabled' === $key || 'advanced_ads_enabled' === $key) {
                     $clean[$key] = 0;
                 }
                 continue;
@@ -123,7 +138,7 @@ class GD_WP_Sync_Admin
 
             $value = $input[$key];
 
-            if ('api_endpoint' === $key) {
+            if ('api_endpoint' === $key || 'django_stats_api_endpoint' === $key) {
                 $clean[$key] = esc_url_raw($value);
                 continue;
             }
@@ -133,7 +148,7 @@ class GD_WP_Sync_Admin
                 continue;
             }
 
-            if ('schedule_enabled' === $key) {
+            if ('schedule_enabled' === $key || 'advanced_ads_enabled' === $key) {
                 $clean[$key] = empty($value) ? 0 : 1;
                 continue;
             }
@@ -175,11 +190,17 @@ class GD_WP_Sync_Admin
         }
 
         if ('checkbox' === $type) {
+            $description = __('Envoyer automatiquement selon la periode choisie.', 'global-digital-wp-sync');
+
+            if ('advanced_ads_enabled' === $key) {
+                $description = __('Collecter les impressions et clics Advanced Ads et les pousser vers l API statistiques Django.', 'global-digital-wp-sync');
+            }
+
             printf(
                 '<label><input type="checkbox" name="%1$s" value="1" %2$s> %3$s</label>',
                 esc_attr($name),
                 checked(1, (int) $value, false),
-                esc_html__('Envoyer automatiquement selon la periode choisie.', 'global-digital-wp-sync')
+                esc_html($description)
             );
             return;
         }
@@ -224,7 +245,7 @@ class GD_WP_Sync_Admin
         ?>
         <div class="wrap">
             <h1><?php esc_html_e('Global Digital WP Sync', 'global-digital-wp-sync'); ?></h1>
-            <p><?php esc_html_e('Collecte uniquement les indicateurs dont la source est WordPress, puis les envoie vers l API Global Digital.', 'global-digital-wp-sync'); ?></p>
+            <p><?php esc_html_e('Collecte les indicateurs WordPress pour Global Digital et, si active, les statistiques Advanced Ads vers l API statistiques Django.', 'global-digital-wp-sync'); ?></p>
 
             <h2><?php esc_html_e('Envoyer une periode', 'global-digital-wp-sync'); ?></h2>
             <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>">
@@ -240,7 +261,7 @@ class GD_WP_Sync_Admin
                         <td><input type="date" id="gd_wp_sync_end_date" name="end_date" value="<?php echo esc_attr($default_end); ?>" required></td>
                     </tr>
                 </table>
-                <?php submit_button(__('Envoyer a Global Digital', 'global-digital-wp-sync')); ?>
+                <?php submit_button(__('Envoyer aux APIs configurees', 'global-digital-wp-sync')); ?>
             </form>
 
             <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>">
@@ -248,7 +269,7 @@ class GD_WP_Sync_Admin
                 <input type="hidden" name="action" value="gd_wp_sync_preview">
                 <input type="hidden" name="start_date" value="<?php echo esc_attr($default_start); ?>">
                 <input type="hidden" name="end_date" value="<?php echo esc_attr($default_end); ?>">
-                <?php submit_button(__('Previsualiser le payload du mois courant', 'global-digital-wp-sync'), 'secondary'); ?>
+                <?php submit_button(__('Previsualiser les payloads du mois courant', 'global-digital-wp-sync'), 'secondary'); ?>
             </form>
 
             <?php if (!empty($last_result)) : ?>
@@ -267,6 +288,18 @@ class GD_WP_Sync_Admin
                             <th><?php esc_html_e('Message', 'global-digital-wp-sync'); ?></th>
                             <td><?php echo isset($last_result['message']) ? esc_html($last_result['message']) : ''; ?></td>
                         </tr>
+                        <?php if (isset($last_result['global_digital'])) : ?>
+                            <tr>
+                                <th><?php esc_html_e('Global Digital', 'global-digital-wp-sync'); ?></th>
+                                <td><?php echo !empty($last_result['global_digital']['success']) ? esc_html__('Succes', 'global-digital-wp-sync') : esc_html__('Erreur', 'global-digital-wp-sync'); ?></td>
+                            </tr>
+                        <?php endif; ?>
+                        <?php if (isset($last_result['advanced_ads']['api'])) : ?>
+                            <tr>
+                                <th><?php esc_html_e('Django Stats', 'global-digital-wp-sync'); ?></th>
+                                <td><?php echo !empty($last_result['advanced_ads']['api']['success']) ? esc_html__('Succes', 'global-digital-wp-sync') : esc_html__('Erreur', 'global-digital-wp-sync'); ?></td>
+                            </tr>
+                        <?php endif; ?>
                     </tbody>
                 </table>
             <?php endif; ?>
@@ -334,10 +367,10 @@ class GD_WP_Sync_Admin
         $status = sanitize_key(wp_unslash($_GET['gd_wp_sync_status']));
 
         if ('success' === $status) {
-            echo '<div class="notice notice-success is-dismissible"><p>' . esc_html__('Payload Global Digital envoye.', 'global-digital-wp-sync') . '</p></div>';
+            echo '<div class="notice notice-success is-dismissible"><p>' . esc_html__('Payloads envoyes.', 'global-digital-wp-sync') . '</p></div>';
             return;
         }
 
-        echo '<div class="notice notice-error is-dismissible"><p>' . esc_html__('Envoi Global Digital impossible. Consultez le dernier resultat.', 'global-digital-wp-sync') . '</p></div>';
+        echo '<div class="notice notice-error is-dismissible"><p>' . esc_html__('Envoi impossible pour au moins une API. Consultez le dernier resultat.', 'global-digital-wp-sync') . '</p></div>';
     }
 }

@@ -1,0 +1,81 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "media-slider-blocks/media-slider",
+    "version": "1.1.0",
+    "title": "Media Slider",
+    "category": "media",
+    "icon": "images-alt2",
+    "description": "Slider d'images avec overlay par slide, angle diagonal et filtrage par catégorie.",
+    "keywords": [ "slider", "images", "médias", "galerie", "carrousel", "overlay", "angle" ],
+    "textdomain": "media-slider-blocks",
+    "supports": {
+        "html":  false,
+        "align": [ "wide", "full" ],
+        "spacing": { "margin": true, "padding": true }
+    },
+    "attributes": {
+        "categories":       { "type": "array",   "default": [], "items": { "type": "string" } },
+        "numberOfImages":   { "type": "number",  "default": 12 },
+        "orderBy":          { "type": "string",  "default": "date" },
+        "showTitle":        { "type": "boolean", "default": false },
+        "displaySlideTitle": { "type": "boolean", "default": true },
+        "showCaption":      { "type": "boolean", "default": false },
+        "linkImages":       { "type": "boolean", "default": true },
+        "slidesVisible":    { "type": "number",  "default": 3 },
+        "slidesTablet":     { "type": "number",  "default": 2 },
+        "slidesMobile":     { "type": "number",  "default": 1 },
+        "gap":              { "type": "number",  "default": 16 },
+        "autoplay":         { "type": "boolean", "default": true },
+        "autoplaySpeed":    { "type": "number",  "default": 4000 },
+        "transitionSpeed":  { "type": "number",  "default": 600 },
+        "showArrows":       { "type": "boolean", "default": true },
+        "showDots":         { "type": "boolean", "default": true },
+        "loop":             { "type": "boolean", "default": true },
+        "aspectRatio":      { "type": "string",  "default": "16/9" },
+        "objectFit":        { "type": "string",  "default": "cover" },
+        "borderRadius":     { "type": "number",  "default": 0 },
+        "arrowColor":       { "type": "string",  "default": "#ffffff" },
+        "arrowBgColor":     { "type": "string",  "default": "rgba(0,0,0,0.5)" },
+        "dotColor":         { "type": "string",  "default": "rgba(255,255,255,0.5)" },
+        "dotActiveColor":   { "type": "string",  "default": "#ffffff" },
+        "overlayColor":     { "type": "string",  "default": "rgba(0,0,0,0.45)" },
+        "titleColor":       { "type": "string",  "default": "#ffffff" },
+
+        "imageAngle": {
+            "type":    "number",
+            "default": 0,
+            "description": "Découpe diagonale des slides en px (0 = aucune). Ex: 60 = triangle droit coupé de 60px."
+        },
+        "angleDirection": {
+            "type":    "string",
+            "default": "right",
+            "description": "Direction de l'angle : right (haut-droit coupé) ou left (haut-gauche coupé)"
+        },
+
+        "slideOverlays": {
+            "type":    "object",
+            "default": {},
+            "description": "Objet keyed par image ID. Valeur: { text, position, textColor, bgColor, fontSize }"
+        },
+        "globalOverlay": {
+            "type":    "object",
+            "default": {},
+            "description": "Overlay global affiché sur toutes les slides. { title, text, position, fontSize, opacity, textColor, bgColor }"
+        },
+        "maxWidth": {
+            "type":    "string",
+            "default": "100%",
+            "description": "Largeur max du slider. Ex: 100%, 800px, 1200px"
+        },
+        "blockHeight": {
+            "type":    "string",
+            "default": "",
+            "description": "Hauteur fixe optionnelle. Laissez vide pour utiliser le ratio."
+        }
+    },
+    "editorScript": "file:./editor.js",
+    "editorStyle":  "file:./editor.css",
+    "style":        "file:./style.css",
+    "render":       "file:./render.php"
+}

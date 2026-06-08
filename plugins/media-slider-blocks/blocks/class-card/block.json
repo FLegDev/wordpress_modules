@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "media-slider-blocks/class-card",
+    "version": "1.2.0",
+    "title": "Class Card",
+    "category": "media",
+    "icon": "welcome-learn-more",
+    "description": "Carte image + titre + bouton avec angles diagonaux indépendants par zone.",
+    "keywords": [ "card", "classe", "image", "lien", "bouton", "angle", "diagonal" ],
+    "textdomain": "media-slider-blocks",
+    "supports": {
+        "html":    false,
+        "align":   [ "wide", "full" ],
+        "spacing": { "margin": true, "padding": true }
+    },
+    "attributes": {
+        "imageUrl":        { "type": "string",  "default": "" },
+        "imageId":         { "type": "number",  "default": 0 },
+        "imageAlt":        { "type": "string",  "default": "" },
+        "title":           { "type": "string",  "default": "Tender Hearts" },
+        "subtitle":        { "type": "string",  "default": "(3-4 Years old)" },
+        "buttonText":      { "type": "string",  "default": "SEE MORE" },
+        "buttonUrl":       { "type": "string",  "default": "#" },
+        "buttonTarget":    { "type": "boolean", "default": false },
+        "barBgColor":      { "type": "string",  "default": "#363D41" },
+        "titleColor":      { "type": "string",  "default": "#ffffff" },
+        "subtitleColor":   { "type": "string",  "default": "#cccccc" },
+        "buttonBgColor":   { "type": "string",  "default": "#9AC14E" },
+        "buttonBgImage":   { "type": "string",  "default": "" },
+        "buttonBgImageId": { "type": "number",  "default": 0 },
+        "buttonTextColor": { "type": "string",  "default": "#ffffff" },
+        "imageRatio":      { "type": "string",  "default": "4/3" },
+
+        "imageAngle":          { "type": "number", "default": 0 },
+        "imageAngleDirection": { "type": "string", "default": "bottom-right" },
+
+        "titleAngle":          { "type": "number", "default": 0 },
+        "titleAngleDirection": { "type": "string", "default": "right" },
+
+        "buttonAngle":          { "type": "number", "default": 0 },
+        "buttonAngleDirection": { "type": "string", "default": "left" }
+    },
+    "editorScript": "file:./editor.js",
+    "editorStyle":  "file:./editor.css",
+    "style":        "file:./style.css",
+    "render":       "file:./render.php"
+}

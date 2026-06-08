@@ -1,0 +1,206 @@
+.vsspa-wrap {
+  max-width: 1600px;
+}
+
+.vsspa-grid {
+  display: grid;
+  grid-template-columns: minmax(320px, 2fr) minmax(280px, 1fr);
+  gap: 16px;
+  align-items: start;
+  margin: 16px 0;
+}
+
+.vsspa-panel {
+  background: #fff;
+  border: 1px solid #dcdcde;
+  padding: 16px;
+}
+
+.vsspa-panel h2 {
+  margin-top: 0;
+}
+
+.vsspa-check {
+  display: inline-block;
+  margin: 0 16px 8px 0;
+}
+
+.vsspa-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 18px 0;
+}
+
+.vsspa-active-provider {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 10px;
+  background: #fff;
+  border: 1px solid #dcdcde;
+}
+
+.vsspa-table {
+  margin-bottom: 28px;
+}
+
+.vsspa-table th:nth-child(1),
+.vsspa-table td:nth-child(1) {
+  width: 24%;
+}
+
+.vsspa-table th:nth-child(2),
+.vsspa-table td:nth-child(2) {
+  width: 22%;
+}
+
+.vsspa-table th:nth-child(3),
+.vsspa-table td:nth-child(3) {
+  width: 38%;
+}
+
+.vsspa-table th:nth-child(4),
+.vsspa-table td:nth-child(4) {
+  width: 16%;
+}
+
+.vsspa-content-cell strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.vsspa-meta-line {
+  color: #646970;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.vsspa-url {
+  display: block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  font-size: 12px;
+}
+
+.vsspa-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 6px;
+  background: #e7f5ff;
+  color: #0a4b78;
+  border-radius: 999px;
+  font-size: 11px;
+}
+
+.vsspa-current {
+  min-height: 22px;
+  margin: 2px 0 8px;
+  padding: 6px;
+  background: #f6f7f7;
+  border: 1px solid #dcdcde;
+  overflow-wrap: anywhere;
+}
+
+.vsspa-table label {
+  display: block;
+  margin: 8px 0 2px;
+  color: #1d2327;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.vsspa-editor-box label {
+  display: block;
+  margin: 10px 0 3px;
+  color: #1d2327;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.vsspa-editor-note {
+  margin-top: 0;
+  color: #50575e;
+}
+
+.vsspa-editor-grid {
+  display: grid;
+  grid-template-columns: minmax(260px, 1fr) minmax(300px, 1.2fr);
+  gap: 16px;
+}
+
+.vsspa-editor-grid h4 {
+  margin: 8px 0 4px;
+}
+
+.vsspa-editor-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.vsspa-field {
+  margin-bottom: 4px;
+}
+
+.vsspa-button-cell .button {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.vsspa-status,
+.vsspa-quality {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.vsspa-status.is-loading {
+  color: #8a6100;
+}
+
+.vsspa-status.is-ok,
+.vsspa-quality.is-ok {
+  color: #008a20;
+}
+
+.vsspa-status.is-error,
+.vsspa-quality.is-warning {
+  color: #b32d2e;
+}
+
+@media (max-width: 1100px) {
+  .vsspa-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vsspa-editor-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vsspa-table,
+  .vsspa-table thead,
+  .vsspa-table tbody,
+  .vsspa-table th,
+  .vsspa-table td,
+  .vsspa-table tr {
+    display: block;
+  }
+
+  .vsspa-table thead {
+    display: none;
+  }
+
+  .vsspa-table td {
+    width: auto !important;
+    border-bottom: 0;
+  }
+
+  .vsspa-table tr {
+    border-bottom: 1px solid #dcdcde;
+  }
+}

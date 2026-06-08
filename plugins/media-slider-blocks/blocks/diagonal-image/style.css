@@ -1,0 +1,41 @@
+/* Image Diagonale — Frontend */
+.msb-diagonal-image { display: block; width: 100%; }
+.msb-diagonal-image a { display: block; }
+.msb-di-lightbox-trigger {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.msb-di-wrap {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.msb-di-wrap img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.msb-di-wrap:hover img { transform: scale(1.03); }
+
+.msb-di-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 16/9;
+    background: #e8e8e8;
+    border: 2px dashed #ccc;
+    color: #999;
+    font-size: 13px;
+    border-radius: 4px;
+}

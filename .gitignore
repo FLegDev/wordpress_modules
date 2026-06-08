@@ -1,0 +1,26 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+__MACOSX/
+.vscode/
+.idea/
+
+# Local environments and dependencies
+.env
+.env.*
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# WordPress local/runtime files
+wp-config.php
+wp-content/uploads/
+wp-content/cache/

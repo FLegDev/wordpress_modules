@@ -1,0 +1,158 @@
+.omr-word-importer .omr-panel {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	margin: 20px 0;
+	max-width: 920px;
+	padding: 20px;
+}
+
+.omr-word-importer .omr-panel h2 {
+	margin-top: 0;
+}
+
+.omr-word-importer input[type="file"] {
+	min-width: 360px;
+}
+
+.omr-word-importer .omr-warnings {
+	list-style: disc;
+	margin-left: 20px;
+}
+
+.omr-word-importer pre.omr-terminal,
+.editor-styles-wrapper pre.omr-terminal,
+.entry-content pre.omr-terminal,
+pre.wp-block-code.omr-terminal {
+	background: #111827;
+	border-radius: 6px;
+	color: #f9fafb;
+	font-family: Consolas, Monaco, monospace;
+	font-size: 14px;
+	line-height: 1.55;
+	overflow-x: auto;
+	padding: 16px;
+	white-space: pre;
+}
+
+.omr-word-importer pre.omr-terminal code,
+.editor-styles-wrapper pre.omr-terminal code,
+.entry-content pre.omr-terminal code,
+pre.wp-block-code.omr-terminal code {
+	background: transparent;
+	border: 0;
+	color: inherit;
+	font: inherit;
+	padding: 0;
+	white-space: inherit;
+}
+
+.omr-table-of-contents {
+	background: #f4f6f9;
+	border: 1px solid #d6dce5;
+	border-radius: 6px;
+	margin: 20px 0 28px;
+	padding: 16px 18px;
+}
+
+.omr-table-of-contents .omr-toc-title {
+	font-weight: 700;
+	margin: 0 0 10px;
+}
+
+.omr-table-of-contents ul,
+.omr-table-of-contents ol {
+	margin: 0;
+	padding-left: 20px;
+}
+
+.omr-table-of-contents li {
+	margin: 4px 0;
+}
+
+.omr-table-of-contents .omr-toc-level-3 {
+	margin-left: 18px;
+}
+
+.omr-table-of-contents .omr-toc-level-4 {
+	margin-left: 36px;
+}
+
+.omr-layout-with-toc {
+	align-items: flex-start;
+	gap: 28px;
+}
+
+.omr-layout-with-toc .omr-toc-sidebar-column {
+	position: sticky;
+	top: 24px;
+}
+
+.editor-styles-wrapper .omr-layout-with-toc .omr-toc-sidebar-column {
+	position: static;
+}
+
+.omr-layout-with-toc .omr-table-of-contents {
+	margin-top: 0;
+}
+
+.omr-table-of-contents-sidebar {
+	padding: 12px 14px;
+}
+
+.omr-toc-accordion .omr-toc-title {
+	margin-bottom: 8px;
+}
+
+.omr-toc-accordion-section {
+	border-top: 1px solid #d6dce5;
+	margin: 0;
+	padding: 0;
+}
+
+.omr-toc-accordion-section:first-of-type {
+	border-top: 0;
+}
+
+.omr-toc-accordion-section summary {
+	cursor: pointer;
+	font-weight: 700;
+	line-height: 1.35;
+	padding: 10px 0;
+}
+
+.omr-toc-accordion-section summary:focus {
+	outline: 2px solid #2271b1;
+	outline-offset: 2px;
+}
+
+.omr-toc-accordion-section[open] summary {
+	padding-bottom: 8px;
+}
+
+.omr-toc-accordion-list {
+	font-size: 14px;
+	margin: 0 0 12px;
+	padding-left: 18px;
+}
+
+.omr-toc-accordion-list li {
+	margin: 5px 0;
+}
+
+.omr-toc-accordion-list .omr-toc-section-link {
+	font-weight: 600;
+}
+
+.omr-toc-accordion-list .omr-toc-level-4 {
+	margin-left: 12px;
+}
+
+@media (max-width: 782px) {
+	.omr-layout-with-toc {
+		display: block;
+	}
+
+	.omr-layout-with-toc .omr-toc-sidebar-column {
+		position: static;
+	}
+}

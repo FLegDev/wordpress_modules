@@ -1,0 +1,125 @@
+/* Media Slider Blocks — Frontend */
+.msb-slider-wrapper{position:relative;width:100%;user-select:none}
+
+/* ── Track : contrôle le ratio global du slider ──────────── */
+.msb-slider-track{
+    overflow:hidden;
+    width:100%;
+}
+
+/* ── Slides container ────────────────────────────────────── */
+.msb-slides{
+    display:flex;
+    transition:transform 600ms cubic-bezier(.4,0,.2,1);
+    will-change:transform;
+    /* Pas de height ici — c'est le .msb-slide-inner qui impose la hauteur */
+}
+.msb-slides.no-tr{transition:none!important}
+.msb-slide{flex:0 0 auto}
+
+.msb-slide-inner{
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+    height:100%;
+    background:#fff;
+}
+.msb-slide-lightbox-trigger{
+    display:block;
+    width:100%;
+    height:100%;
+    padding:0;
+    border:0;
+    background:transparent;
+    color:inherit;
+    text-align:left;
+    font:inherit;
+    cursor:pointer;
+}
+.msb-slide-media{
+    display:block;
+    width:100%;
+    flex:0 0 auto;
+}
+.msb-slide-media img{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    display:block;
+    transition:transform .4s ease;
+}
+.msb-slide-inner:hover .msb-slide-media img{transform:scale(1.03)}
+.msb-slide-body{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    min-height:74px;
+    padding:12px 0 0;
+}
+.msb-slide-title{
+    margin:0;
+    color:#1d1d1f;
+    font-size:18px;
+    font-weight:700;
+    line-height:1.25;
+}
+.msb-slide-caption{
+    margin:6px 0 0;
+    color:#5f6368;
+    font-size:14px;
+    line-height:1.4;
+}
+
+/* ── Overlay texte ───────────────────────────────────────── */
+.msb-slide-overlay{
+    position:absolute;z-index:3;max-width:80%;
+    padding:8px 14px;border-radius:4px;
+    font-weight:600;line-height:1.3;pointer-events:none;
+}
+.msb-overlay-title{font-weight:700}
+.msb-overlay-text{opacity:.9}
+
+/* ── Flèches ─────────────────────────────────────────────── */
+.msb-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:10;width:40px;height:40px;border:none;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:opacity .2s,transform .2s;padding:0}
+.msb-arrow:hover{opacity:.85;transform:translateY(-50%) scale(1.08)}
+.msb-arrow:disabled{opacity:.3;cursor:default;pointer-events:none}
+.msb-arrow svg{width:18px;height:18px}
+.msb-arrow-prev{left:10px}
+.msb-arrow-next{right:10px}
+
+/* ── Dots ────────────────────────────────────────────────── */
+.msb-dots{display:flex;justify-content:center;gap:8px;margin-top:14px;flex-wrap:wrap}
+.msb-dot{width:8px;height:8px;border-radius:50%;border:none;padding:0;cursor:pointer;opacity:.45;transition:opacity .2s,transform .2s}
+.msb-dot.is-active{opacity:1;transform:scale(1.35)}
+
+/* ── Vide ────────────────────────────────────────────────── */
+.msb-slider-empty{padding:32px;text-align:center;color:#888;font-style:italic;border:2px dashed #ddd;border-radius:4px}
+
+/* ── Lightbox galerie ─────────────────────────────────────── */
+.msb-lightbox{position:fixed;inset:0;z-index:99999;display:none;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.86)}
+.msb-lightbox.is-open{display:flex}
+.msb-lightbox-dialog{position:relative;width:min(1100px,100%);max-height:calc(100vh - 48px);display:flex;flex-direction:column;align-items:center;gap:14px}
+.msb-lightbox-image{max-width:100%;max-height:calc(100vh - 150px);display:block;object-fit:contain}
+.msb-lightbox-caption{width:100%;text-align:center;color:#fff}
+.msb-lightbox-title{margin:0;font-size:20px;font-weight:700;line-height:1.25}
+.msb-lightbox-text{margin:6px 0 0;font-size:14px;line-height:1.4;color:rgba(255,255,255,.76)}
+.msb-lightbox-close,.msb-lightbox-prev,.msb-lightbox-next{position:absolute;border:0;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .2s,transform .2s}
+.msb-lightbox-close:hover,.msb-lightbox-prev:hover,.msb-lightbox-next:hover{background:rgba(255,255,255,.28);transform:scale(1.05)}
+.msb-lightbox-close{top:0;right:0;width:42px;height:42px;font-size:28px;line-height:1}
+.msb-lightbox-prev,.msb-lightbox-next{top:50%;width:46px;height:46px;font-size:32px;line-height:1;transform:translateY(-50%)}
+.msb-lightbox-prev:hover,.msb-lightbox-next:hover{transform:translateY(-50%) scale(1.05)}
+.msb-lightbox-prev{left:0}
+.msb-lightbox-next{right:0}
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media(max-width:980px){.msb-arrow{width:34px;height:34px}.msb-arrow svg{width:15px;height:15px}}
+@media(max-width:767px){
+    .msb-arrow-prev{left:6px}.msb-arrow-next{right:6px}
+    .msb-slide-body{min-height:62px;padding-top:10px}
+    .msb-slide-title{font-size:16px}
+    .msb-lightbox{padding:16px}
+    .msb-lightbox-image{max-height:calc(100vh - 132px)}
+    .msb-lightbox-prev{left:8px}
+    .msb-lightbox-next{right:8px}
+}

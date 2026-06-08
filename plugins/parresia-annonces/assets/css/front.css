@@ -1,0 +1,530 @@
+/* =========================================================
+   Parresia Annonces - Front CSS complet
+   ========================================================= */
+
+/* Base saine */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ---------------------------------------------------------
+   Variables
+   --------------------------------------------------------- */
+:root {
+  --pa-gap-desktop: 24px;
+  --pa-gap-tablet: 20px;
+  --pa-gap-mobile: 16px;
+
+  --pa-card-radius: 16px;
+  --pa-card-padding: 24px;
+
+  --pa-border-color: rgba(255, 255, 255, 0.12);
+  --pa-bg-card: rgba(255, 255, 255, 0.04);
+
+  --pa-title-size: 1.75rem;
+  --pa-subtitle-size: 1.2rem;
+  --pa-text-size: 1rem;
+  --pa-small-size: 0.95rem;
+
+  --pa-sticky-top: 24px;
+}
+
+/* ---------------------------------------------------------
+   Utilitaires généraux du plugin
+   --------------------------------------------------------- */
+.pa-hidden {
+  display: none !important;
+}
+
+.pa-sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* ---------------------------------------------------------
+   Messages formulaire
+   --------------------------------------------------------- */
+.pa-messages {
+  padding: 1rem;
+  margin: 0 0 1rem 0;
+  border-radius: 8px;
+}
+
+.pa-errors {
+  background: #fff2f2;
+  border: 1px solid #e3a9a9;
+  color: #7b1f1f;
+}
+
+.pa-success {
+  background: #f0fff2;
+  border: 1px solid #9cc9a1;
+  color: #205a27;
+}
+
+/* Honeypot */
+.pa-honeypot {
+  position: absolute !important;
+  left: -9999px !important;
+  top: auto !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+}
+
+/* ---------------------------------------------------------
+   Formulaire de dépôt
+   --------------------------------------------------------- */
+.pa-form-wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.pa-form {
+  width: 100%;
+  max-width: 100%;
+}
+
+.pa-form p {
+  margin: 0 0 1rem 0;
+}
+
+.pa-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.pa-form input,
+.pa-form select,
+.pa-form textarea,
+.pa-form button {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  font: inherit;
+}
+
+.pa-form input,
+.pa-form select,
+.pa-form textarea {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #fff;
+}
+
+.pa-form textarea {
+  resize: vertical;
+}
+
+.pa-form button {
+  display: inline-block;
+  width: auto;
+  min-width: 180px;
+  padding: 0.85rem 1.25rem;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ---------------------------------------------------------
+   Dashboard utilisateur
+   --------------------------------------------------------- */
+.pa-dashboard {
+  width: 100%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.pa-dashboard h2 {
+  margin-bottom: 1rem;
+}
+
+.pa-table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.pa-table th,
+.pa-table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* ---------------------------------------------------------
+   Layout annonce - desktop/tablette
+   --------------------------------------------------------- */
+.pa-ad-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 340px);
+  gap: var(--pa-gap-desktop);
+  align-items: start;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.pa-ad-layout > * {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.pa-ad-content {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.pa-ad-content > * {
+  max-width: 100%;
+}
+
+/* ---------------------------------------------------------
+   Bloc détails annonce
+   --------------------------------------------------------- */
+.pa-ad-details-fallback,
+.pa-ad-details-widget,
+.pa-ad-details-card {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.pa-ad-details-card {
+  display: block;
+  padding: var(--pa-card-padding);
+  border-radius: var(--pa-card-radius);
+  border: 1px solid var(--pa-border-color);
+  background: var(--pa-bg-card);
+  overflow: hidden;
+}
+
+.pa-ad-details-title {
+  margin: 0 0 1.25rem 0;
+  font-size: var(--pa-subtitle-size);
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.pa-ad-detail-row {
+  margin: 0;
+  padding: 0.85rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pa-ad-detail-row:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.pa-ad-detail-label,
+.pa-ad-detail-value {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.pa-ad-detail-label {
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.pa-ad-detail-value a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  text-decoration-thickness: 1px;
+}
+
+/* Sticky sur desktop/tablette */
+.pa-ad-details-fallback .pa-ad-details-card,
+.pa-ad-details-widget .pa-ad-details-card,
+.widget .pa-ad-details-card {
+  position: sticky;
+  top: var(--pa-sticky-top);
+}
+
+/* ---------------------------------------------------------
+   Widget sidebar
+   --------------------------------------------------------- */
+.widget .pa-ad-details-widget,
+.widget .pa-ad-details-card {
+  width: 100%;
+  max-width: 100%;
+}
+
+.widget .pa-ad-details-title {
+  margin-top: 0;
+}
+
+/* ---------------------------------------------------------
+   Accordéon mobile
+   --------------------------------------------------------- */
+.pa-ad-mobile-accordion {
+  display: none;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin: 0 0 1.25rem 0;
+}
+
+.pa-ad-mobile-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  padding: 1rem 1rem;
+  border: 1px solid var(--pa-border-color);
+  border-radius: 12px;
+  background: var(--pa-bg-card);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+}
+
+.pa-ad-mobile-toggle-text {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.pa-ad-mobile-toggle-icon {
+  flex: 0 0 auto;
+  transition: transform 0.2s ease;
+}
+
+.pa-ad-mobile-accordion.is-open .pa-ad-mobile-toggle-icon {
+  transform: rotate(180deg);
+}
+
+.pa-ad-mobile-accordion-content {
+  display: none;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin-top: 0.75rem;
+}
+
+.pa-ad-mobile-accordion.is-open .pa-ad-mobile-accordion-content {
+  display: block;
+}
+
+/* ---------------------------------------------------------
+   Contenu annonce : médias et contenus longs
+   --------------------------------------------------------- */
+.pa-ad-content img,
+.pa-ad-adapted img,
+.pa-ad-content video,
+.pa-ad-content iframe,
+.pa-ad-content embed,
+.pa-ad-content object,
+.pa-ad-content canvas,
+.pa-ad-content svg,
+.pa-ad-mobile-accordion img,
+.pa-ad-mobile-accordion video,
+.pa-ad-mobile-accordion iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+.pa-ad-content iframe,
+.pa-ad-mobile-accordion iframe {
+  width: 100%;
+}
+
+.pa-ad-content table,
+.pa-ad-mobile-accordion table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.pa-ad-content pre,
+.pa-ad-mobile-accordion pre,
+.pa-ad-content code,
+.pa-ad-mobile-accordion code {
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.pa-ad-content a,
+.pa-ad-content p,
+.pa-ad-content li,
+.pa-ad-content span,
+.pa-ad-content h1,
+.pa-ad-content h2,
+.pa-ad-content h3,
+.pa-ad-content h4,
+.pa-ad-content h5,
+.pa-ad-content h6,
+.pa-ad-details-card a,
+.pa-ad-details-card p,
+.pa-ad-details-card li,
+.pa-ad-mobile-accordion a,
+.pa-ad-mobile-accordion p,
+.pa-ad-mobile-accordion li {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* ---------------------------------------------------------
+   Cas où le widget est actif / fallback contenu
+   --------------------------------------------------------- */
+.pa-has-sidebar-widget .pa-ad-details-fallback {
+  display: none !important;
+}
+
+.pa-no-sidebar-widget .pa-ad-details-fallback {
+  display: block;
+}
+
+/* ---------------------------------------------------------
+   Ajustements de spacing
+   --------------------------------------------------------- */
+.pa-ad-content > :first-child {
+  margin-top: 0;
+}
+
+.pa-ad-content > :last-child {
+  margin-bottom: 0;
+}
+
+/* ---------------------------------------------------------
+   Tablette
+   --------------------------------------------------------- */
+@media (max-width: 1024px) {
+  .pa-ad-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 300px);
+    gap: var(--pa-gap-tablet);
+  }
+
+  .pa-ad-details-card {
+    padding: 20px;
+  }
+
+  .pa-ad-details-title {
+    font-size: 1.1rem;
+  }
+}
+
+/* ---------------------------------------------------------
+   Mobile
+   --------------------------------------------------------- */
+@media (max-width: 767px) {
+  .pa-form-wrapper,
+  .pa-dashboard {
+    margin: 1.25rem auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .pa-ad-layout {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .pa-ad-content {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  /* Masquer les blocs desktop */
+  .pa-ad-details-fallback,
+  .pa-ad-details-widget {
+    display: none !important;
+  }
+
+  /* Montrer l’accordéon mobile */
+  .pa-ad-mobile-accordion {
+    display: block;
+  }
+
+  .pa-ad-mobile-toggle,
+  .pa-ad-mobile-accordion-content,
+  .pa-ad-details-card {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .pa-ad-details-card {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .pa-ad-details-title {
+    font-size: 1.05rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+  }
+
+  .pa-ad-detail-row {
+    padding: 0.7rem 0;
+  }
+
+  .pa-table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .pa-table thead,
+  .pa-table tbody,
+  .pa-table tr,
+  .pa-table th,
+  .pa-table td {
+    white-space: normal;
+  }
+}
+
+/* ---------------------------------------------------------
+   Très petits écrans
+   --------------------------------------------------------- */
+@media (max-width: 480px) {
+  :root {
+    --pa-card-padding: 14px;
+  }
+
+  .pa-ad-mobile-toggle {
+    padding: 0.9rem 0.9rem;
+  }
+
+  .pa-ad-details-title {
+    font-size: 1rem;
+  }
+
+  .pa-form input,
+  .pa-form select,
+  .pa-form textarea {
+    padding: 0.7rem;
+  }
+}

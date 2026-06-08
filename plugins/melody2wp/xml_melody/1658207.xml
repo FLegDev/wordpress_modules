@@ -1,0 +1,2304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article type="object">
+ <synopsis/>
+ <supTitle>&lt;p&gt;&lt;b&gt;Lorem Ipsum -&lt;/b&gt; &lt;i&gt;Lorem Ipsum&lt;/i&gt;&lt;b&gt;  -&lt;/b&gt; Lorem Ipsum&lt;/p&gt;</supTitle>
+ <thematique/>
+ <title>&lt;p melodystyle="titre"&gt;&lt;b&gt;Lorem Ipsum -&lt;/b&gt; &lt;i&gt;Lorem Ipsum&lt;/i&gt;&lt;b&gt;  -&lt;/b&gt; Lorem Ipsum&lt;/p&gt;</title>
+ <title_raw><p melodystyle="titre"><b>Lorem Ipsum -</b> <i>Lorem Ipsum</i><b>  -</b> Lorem Ipsum</p></title_raw>
+ <secondaryTitle>&lt;p&gt;&lt;b&gt;Lorem Ipsum -&lt;/b&gt; &lt;i&gt;Lorem Ipsum&lt;/i&gt;&lt;b&gt;  -&lt;/b&gt; Lorem Ipsum&lt;/p&gt;</secondaryTitle>
+ <subTitle>&lt;p&gt;&lt;b&gt;Lorem Ipsum -&lt;/b&gt; &lt;i&gt;Lorem Ipsum&lt;/i&gt;&lt;b&gt;  -&lt;/b&gt; Lorem Ipsum&lt;/p&gt;</subTitle>
+ <printTitle/>
+ <abstract>&lt;p&gt;&lt;b&gt;Lorem Ipsum&lt;/b&gt; is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;/p&gt;</abstract>
+ <abstract_raw><p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></abstract_raw>
+ <text>&lt;p melodystyle="textnoprint"&gt;&lt;input type="button" disabled="disabled" class="dockedDiaporamaLogo" classname="diaporama" objectid="6" /&gt;&lt;input type="button" disabled="disabled" class="dockedDiaporamaText" value=" Diaporama" classname="diaporama" objectid="6" /&gt;&lt;/p&gt;&#13;
+&lt;h3 melodystyle="intertitre"&gt;Lorem ipsum dolor sit amet (intertitre),&lt;/h3&gt;&#13;
+&lt;p melodystyle="textnoprint"&gt;&lt;input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/e97c7584793e5fd7c7584793ee18c7v_/128/128?monochrome=0&amp;uniq=2021-01-1417:14:16');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="452192" /&gt;&lt;/p&gt;&#13;
+&lt;p melodystyle="texte"&gt;&lt;/p&gt;&#13;
+&lt;p melodystyle="texte"&gt;consectetur adipiscing elit. Aenean porta diam dui, finibus porta nunc egestas sed. Sed quis metus quis odio ultricies malesuada. Integer vestibulum enim id tempor fermentum. Aliquam sit amet fringilla metus. Fusce sit amet dui sed nisi scelerisque faucibus vel ac lacus. Phasellus vitae justo egestas, semper quam id, finibus quam. Suspendisse at euismod lorem. Donec urna leo, dapibus bibendum congue nec, interdum nec lorem. Nullam luctus egestas imperdiet. Suspendisse sit amet placerat neque.&lt;/p&gt;&#13;
+&lt;h3 melodystyle="intertitre2"&gt;Mauris laoreet tellus at velit sodales,(intertitre2)&lt;/h3&gt;&#13;
+&lt;p melodystyle="textnoprint"&gt;&lt;input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/b80ebe4037df59c0e501ebv_00308200/128/128?monochrome=0&amp;uniq=2021-02-0417:12:57');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="450379" /&gt;&lt;/p&gt;&#13;
+&lt;p melodystyle="texte"&gt;&lt;/p&gt;&#13;
+&lt;p melodystyle="texte"&gt;ac pellentesque diam sollicitudin. Donec ac nisi aliquam lorem ultricies viverra vitae id risus. Nullam auctor, augue a tempor pharetra, tortor mi viverra lorem, sed ullamcorper dui nibh at massa. Curabitur a rhoncus sem. Maecenas ultricies sem ut dolor eleifend pharetra. Morbi hendrerit facilisis arcu in posuere. Aliquam et neque ex. Morbi accumsan erat et nibh luctus ornare. Quisque mollis congue eros, ut venenatis orci mattis et. Praesent ut ipsum in tortor laoreet accumsan. In laoreet egestas massa at aliquam. Cras at mattis ipsum, a facilisis tellus. In sed eleifend lorem, eget efficitur mauris. Aenean volutpat eget erat at iaculis. Quisque in dui eget erat varius porta volutpat feugiat libero.&lt;/p&gt;&#13;
+&lt;h3 melodystyle="intertitre3"&gt;Quisque diam arcu, (intertitre3)&lt;/h3&gt;&#13;
+&lt;p melodystyle="texte"&gt;cursus nec imperdiet non, facilisis vel dui. Nam a auctor odio. Etiam quis posuere justo, quis rhoncus sapien. Nam venenatis tellus in elit finibus pellentesque. Vivamus laoreet sem et egestas lobortis. Vestibulum ac dolor non ligula bibendum feugiat. Aenean ac est condimentum, blandit nisl a, luctus diam.&lt;/p&gt;&#13;
+&lt;p melodystyle="texte"&gt;&lt;/p&gt;&#13;
+&lt;p melodystyle="textnoprint"&gt;&lt;input type="button" disabled="disabled" class="dockedArticleLogo" classname="article" objectid="743705" /&gt;&lt;input type="button" disabled="disabled" class="dockedArticleText" value="Ivotion Digital Denture Solution recompense" classname="article" objectid="743705" /&gt;&lt;/p&gt;&#13;
+&lt;h3 melodystyle="intertitre4"&gt;Duis porttitor sapien vitae mi aliquet (intertitre4),&lt;/h3&gt;&#13;
+&lt;p melodystyle="texte"&gt;ut tincidunt erat blandit. Suspendisse velit purus, varius nec tortor et, maximus congue lacus. Morbi nec elit tempor justo auctor euismod et eget orci. Donec at mattis lacus. Fusce eget venenatis libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Morbi nec fermentum libero, laoreet suscipit dolor. Donec diam nisi, consectetur eu facilisis malesuada, venenatis et odio. Proin eget vehicula sapien.&lt;/p&gt;&#13;
+&lt;p melodystyle="texte"&gt;Nulla at diam augue. Aliquam erat volutpat. Mauris ultrices nunc facilisis tortor porta, sit amet tristique eros convallis. Phasellus mollis est a interdum efficitur. Pellentesque efficitur metus id lacus posuere, sit amet posuere sem ullamcorper. Mauris ac libero id mauris pellentesque hendrerit. In eu mi ut felis blandit consectetur. Pellentesque mi leo, ultricies ut leo non, feugiat placerat erat.&lt;/p&gt;&#13;
+&lt;p melodystyle="textnoprint"&gt;&lt;input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/4e24d1332f8f51234d1332f8fc534dv_/128/128?monochrome=0&amp;uniq=2021-01-1709:51:47');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="455182" /&gt;&lt;/p&gt;&#13;
+&lt;p melodystyle="texte"&gt;&lt;/p&gt;&#13;
+&lt;h3 melodystyle="intertitre5"&gt;Maecenas faucibus condimentum dolor,(intertitre5) &lt;/h3&gt;&#13;
+&lt;p melodystyle="texte"&gt;nec tristique urna consectetur ac. Curabitur faucibus at ante vel dapibus. Nam eu efficitur lacus, nec sollicitudin turpis. Donec et arcu bibendum ante suscipit volutpat. Donec tristique, lorem ut semper porttitor, est purus sollicitudin mauris, in fringilla lorem mauris sed ex. Quisque eget tellus augue. Nulla nisl turpis, tincidunt tristique venenatis gravida, consequat eu magna. Donec gravida a ante id ornare. Morbi tempor neque sit amet aliquet fringilla. Donec sed enim porta, facilisis leo in, interdum enim. Curabitur efficitur sem enim, in malesuada massa cursus sit amet. In a laoreet enim. Sed quis mauris ac magna lobortis egestas eget nec magna. Etiam eu massa in ex pulvinar porta.&lt;/p&gt;&#13;
+&lt;h3 melodystyle="intertitre6"&gt;&lt;span class="melodyOverrideStyle"&gt;&lt;b&gt;Aliquam erat volutpat.(intertitre6)&lt;/b&gt;&lt;/span&gt;&lt;/h3&gt;&#13;
+&lt;p melodystyle="textnoprint"&gt;&lt;input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/2be47ab1e4651473a3b9fcc3501f391c/128/128?monochrome=0&amp;uniq=2021-01-1709:51:08');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="454278" /&gt;&lt;/p&gt;&#13;
+&lt;p melodystyle="texte"&gt;&lt;/p&gt;&#13;
+&lt;p melodystyle="texte"&gt;&lt;b&gt; Praesent ut felis maximus, tempor augue interdum, pharetra massa. Maecenas accumsan nisi eu varius cursus.&lt;/b&gt; Duis vulputate eros purus, vitae tempus neque hendrerit placerat. Praesent aliquam eu sem a elementum. Curabitur fermentum non nisl at imperdiet. Mauris sit amet mollis lorem. &lt;i&gt;Duis volutpat eget lacus non &lt;/i&gt;tincidunt. Aliquam erat volutpat.&lt;/p&gt;&#13;
+&lt;p melodystyle="texte"&gt;→Suspendisse potenti. Duis lacinia accumsan &lt;sup&gt;eros&lt;/sup&gt;, sed&lt;span class="mce-smallcaps-active" melodycharstyle="smallcaps"&gt; auctor&lt;/span&gt; nulla ultricies id. Phasellus eu dictum magna, venenatis tincidunt nibh. NULLAM VITAE tellus vitae nisl maximus gravida. Donec et dui eleifend, suscipit risus ut, rutrum eros. aenean fringilla vel Risus Vehicula ultrices. Pellentesque posuere augue eget tincidunt tristique. Etiam eu tortor vitae diam posuere maximus. Quisque purus lectus, imperdiet ut justo in, dignissim molestie odio.&lt;/p&gt;</text>
+ <text_raw><p melodystyle="textnoprint"><input type="button" disabled="disabled" class="dockedDiaporamaLogo" classname="diaporama" objectid="6"/><input type="button" disabled="disabled" class="dockedDiaporamaText" value=" Diaporama" classname="diaporama" objectid="6"/></p>
+<h3 melodystyle="intertitre">Lorem ipsum dolor sit amet (intertitre),</h3>
+<p melodystyle="textnoprint"><input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/e97c7584793e5fd7c7584793ee18c7v_/128/128?monochrome=0&amp;uniq=2021-01-1417:14:16');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="452192"/></p>
+<p melodystyle="texte"/>
+<p melodystyle="texte">consectetur adipiscing elit. Aenean porta diam dui, finibus porta nunc egestas sed. Sed quis metus quis odio ultricies malesuada. Integer vestibulum enim id tempor fermentum. Aliquam sit amet fringilla metus. Fusce sit amet dui sed nisi scelerisque faucibus vel ac lacus. Phasellus vitae justo egestas, semper quam id, finibus quam. Suspendisse at euismod lorem. Donec urna leo, dapibus bibendum congue nec, interdum nec lorem. Nullam luctus egestas imperdiet. Suspendisse sit amet placerat neque.</p>
+<h3 melodystyle="intertitre2">Mauris laoreet tellus at velit sodales,(intertitre2)</h3>
+<p melodystyle="textnoprint"><input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/b80ebe4037df59c0e501ebv_00308200/128/128?monochrome=0&amp;uniq=2021-02-0417:12:57');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="450379"/></p>
+<p melodystyle="texte"/>
+<p melodystyle="texte">ac pellentesque diam sollicitudin. Donec ac nisi aliquam lorem ultricies viverra vitae id risus. Nullam auctor, augue a tempor pharetra, tortor mi viverra lorem, sed ullamcorper dui nibh at massa. Curabitur a rhoncus sem. Maecenas ultricies sem ut dolor eleifend pharetra. Morbi hendrerit facilisis arcu in posuere. Aliquam et neque ex. Morbi accumsan erat et nibh luctus ornare. Quisque mollis congue eros, ut venenatis orci mattis et. Praesent ut ipsum in tortor laoreet accumsan. In laoreet egestas massa at aliquam. Cras at mattis ipsum, a facilisis tellus. In sed eleifend lorem, eget efficitur mauris. Aenean volutpat eget erat at iaculis. Quisque in dui eget erat varius porta volutpat feugiat libero.</p>
+<h3 melodystyle="intertitre3">Quisque diam arcu, (intertitre3)</h3>
+<p melodystyle="texte">cursus nec imperdiet non, facilisis vel dui. Nam a auctor odio. Etiam quis posuere justo, quis rhoncus sapien. Nam venenatis tellus in elit finibus pellentesque. Vivamus laoreet sem et egestas lobortis. Vestibulum ac dolor non ligula bibendum feugiat. Aenean ac est condimentum, blandit nisl a, luctus diam.</p>
+<p melodystyle="texte"/>
+<p melodystyle="textnoprint"><input type="button" disabled="disabled" class="dockedArticleLogo" classname="article" objectid="743705"/><input type="button" disabled="disabled" class="dockedArticleText" value="Ivotion Digital Denture Solution recompense" classname="article" objectid="743705"/></p>
+<h3 melodystyle="intertitre4">Duis porttitor sapien vitae mi aliquet (intertitre4),</h3>
+<p melodystyle="texte">ut tincidunt erat blandit. Suspendisse velit purus, varius nec tortor et, maximus congue lacus. Morbi nec elit tempor justo auctor euismod et eget orci. Donec at mattis lacus. Fusce eget venenatis libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Morbi nec fermentum libero, laoreet suscipit dolor. Donec diam nisi, consectetur eu facilisis malesuada, venenatis et odio. Proin eget vehicula sapien.</p>
+<p melodystyle="texte">Nulla at diam augue. Aliquam erat volutpat. Mauris ultrices nunc facilisis tortor porta, sit amet tristique eros convallis. Phasellus mollis est a interdum efficitur. Pellentesque efficitur metus id lacus posuere, sit amet posuere sem ullamcorper. Mauris ac libero id mauris pellentesque hendrerit. In eu mi ut felis blandit consectetur. Pellentesque mi leo, ultricies ut leo non, feugiat placerat erat.</p>
+<p melodystyle="textnoprint"><input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/4e24d1332f8f51234d1332f8fc534dv_/128/128?monochrome=0&amp;uniq=2021-01-1709:51:47');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="455182"/></p>
+<p melodystyle="texte"/>
+<h3 melodystyle="intertitre5">Maecenas faucibus condimentum dolor,(intertitre5) </h3>
+<p melodystyle="texte">nec tristique urna consectetur ac. Curabitur faucibus at ante vel dapibus. Nam eu efficitur lacus, nec sollicitudin turpis. Donec et arcu bibendum ante suscipit volutpat. Donec tristique, lorem ut semper porttitor, est purus sollicitudin mauris, in fringilla lorem mauris sed ex. Quisque eget tellus augue. Nulla nisl turpis, tincidunt tristique venenatis gravida, consequat eu magna. Donec gravida a ante id ornare. Morbi tempor neque sit amet aliquet fringilla. Donec sed enim porta, facilisis leo in, interdum enim. Curabitur efficitur sem enim, in malesuada massa cursus sit amet. In a laoreet enim. Sed quis mauris ac magna lobortis egestas eget nec magna. Etiam eu massa in ex pulvinar porta.</p>
+<h3 melodystyle="intertitre6"><span class="melodyOverrideStyle"><b>Aliquam erat volutpat.(intertitre6)</b></span></h3>
+<p melodystyle="textnoprint"><input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/2be47ab1e4651473a3b9fcc3501f391c/128/128?monochrome=0&amp;uniq=2021-01-1709:51:08');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="454278"/></p>
+<p melodystyle="texte"/>
+<p melodystyle="texte"><b> Praesent ut felis maximus, tempor augue interdum, pharetra massa. Maecenas accumsan nisi eu varius cursus.</b> Duis vulputate eros purus, vitae tempus neque hendrerit placerat. Praesent aliquam eu sem a elementum. Curabitur fermentum non nisl at imperdiet. Mauris sit amet mollis lorem. <i>Duis volutpat eget lacus non </i>tincidunt. Aliquam erat volutpat.</p>
+<p melodystyle="texte">→Suspendisse potenti. Duis lacinia accumsan <sup>eros</sup>, sed<span class="mce-smallcaps-active" melodycharstyle="smallcaps"> auctor</span> nulla ultricies id. Phasellus eu dictum magna, venenatis tincidunt nibh. NULLAM VITAE tellus vitae nisl maximus gravida. Donec et dui eleifend, suscipit risus ut, rutrum eros. aenean fringilla vel Risus Vehicula ultrices. Pellentesque posuere augue eget tincidunt tristique. Etiam eu tortor vitae diam posuere maximus. Quisque purus lectus, imperdiet ut justo in, dignissim molestie odio.</p></text_raw>
+ <author>Mauris laoreet tellus at velit sodales, ac pellentesque diam sollicitudin. Donec ac nisi aliquam lorem ultricies viverra vitae id risus. Nullam auctor, augue a tempor pharetra, tortor mi viverra lorem, sed ullamcorper dui nibh at massa. Curabitur a rhoncus sem. Maecenas ultricies sem ut dolor eleifend pharetra. Morbi hendrerit facilisis arcu in posuere. Aliquam et neque ex. Morbi accumsan erat et nibh luctus ornare. Quisque mollis congue eros, ut venenatis orci mattis et. Praesent ut ipsum in tortor laoreet accumsan. In laoreet egestas massa at aliquam. Cras at mattis ipsum, a facilisis tellus. In sed eleifend lorem, eget efficitur mauris. Aenean volutpat eget erat at iaculis. Quisque in dui eget erat varius porta volutpat feugiat libero.</author>
+ <author_raw>Mauris laoreet tellus at velit sodales, ac pellentesque diam sollicitudin. Donec ac nisi aliquam lorem ultricies viverra vitae id risus. Nullam auctor, augue a tempor pharetra, tortor mi viverra lorem, sed ullamcorper dui nibh at massa. Curabitur a rhoncus sem. Maecenas ultricies sem ut dolor eleifend pharetra. Morbi hendrerit facilisis arcu in posuere. Aliquam et neque ex. Morbi accumsan erat et nibh luctus ornare. Quisque mollis congue eros, ut venenatis orci mattis et. Praesent ut ipsum in tortor laoreet accumsan. In laoreet egestas massa at aliquam. Cras at mattis ipsum, a facilisis tellus. In sed eleifend lorem, eget efficitur mauris. Aenean volutpat eget erat at iaculis. Quisque in dui eget erat varius porta volutpat feugiat libero.</author_raw>
+ <commune/>
+ <commune_raw/>
+ <exergue>&lt;p&gt;"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."&lt;/p&gt;</exergue>
+ <exergue_raw><p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p></exergue_raw>
+ <note>&lt;p&gt;BIBLIOGRAPHIE  :&lt;br /&gt;Mauris laoreet tellus at velit sodales, ac pellentesque diam sollicitudin. Donec ac nisi aliquam lorem ultricies viverra vitae id risus. Nullam auctor, augue a tempor pharetra, tortor mi viverra lorem, &lt;b&gt;sed ullamcorper&lt;/b&gt; dui &lt;i&gt;nibh at massa.&lt;/i&gt; Curabitur a rhoncus sem. Maecenas ultricies sem ut dolor eleifend pharetra. Morbi hendrerit facilisis arcu in posuere. Aliquam et neque ex. Morbi accumsan erat et nibh luctus ornare. Quisque mollis congue eros, ut venenatis orci mattis et. Praesent ut ipsum in tortor laoreet accumsan. In laoreet egestas massa at aliquam. Cras at mattis ipsum, a facilisis tellus. In sed eleifend lorem, eget efficitur mauris. Aenean volutpat eget erat at iaculis. Quisque in dui eget erat varius porta volutpat feugiat libero.&lt;/p&gt;</note>
+ <note_raw><p>BIBLIOGRAPHIE  :<br/>Mauris laoreet tellus at velit sodales, ac pellentesque diam sollicitudin. Donec ac nisi aliquam lorem ultricies viverra vitae id risus. Nullam auctor, augue a tempor pharetra, tortor mi viverra lorem, <b>sed ullamcorper</b> dui <i>nibh at massa.</i> Curabitur a rhoncus sem. Maecenas ultricies sem ut dolor eleifend pharetra. Morbi hendrerit facilisis arcu in posuere. Aliquam et neque ex. Morbi accumsan erat et nibh luctus ornare. Quisque mollis congue eros, ut venenatis orci mattis et. Praesent ut ipsum in tortor laoreet accumsan. In laoreet egestas massa at aliquam. Cras at mattis ipsum, a facilisis tellus. In sed eleifend lorem, eget efficitur mauris. Aenean volutpat eget erat at iaculis. Quisque in dui eget erat varius porta volutpat feugiat libero.</p></note_raw>
+ <webPushActive>0</webPushActive>
+ <webPushTitle/>
+ <webPushAbstract/>
+ <cartonId/>
+ <originalCartonId/>
+ <cahierId/>
+ <mountAllphotos>0</mountAllphotos>
+ <extendMultipage>0</extendMultipage>
+ <articleType/>
+ <idmsFileName/>
+ <fitText>0</fitText>
+ <trackingText>0</trackingText>
+ <mmHeight/>
+ <mmWidth/>
+ <mmHeight_precision/>
+ <mmWidth_precision/>
+ <parutionId/>
+ <zoneId/>
+ <affectedUserId/>
+ <nbPage>1</nbPage>
+ <pressTitleId/>
+ <useLettrineVersion>0</useLettrineVersion>
+ <embeddedId/>
+ <lastPreviewDate>2025-07-01 14:54:05</lastPreviewDate>
+ <lastPreviewMessageError/>
+ <lastIdmsDate/>
+ <lastIdmsMessageError/>
+ <destinationReference/>
+ <sourceId/>
+ <source/>
+ <parentId/>
+ <fixedPrintParameters>0</fixedPrintParameters>
+ <canalId>115</canalId>
+ <webInformation>0</webInformation>
+ <colorId>0</colorId>
+ <aggregateChildrenIds/>
+ <useAlternateCarton>0</useAlternateCarton>
+ <redactorId>2585</redactorId>
+ <cloneId/>
+ <cloneState/>
+ <lockPageIndd>0</lockPageIndd>
+ <sourceRef/>
+ <nbSignes>6149</nbSignes>
+ <lockPageIndd_pageId>0</lockPageIndd_pageId>
+ <lockPageIndd_info/>
+ <casso>1</casso>
+ <masterId>1658207</masterId>
+ <webFree>1</webFree>
+ <webUrl>https://preprod.dentaire365.fr/tests_melody_to_web/lorem-ipsum-lorem-ipsum-lorem-ipsum/</webUrl>
+ <adrLongitude/>
+ <adrLatitude/>
+ <multiGpsPointers/>
+ <geolocalisationManuel>0</geolocalisationManuel>
+ <applicationsCodes type="array"/>
+ <webPublishDate>2025-07-01 15:16:55</webPublishDate>
+ <webLastPublishDate>2025-07-01 18:46:37</webLastPublishDate>
+ <webPushOnMobile>0</webPushOnMobile>
+ <webPushOnMobile_dates/>
+ <webMoveOnFirst>0</webMoveOnFirst>
+ <webHomePosition/>
+ <webHomeDirectActu>0</webHomeDirectActu>
+ <customerId>21</customerId>
+ <emergency>0</emergency>
+ <complement/>
+ <URLRenvoi/>
+ <QRcodeURL>https://preprod.dentaire365.fr/</QRcodeURL>
+ <webEndPublishDate/>
+ <groupPropagationFlag/>
+ <wand>0</wand>
+ <cartonConfig/>
+ <label/>
+ <nbCols/>
+ <overflow/>
+ <reportMasterId/>
+ <multipleAuthors/>
+ <mileage>0</mileage>
+ <fraisPrice>0</fraisPrice>
+ <pointBreak>0</pointBreak>
+ <lastPdfDate/>
+ <overSubTemplatePosition/>
+ <subTemplateAlignmentType/>
+ <limitParutionId/>
+ <melodyPortageId/>
+ <photoReportage>0</photoReportage>
+ <defaultSignatureWeb>0</defaultSignatureWeb>
+ <similarityArticleIds/>
+ <similarityCheckDate/>
+ <similaritySystemInfos/>
+ <similarityKeyWords/>
+ <similaritySuggestKeywords/>
+ <similarityProperNoun/>
+ <similarityCategoryIds/>
+ <diaporamaId>6</diaporamaId>
+ <sourceDate/>
+ <isRecurring>0</isRecurring>
+ <transAppId>1658207</transAppId>
+ <photoCollageAlignmentType/>
+ <indexedOnFacebookNews>0</indexedOnFacebookNews>
+ <isUnderFlow>0</isUnderFlow>
+ <xmlContent/>
+ <audioUrl/>
+ <isSpecificRedaction>0</isSpecificRedaction>
+ <pushAudio>0</pushAudio>
+ <isArticleLive>0</isArticleLive>
+ <articleLiveStart/>
+ <articleLiveEnd/>
+ <breakingNews>0</breakingNews>
+ <discoverTitle/>
+ <isWebHomePinned>0</isWebHomePinned>
+ <autoPrintOnValidate>0</autoPrintOnValidate>
+ <connectedUserAccessOnly>1</connectedUserAccessOnly>
+ <allowWebComments>1</allowWebComments>
+ <exclusiveContent>0</exclusiveContent>
+ <externalEnrichment/>
+ <externalEnrichment_raw/>
+ <specificTextWebField/>
+ <useAlternativeInnerTitle>0</useAlternativeInnerTitle>
+ <online>1</online>
+ <webWonderpushTitle/>
+ <webWonderpushAbstract/>
+ <abonneFranceMonde>0</abonneFranceMonde>
+ <webWonderpushActive>0</webWonderpushActive>
+ <webWonderpushOption/>
+ <webDateWonderpush/>
+ <nbPhoto>5</nbPhoto>
+ <createdAt>2025-07-01 14:54:05</createdAt>
+ <createdBy>2585</createdBy>
+ <modifiedAt>2025-07-01 19:35:35</modifiedAt>
+ <modifiedBy>2101</modifiedBy>
+ <notepadEdito/>
+ <notepadAlert/>
+ <dateAlert/>
+ <stateId>34002</stateId>
+ <lastTransition_id>60005</lastTransition_id>
+ <lastTransition_initialStateId>34002</lastTransition_initialStateId>
+ <lastTransition_date>2025-07-01 18:46:56</lastTransition_date>
+ <lastTransition_userId>2101</lastTransition_userId>
+ <lastTransition_groupId>275</lastTransition_groupId>
+ <lastTransition_roleId>89</lastTransition_roleId>
+ <id>1658207</id>
+ <MelodyUUID>7847e1dc-567a-11f0-80e0-005056836375</MelodyUUID>
+ <state type="object">
+  <id>34002</id>
+  <code>ArticlePublishWeb</code>
+  <label>Publié Web</label>
+ </state>
+ <categories type="array">
+  <category type="object">
+   <parentId/>
+   <pathLabel>Dentoscope</pathLabel>
+   <pathRank type="array">
+    <item key="0">8</item>
+   </pathRank>
+   <name>Dentoscope</name>
+   <parameters/>
+   <suppParameters/>
+   <suppParameters2/>
+   <suppParameters3/>
+   <nbChildren>100</nbChildren>
+   <rank>8</rank>
+   <enable>1</enable>
+   <path type="array">
+    <item key="0">91066</item>
+   </path>
+   <description/>
+   <thesaurusId>1049</thesaurusId>
+   <externalSourceRef/>
+   <externalSource/>
+   <portageId/>
+   <melodyPortageId/>
+   <colorId/>
+   <id>91066</id>
+   <MelodyUUID>8e3249ea-4fea-11eb-a647-005056836375</MelodyUUID>
+   <pathParameters type="array">
+    <item key="0"/>
+   </pathParameters>
+   <pathNames type="array">
+    <item key="0">Dentoscope</item>
+   </pathNames>
+   <thesaurus type="object">
+    <name>Thématique</name>
+    <kind>edito</kind>
+    <order>0</order>
+    <customerId>21</customerId>
+    <isUnique>0</isUnique>
+    <isRussianDoll>0</isRussianDoll>
+    <uniqueCode>THEM_PRSIA</uniqueCode>
+    <defaultCategoryId>0</defaultCategoryId>
+    <objectClassMandatory type="array">
+     <item key="0">article</item>
+    </objectClassMandatory>
+    <objectClassFacet type="array">
+     <item key="0">article</item>
+     <item key="1">photo</item>
+    </objectClassFacet>
+    <objectClassUnique type="array"/>
+    <modifiableOnReadOnly>0</modifiableOnReadOnly>
+    <readOnly>0</readOnly>
+    <melodyPortageId/>
+    <deepDepthFacet>0</deepDepthFacet>
+    <isColorizable>0</isColorizable>
+    <isSystem>0</isSystem>
+    <objectClassInfosByCanals type="array">
+     <item key="0">"printAIF":["objectClass"</item>
+     <item key="1">"objectClassMandatory"]</item>
+     <item key="2">"printAGW":["objectClass"</item>
+     <item key="3">"objectClassMandatory"]</item>
+     <item key="4">"printBGI":["objectClass"</item>
+     <item key="5">"objectClassMandatory"]</item>
+     <item key="6">"printDTS":["objectClass"</item>
+     <item key="7">"objectClassMandatory"]</item>
+     <item key="8">"printSCD":["objectClass"</item>
+     <item key="9">"objectClassMandatory"]</item>
+     <item key="10">"printOTP":["objectClass"</item>
+     <item key="11">"objectClassMandatory"]</item>
+     <item key="12">"printNTI":["objectClass"</item>
+     <item key="13">"objectClassMandatory"]</item>
+     <item key="14">"webAIF":["objectClass"</item>
+     <item key="15">"objectClassMandatory"]</item>
+     <item key="16">"webAGW":["objectClass"</item>
+     <item key="17">"objectClassMandatory"]</item>
+     <item key="18">"webBGI":["objectClass"</item>
+     <item key="19">"objectClassMandatory"]</item>
+     <item key="20">"webNTI":["objectClass"</item>
+     <item key="21">"objectClassMandatory"]</item>
+     <item key="22">"printAGI":["objectClass"</item>
+     <item key="23">"objectClassMandatory"]</item>
+     <item key="24">"printPFP":["objectClass"</item>
+     <item key="25">"objectClassMandatory"]</item>
+     <item key="26">"webAGI":["objectClass"</item>
+     <item key="27">"objectClassMandatory"]</item>
+     <item key="28">"webPFP":["objectClass"</item>
+     <item key="29">"objectClassMandatory"]</item>
+     <item key="30">"webSCD":["objectClass"</item>
+     <item key="31">"objectClassMandatory"]</item>
+     <item key="32">"webDTS":["objectClass"</item>
+     <item key="33">"objectClassMandatory"]</item>
+     <item key="34">"webPRSIA_webDTS2":["objectClass"</item>
+     <item key="35">"objectClassMandatory"]</item>
+     <item key="36">"webOTP":["objectClass"</item>
+     <item key="37">"objectClassMandatory"]</item>
+     <item key="38">"webPRSIA":["objectClass"</item>
+     <item key="39">"objectClassMandatory"]</item>
+    </objectClassInfosByCanals>
+    <canauxCode/>
+    <enableCatWebForward>0</enableCatWebForward>
+    <id>1049</id>
+    <MelodyUUID>93727f09-4fea-11eb-a647-005056836375</MelodyUUID>
+   </thesaurus>
+   <isCatWebForward>0</isCatWebForward>
+  </category>
+  <category type="object">
+   <parentId/>
+   <pathLabel>PREPROD dentaire-365.fr</pathLabel>
+   <pathRank type="array">
+    <item key="0">2</item>
+   </pathRank>
+   <name>PREPROD dentaire-365.fr</name>
+   <parameters/>
+   <suppParameters>https://preprod.dentaire365.fr/new-melody-article/{id}</suppParameters>
+   <suppParameters2>https://preprod.dentaire365.fr/non-classifiee/preview-melody/{id}</suppParameters2>
+   <suppParameters3/>
+   <nbChildren>0</nbChildren>
+   <rank>2</rank>
+   <enable>1</enable>
+   <path type="array">
+    <item key="0">112065</item>
+   </path>
+   <description/>
+   <thesaurusId>1089</thesaurusId>
+   <externalSourceRef/>
+   <externalSource/>
+   <portageId/>
+   <melodyPortageId/>
+   <colorId/>
+   <id>112065</id>
+   <MelodyUUID>22b71702-71c9-11ee-bf92-005056836375</MelodyUUID>
+   <pathParameters type="array">
+    <item key="0"/>
+   </pathParameters>
+   <pathNames type="array">
+    <item key="0">PREPROD dentaire-365.fr</item>
+   </pathNames>
+   <thesaurus type="object">
+    <name>Sites Web</name>
+    <kind>web</kind>
+    <order>0</order>
+    <customerId>21</customerId>
+    <isUnique>0</isUnique>
+    <isRussianDoll>0</isRussianDoll>
+    <uniqueCode>WEBSITES</uniqueCode>
+    <defaultCategoryId>0</defaultCategoryId>
+    <objectClassMandatory type="array">
+     <item key="0">article</item>
+    </objectClassMandatory>
+    <objectClassFacet type="array">
+     <item key="0">article</item>
+    </objectClassFacet>
+    <objectClassUnique type="array">
+     <item key="0">article</item>
+    </objectClassUnique>
+    <modifiableOnReadOnly>0</modifiableOnReadOnly>
+    <readOnly>0</readOnly>
+    <melodyPortageId/>
+    <deepDepthFacet>0</deepDepthFacet>
+    <isColorizable>0</isColorizable>
+    <isSystem>0</isSystem>
+    <objectClassInfosByCanals type="array">
+     <item key="0">"webPRSIA":["objectClass"</item>
+     <item key="1">"objectClassMandatory"</item>
+     <item key="2">"objectClassUnique"]</item>
+    </objectClassInfosByCanals>
+    <canauxCode/>
+    <enableCatWebForward>0</enableCatWebForward>
+    <id>1089</id>
+    <MelodyUUID>c5a0103a-7540-11ed-9580-005056836375</MelodyUUID>
+   </thesaurus>
+   <isCatWebForward>0</isCatWebForward>
+  </category>
+  <category type="object">
+   <parentId/>
+   <pathLabel>Tests_melody_to_WEB</pathLabel>
+   <pathRank type="array">
+    <item key="0">10</item>
+   </pathRank>
+   <name>Tests_melody_to_WEB</name>
+   <parameters/>
+   <suppParameters/>
+   <suppParameters2/>
+   <suppParameters3/>
+   <nbChildren>0</nbChildren>
+   <rank>10</rank>
+   <enable>1</enable>
+   <path type="array">
+    <item key="0">134729</item>
+   </path>
+   <description/>
+   <thesaurusId>1048</thesaurusId>
+   <externalSourceRef/>
+   <externalSource/>
+   <portageId/>
+   <melodyPortageId/>
+   <colorId/>
+   <id>134729</id>
+   <MelodyUUID>da63b4d4-2a53-11f0-80cb-005056836375</MelodyUUID>
+   <pathParameters type="array">
+    <item key="0"/>
+   </pathParameters>
+   <pathNames type="array">
+    <item key="0">Tests_melody_to_WEB</item>
+   </pathNames>
+   <thesaurus type="object">
+    <name>Rubriques Web</name>
+    <kind>web</kind>
+    <order>0</order>
+    <customerId>21</customerId>
+    <isUnique>0</isUnique>
+    <isRussianDoll>0</isRussianDoll>
+    <uniqueCode>RUBWEB</uniqueCode>
+    <defaultCategoryId>0</defaultCategoryId>
+    <objectClassMandatory type="array">
+     <item key="0">article</item>
+    </objectClassMandatory>
+    <objectClassFacet type="array">
+     <item key="0">article</item>
+    </objectClassFacet>
+    <objectClassUnique type="array"/>
+    <modifiableOnReadOnly>0</modifiableOnReadOnly>
+    <readOnly>0</readOnly>
+    <melodyPortageId/>
+    <deepDepthFacet>0</deepDepthFacet>
+    <isColorizable>0</isColorizable>
+    <isSystem>0</isSystem>
+    <objectClassInfosByCanals type="array">
+     <item key="0">"webPRSIA":["objectClass"</item>
+     <item key="1">"objectClassMandatory"]</item>
+    </objectClassInfosByCanals>
+    <canauxCode/>
+    <enableCatWebForward>0</enableCatWebForward>
+    <id>1048</id>
+    <MelodyUUID>93727f08-4fea-11eb-a647-005056836375</MelodyUUID>
+   </thesaurus>
+   <isCatWebForward>0</isCatWebForward>
+  </category>
+ </categories>
+ <children type="array">
+  <child type="object">
+   <id>743487</id>
+   <title>&lt;p&gt;Covid-19 : le candidat vaccin développé par le laboratoire Janssen va être testé par Covireivac&lt;/p&gt;</title>
+   <title_raw><p>Covid-19 : le candidat vaccin développé par le laboratoire Janssen va être testé par Covireivac</p></title_raw>
+   <secondaryTitle>&lt;p&gt;Covid-19 : le candidat vaccin développé par le laboratoire Janssen va être testé par Covireivac&lt;/p&gt;</secondaryTitle>
+   <secondaryTitle_raw><p>Covid-19 : le candidat vaccin développé par le laboratoire Janssen va être testé par Covireivac</p></secondaryTitle_raw>
+   <destinationReference/>
+  </child>
+  <child type="object">
+   <id>743703</id>
+   <title>&lt;p&gt;&lt;b&gt;&lt;i&gt;Choisir sa brosse à dents écoresponsable&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;</title>
+   <title_raw><p><b><i>Choisir sa brosse à dents écoresponsable</i></b></p></title_raw>
+   <secondaryTitle>&lt;p&gt;&lt;b&gt;Choisir sa brosse à dents écoresponsable&lt;/b&gt;&lt;/p&gt;</secondaryTitle>
+   <secondaryTitle_raw><p><b>Choisir sa brosse à dents écoresponsable</b></p></secondaryTitle_raw>
+   <destinationReference/>
+  </child>
+  <child type="object">
+   <id>743705</id>
+   <title>&lt;p&gt;&lt;b&gt;&lt;i&gt;Ivotion Digital Denture Solution récompensé&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;</title>
+   <title_raw><p><b><i>Ivotion Digital Denture Solution récompensé</i></b></p></title_raw>
+   <secondaryTitle>&lt;p&gt;Ivotion Digital Denture Solution récompensé&lt;/p&gt;</secondaryTitle>
+   <secondaryTitle_raw><p>Ivotion Digital Denture Solution récompensé</p></secondaryTitle_raw>
+   <destinationReference/>
+  </child>
+ </children>
+ <photos type="array">
+  <photo type="object">
+   <legend>&lt;p&gt;La gouttière occlusale doit être réalisée en résine dure, recouvrir l’ensemble des dents de l’arcade (maxillaire ou mandibulaire dans ce cas) et avoir une épaisseur comprise entre 1,5 et 2 mm.&lt;/p&gt;</legend>
+   <legend_raw><p>La gouttière occlusale doit être réalisée en résine dure, recouvrir l’ensemble des dents de l’arcade (maxillaire ou mandibulaire dans ce cas) et avoir une épaisseur comprise entre 1,5 et 2 mm.</p></legend_raw>
+   <credit>Olivier Robin</credit>
+   <credit_raw>Olivier Robin</credit_raw>
+   <crop type="object">
+    <crop_x>0</crop_x>
+    <crop_y>0</crop_y>
+    <crop_h>0</crop_h>
+    <crop_w>0</crop_w>
+    <DPI>0</DPI>
+   </crop>
+   <rotate>0</rotate>
+   <mirroring>0</mirroring>
+   <webForward>0</webForward>
+   <webForwardBackground>0</webForwardBackground>
+   <customerId>21</customerId>
+   <description>La gouttière occlusale doit être réalisée en résine dure, recouvrir l’ensemble des dents de l’arcade (maxillaire ou mandibulaire dans ce cas) et avoir une épaisseur comprise entre 1,5 et 2 mm.</description>
+   <auteur>Olivier Robin</auteur>
+   <iptcTags/>
+   <xmpTags/>
+   <fileFormat>jpg</fileFormat>
+   <isBitmap>1</isBitmap>
+   <reference>e97c7584793e5fd7c7584793ee18c7v_</reference>
+   <file/>
+   <isGeneric>0</isGeneric>
+   <originalWidth>1538</originalWidth>
+   <originalHeight>1345</originalHeight>
+   <rights_media/>
+   <rights_geo/>
+   <rating>0</rating>
+   <dateTaken/>
+   <type>media</type>
+   <sourceId/>
+   <source/>
+   <complement/>
+   <originalWeight>291338</originalWeight>
+   <retouchedAt>2021-01-14 17:14:16</retouchedAt>
+   <diffusionCode/>
+   <similarityIndex/>
+   <ressourceActive>1</ressourceActive>
+   <importCode/>
+   <importReference/>
+   <melodyPortageId/>
+   <lastTransition_userId>2607</lastTransition_userId>
+   <lastTransition_groupId>13237</lastTransition_groupId>
+   <lastTransition_roleId>479</lastTransition_roleId>
+   <isFreeUse>1</isFreeUse>
+   <createdAt>2021-01-14 16:05:12</createdAt>
+   <createdBy>1213</createdBy>
+   <modifiedAt>2025-07-01 18:46:57</modifiedAt>
+   <modifiedBy>2101</modifiedBy>
+   <notepadEdito/>
+   <notepadAlert/>
+   <dateAlert/>
+   <stateId>69</stateId>
+   <lastTransition_id/>
+   <lastTransition_initialStateId>69</lastTransition_initialStateId>
+   <lastTransition_date>2020-02-04 14:41:26</lastTransition_date>
+   <id>452192</id>
+   <MelodyUUID>41de8eba-4fe9-11eb-a647-005056836375</MelodyUUID>
+   <state type="object">
+    <id>69</id>
+    <code>PhotoValid</code>
+    <label>Valide</label>
+   </state>
+   <categories type="array">
+    <category type="object">
+     <parentId/>
+     <pathLabel>Dentoscope</pathLabel>
+     <pathRank type="array">
+      <item key="0">8</item>
+     </pathRank>
+     <name>Dentoscope</name>
+     <parameters/>
+     <suppParameters/>
+     <suppParameters2/>
+     <suppParameters3/>
+     <nbChildren>100</nbChildren>
+     <rank>8</rank>
+     <enable>1</enable>
+     <path type="array">
+      <item key="0">91066</item>
+     </path>
+     <description/>
+     <thesaurusId>1049</thesaurusId>
+     <externalSourceRef/>
+     <externalSource/>
+     <portageId/>
+     <melodyPortageId/>
+     <colorId/>
+     <id>91066</id>
+     <MelodyUUID>8e3249ea-4fea-11eb-a647-005056836375</MelodyUUID>
+     <pathParameters type="array">
+      <item key="0"/>
+     </pathParameters>
+     <pathNames type="array">
+      <item key="0">Dentoscope</item>
+     </pathNames>
+     <thesaurus type="object">
+      <name>Thématique</name>
+      <kind>edito</kind>
+      <order>0</order>
+      <customerId>21</customerId>
+      <isUnique>0</isUnique>
+      <isRussianDoll>0</isRussianDoll>
+      <uniqueCode>THEM_PRSIA</uniqueCode>
+      <defaultCategoryId>0</defaultCategoryId>
+      <objectClassMandatory type="array">
+       <item key="0">article</item>
+      </objectClassMandatory>
+      <objectClassFacet type="array">
+       <item key="0">article</item>
+       <item key="1">photo</item>
+      </objectClassFacet>
+      <objectClassUnique type="array"/>
+      <modifiableOnReadOnly>0</modifiableOnReadOnly>
+      <readOnly>0</readOnly>
+      <melodyPortageId/>
+      <deepDepthFacet>0</deepDepthFacet>
+      <isColorizable>0</isColorizable>
+      <isSystem>0</isSystem>
+      <objectClassInfosByCanals type="array">
+       <item key="0">"printAIF":["objectClass"</item>
+       <item key="1">"objectClassMandatory"]</item>
+       <item key="2">"printAGW":["objectClass"</item>
+       <item key="3">"objectClassMandatory"]</item>
+       <item key="4">"printBGI":["objectClass"</item>
+       <item key="5">"objectClassMandatory"]</item>
+       <item key="6">"printDTS":["objectClass"</item>
+       <item key="7">"objectClassMandatory"]</item>
+       <item key="8">"printSCD":["objectClass"</item>
+       <item key="9">"objectClassMandatory"]</item>
+       <item key="10">"printOTP":["objectClass"</item>
+       <item key="11">"objectClassMandatory"]</item>
+       <item key="12">"printNTI":["objectClass"</item>
+       <item key="13">"objectClassMandatory"]</item>
+       <item key="14">"webAIF":["objectClass"</item>
+       <item key="15">"objectClassMandatory"]</item>
+       <item key="16">"webAGW":["objectClass"</item>
+       <item key="17">"objectClassMandatory"]</item>
+       <item key="18">"webBGI":["objectClass"</item>
+       <item key="19">"objectClassMandatory"]</item>
+       <item key="20">"webNTI":["objectClass"</item>
+       <item key="21">"objectClassMandatory"]</item>
+       <item key="22">"printAGI":["objectClass"</item>
+       <item key="23">"objectClassMandatory"]</item>
+       <item key="24">"printPFP":["objectClass"</item>
+       <item key="25">"objectClassMandatory"]</item>
+       <item key="26">"webAGI":["objectClass"</item>
+       <item key="27">"objectClassMandatory"]</item>
+       <item key="28">"webPFP":["objectClass"</item>
+       <item key="29">"objectClassMandatory"]</item>
+       <item key="30">"webSCD":["objectClass"</item>
+       <item key="31">"objectClassMandatory"]</item>
+       <item key="32">"webDTS":["objectClass"</item>
+       <item key="33">"objectClassMandatory"]</item>
+       <item key="34">"webPRSIA_webDTS2":["objectClass"</item>
+       <item key="35">"objectClassMandatory"]</item>
+       <item key="36">"webOTP":["objectClass"</item>
+       <item key="37">"objectClassMandatory"]</item>
+       <item key="38">"webPRSIA":["objectClass"</item>
+       <item key="39">"objectClassMandatory"]</item>
+      </objectClassInfosByCanals>
+      <canauxCode/>
+      <enableCatWebForward>0</enableCatWebForward>
+      <id>1049</id>
+      <MelodyUUID>93727f09-4fea-11eb-a647-005056836375</MelodyUUID>
+     </thesaurus>
+     <isCatWebForward>0</isCatWebForward>
+    </category>
+   </categories>
+   <originalFile>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/e97c7584793e5fd7c7584793ee18c7v_?uniq=2025-07-0118:46:57&amp;monochrome=0</originalFile>
+   <WEB_HARDCROP_RESSOURCE>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/e97c7584793e5fd7c7584793ee18c7v_/1280/1280?crop={"crop_x":0,"crop_y":0,"crop_h":1345,"crop_w":1538}&amp;noCache=1&amp;uniq=2025-07-0118:46:57&amp;monochrome=0</WEB_HARDCROP_RESSOURCE>
+  </photo>
+  <photo type="object">
+   <legend>&lt;p&gt;Doctor looking ideas nutrition - 470874063&lt;/p&gt;</legend>
+   <legend_raw><p>Doctor looking ideas nutrition - 470874063</p></legend_raw>
+   <credit>Getty Images/iStockphoto - jorgelum - jorgelum</credit>
+   <credit_raw>Getty Images/iStockphoto - jorgelum - jorgelum</credit_raw>
+   <crop type="object">
+    <crop_x>332</crop_x>
+    <crop_y>74</crop_y>
+    <crop_h>2289</crop_h>
+    <crop_w>1639</crop_w>
+    <DPI>0</DPI>
+   </crop>
+   <rotate>0</rotate>
+   <mirroring>0</mirroring>
+   <webForward>1</webForward>
+   <webForwardBackground>0</webForwardBackground>
+   <customerId>21</customerId>
+   <description>Doctor looking ideas nutrition - 470874063</description>
+   <auteur>Getty Images/iStockphoto - jorgelum - jorgelum</auteur>
+   <iptcTags>Doctor looking ideas nutrition Doctor looking ideas nutrition Model and Property Released (MR&amp;PR) jorgelum Contributor Getty Images/iStockphoto iStockphoto 470874063 20140218 000000+0000 3 Apple Contemplation Doctor Female Doctor Finding Fruit Ideas Meal Medical Student Nurse Playful Playing Searching Stethoscope Thinking jorgelum</iptcTags>
+   <xmpTags/>
+   <fileFormat>jpg</fileFormat>
+   <isBitmap>1</isBitmap>
+   <reference>aac42a5511206cec42a551120c2d42v_</reference>
+   <file/>
+   <isGeneric>0</isGeneric>
+   <originalWidth>2075</originalWidth>
+   <originalHeight>2363</originalHeight>
+   <rights_media/>
+   <rights_geo/>
+   <rating>0</rating>
+   <dateTaken>2014-02-18</dateTaken>
+   <type>media</type>
+   <sourceId/>
+   <source/>
+   <complement/>
+   <originalWeight>1466477</originalWeight>
+   <retouchedAt/>
+   <diffusionCode/>
+   <similarityIndex/>
+   <ressourceActive>1</ressourceActive>
+   <importCode/>
+   <importReference/>
+   <melodyPortageId/>
+   <lastTransition_userId>1131</lastTransition_userId>
+   <lastTransition_groupId>271</lastTransition_groupId>
+   <lastTransition_roleId>95</lastTransition_roleId>
+   <isFreeUse>1</isFreeUse>
+   <createdAt>2021-02-08 11:41:31</createdAt>
+   <createdBy>1131</createdBy>
+   <modifiedAt>2025-07-01 18:46:57</modifiedAt>
+   <modifiedBy>2101</modifiedBy>
+   <notepadEdito/>
+   <notepadAlert/>
+   <dateAlert/>
+   <stateId>69</stateId>
+   <lastTransition_id/>
+   <lastTransition_initialStateId>69</lastTransition_initialStateId>
+   <lastTransition_date>2021-02-08 11:41:31</lastTransition_date>
+   <id>463818</id>
+   <MelodyUUID>34ea9f54-69fa-11eb-a303-005056836375</MelodyUUID>
+   <state type="object">
+    <id>69</id>
+    <code>PhotoValid</code>
+    <label>Valide</label>
+   </state>
+   <categories type="array">
+    <category type="object">
+     <parentId/>
+     <pathLabel>Dentoscope</pathLabel>
+     <pathRank type="array">
+      <item key="0">8</item>
+     </pathRank>
+     <name>Dentoscope</name>
+     <parameters/>
+     <suppParameters/>
+     <suppParameters2/>
+     <suppParameters3/>
+     <nbChildren>100</nbChildren>
+     <rank>8</rank>
+     <enable>1</enable>
+     <path type="array">
+      <item key="0">91066</item>
+     </path>
+     <description/>
+     <thesaurusId>1049</thesaurusId>
+     <externalSourceRef/>
+     <externalSource/>
+     <portageId/>
+     <melodyPortageId/>
+     <colorId/>
+     <id>91066</id>
+     <MelodyUUID>8e3249ea-4fea-11eb-a647-005056836375</MelodyUUID>
+     <pathParameters type="array">
+      <item key="0"/>
+     </pathParameters>
+     <pathNames type="array">
+      <item key="0">Dentoscope</item>
+     </pathNames>
+     <thesaurus type="object">
+      <name>Thématique</name>
+      <kind>edito</kind>
+      <order>0</order>
+      <customerId>21</customerId>
+      <isUnique>0</isUnique>
+      <isRussianDoll>0</isRussianDoll>
+      <uniqueCode>THEM_PRSIA</uniqueCode>
+      <defaultCategoryId>0</defaultCategoryId>
+      <objectClassMandatory type="array">
+       <item key="0">article</item>
+      </objectClassMandatory>
+      <objectClassFacet type="array">
+       <item key="0">article</item>
+       <item key="1">photo</item>
+      </objectClassFacet>
+      <objectClassUnique type="array"/>
+      <modifiableOnReadOnly>0</modifiableOnReadOnly>
+      <readOnly>0</readOnly>
+      <melodyPortageId/>
+      <deepDepthFacet>0</deepDepthFacet>
+      <isColorizable>0</isColorizable>
+      <isSystem>0</isSystem>
+      <objectClassInfosByCanals type="array">
+       <item key="0">"printAIF":["objectClass"</item>
+       <item key="1">"objectClassMandatory"]</item>
+       <item key="2">"printAGW":["objectClass"</item>
+       <item key="3">"objectClassMandatory"]</item>
+       <item key="4">"printBGI":["objectClass"</item>
+       <item key="5">"objectClassMandatory"]</item>
+       <item key="6">"printDTS":["objectClass"</item>
+       <item key="7">"objectClassMandatory"]</item>
+       <item key="8">"printSCD":["objectClass"</item>
+       <item key="9">"objectClassMandatory"]</item>
+       <item key="10">"printOTP":["objectClass"</item>
+       <item key="11">"objectClassMandatory"]</item>
+       <item key="12">"printNTI":["objectClass"</item>
+       <item key="13">"objectClassMandatory"]</item>
+       <item key="14">"webAIF":["objectClass"</item>
+       <item key="15">"objectClassMandatory"]</item>
+       <item key="16">"webAGW":["objectClass"</item>
+       <item key="17">"objectClassMandatory"]</item>
+       <item key="18">"webBGI":["objectClass"</item>
+       <item key="19">"objectClassMandatory"]</item>
+       <item key="20">"webNTI":["objectClass"</item>
+       <item key="21">"objectClassMandatory"]</item>
+       <item key="22">"printAGI":["objectClass"</item>
+       <item key="23">"objectClassMandatory"]</item>
+       <item key="24">"printPFP":["objectClass"</item>
+       <item key="25">"objectClassMandatory"]</item>
+       <item key="26">"webAGI":["objectClass"</item>
+       <item key="27">"objectClassMandatory"]</item>
+       <item key="28">"webPFP":["objectClass"</item>
+       <item key="29">"objectClassMandatory"]</item>
+       <item key="30">"webSCD":["objectClass"</item>
+       <item key="31">"objectClassMandatory"]</item>
+       <item key="32">"webDTS":["objectClass"</item>
+       <item key="33">"objectClassMandatory"]</item>
+       <item key="34">"webPRSIA_webDTS2":["objectClass"</item>
+       <item key="35">"objectClassMandatory"]</item>
+       <item key="36">"webOTP":["objectClass"</item>
+       <item key="37">"objectClassMandatory"]</item>
+       <item key="38">"webPRSIA":["objectClass"</item>
+       <item key="39">"objectClassMandatory"]</item>
+      </objectClassInfosByCanals>
+      <canauxCode/>
+      <enableCatWebForward>0</enableCatWebForward>
+      <id>1049</id>
+      <MelodyUUID>93727f09-4fea-11eb-a647-005056836375</MelodyUUID>
+     </thesaurus>
+     <isCatWebForward>0</isCatWebForward>
+    </category>
+   </categories>
+   <originalFile>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/aac42a5511206cec42a551120c2d42v_?uniq=2025-07-0118:46:57&amp;monochrome=0</originalFile>
+   <WEB_HARDCROP_RESSOURCE>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/aac42a5511206cec42a551120c2d42v_/1280/1280?crop={"crop_x":332,"crop_y":74,"crop_h":2289,"crop_w":1639}&amp;noCache=1&amp;uniq=2025-07-0118:46:57&amp;monochrome=0</WEB_HARDCROP_RESSOURCE>
+  </photo>
+  <photo type="object">
+   <legend>&lt;p&gt;Marc Cuggia, professeur des universités-praticien hospitalier (PU-PH) en informatique médicale au CHU de Rennes&lt;/p&gt;</legend>
+   <legend_raw><p>Marc Cuggia, professeur des universités-praticien hospitalier (PU-PH) en informatique médicale au CHU de Rennes</p></legend_raw>
+   <credit>DR</credit>
+   <credit_raw>DR</credit_raw>
+   <crop type="object">
+    <crop_x>642</crop_x>
+    <crop_y>43</crop_y>
+    <crop_h>1802</crop_h>
+    <crop_w>2167</crop_w>
+    <DPI>0</DPI>
+   </crop>
+   <rotate>0</rotate>
+   <mirroring>0</mirroring>
+   <webForward>0</webForward>
+   <webForwardBackground>0</webForwardBackground>
+   <customerId>21</customerId>
+   <description>Marc Cuggia, professeur des universités-praticien hospitalier (PU-PH) en informatique médicale au CHU de Rennes </description>
+   <auteur>DR</auteur>
+   <iptcTags/>
+   <xmpTags/>
+   <fileFormat>jpg</fileFormat>
+   <isBitmap>1</isBitmap>
+   <reference>b80ebe4037df59c0e501ebv_00308200</reference>
+   <file/>
+   <isGeneric>0</isGeneric>
+   <originalWidth>4032</originalWidth>
+   <originalHeight>3024</originalHeight>
+   <rights_media/>
+   <rights_geo/>
+   <rating>0</rating>
+   <dateTaken/>
+   <type>media</type>
+   <sourceId/>
+   <source/>
+   <complement/>
+   <originalWeight>2625126</originalWeight>
+   <retouchedAt>2021-02-04 17:12:57</retouchedAt>
+   <diffusionCode/>
+   <similarityIndex/>
+   <ressourceActive>1</ressourceActive>
+   <importCode/>
+   <importReference/>
+   <melodyPortageId/>
+   <lastTransition_userId>-712</lastTransition_userId>
+   <lastTransition_groupId/>
+   <lastTransition_roleId/>
+   <isFreeUse>1</isFreeUse>
+   <createdAt>2021-01-12 16:04:46</createdAt>
+   <createdBy>1212</createdBy>
+   <modifiedAt>2025-07-01 18:46:57</modifiedAt>
+   <modifiedBy>2101</modifiedBy>
+   <notepadEdito/>
+   <notepadAlert/>
+   <dateAlert/>
+   <stateId>69</stateId>
+   <lastTransition_id/>
+   <lastTransition_initialStateId>69</lastTransition_initialStateId>
+   <lastTransition_date>2021-01-12 16:04:46</lastTransition_date>
+   <id>450379</id>
+   <MelodyUUID>400e1cce-4fe9-11eb-a647-005056836375</MelodyUUID>
+   <state type="object">
+    <id>69</id>
+    <code>PhotoValid</code>
+    <label>Valide</label>
+   </state>
+   <categories type="array">
+    <category type="object">
+     <parentId/>
+     <pathLabel>Dentoscope</pathLabel>
+     <pathRank type="array">
+      <item key="0">8</item>
+     </pathRank>
+     <name>Dentoscope</name>
+     <parameters/>
+     <suppParameters/>
+     <suppParameters2/>
+     <suppParameters3/>
+     <nbChildren>100</nbChildren>
+     <rank>8</rank>
+     <enable>1</enable>
+     <path type="array">
+      <item key="0">91066</item>
+     </path>
+     <description/>
+     <thesaurusId>1049</thesaurusId>
+     <externalSourceRef/>
+     <externalSource/>
+     <portageId/>
+     <melodyPortageId/>
+     <colorId/>
+     <id>91066</id>
+     <MelodyUUID>8e3249ea-4fea-11eb-a647-005056836375</MelodyUUID>
+     <pathParameters type="array">
+      <item key="0"/>
+     </pathParameters>
+     <pathNames type="array">
+      <item key="0">Dentoscope</item>
+     </pathNames>
+     <thesaurus type="object">
+      <name>Thématique</name>
+      <kind>edito</kind>
+      <order>0</order>
+      <customerId>21</customerId>
+      <isUnique>0</isUnique>
+      <isRussianDoll>0</isRussianDoll>
+      <uniqueCode>THEM_PRSIA</uniqueCode>
+      <defaultCategoryId>0</defaultCategoryId>
+      <objectClassMandatory type="array">
+       <item key="0">article</item>
+      </objectClassMandatory>
+      <objectClassFacet type="array">
+       <item key="0">article</item>
+       <item key="1">photo</item>
+      </objectClassFacet>
+      <objectClassUnique type="array"/>
+      <modifiableOnReadOnly>0</modifiableOnReadOnly>
+      <readOnly>0</readOnly>
+      <melodyPortageId/>
+      <deepDepthFacet>0</deepDepthFacet>
+      <isColorizable>0</isColorizable>
+      <isSystem>0</isSystem>
+      <objectClassInfosByCanals type="array">
+       <item key="0">"printAIF":["objectClass"</item>
+       <item key="1">"objectClassMandatory"]</item>
+       <item key="2">"printAGW":["objectClass"</item>
+       <item key="3">"objectClassMandatory"]</item>
+       <item key="4">"printBGI":["objectClass"</item>
+       <item key="5">"objectClassMandatory"]</item>
+       <item key="6">"printDTS":["objectClass"</item>
+       <item key="7">"objectClassMandatory"]</item>
+       <item key="8">"printSCD":["objectClass"</item>
+       <item key="9">"objectClassMandatory"]</item>
+       <item key="10">"printOTP":["objectClass"</item>
+       <item key="11">"objectClassMandatory"]</item>
+       <item key="12">"printNTI":["objectClass"</item>
+       <item key="13">"objectClassMandatory"]</item>
+       <item key="14">"webAIF":["objectClass"</item>
+       <item key="15">"objectClassMandatory"]</item>
+       <item key="16">"webAGW":["objectClass"</item>
+       <item key="17">"objectClassMandatory"]</item>
+       <item key="18">"webBGI":["objectClass"</item>
+       <item key="19">"objectClassMandatory"]</item>
+       <item key="20">"webNTI":["objectClass"</item>
+       <item key="21">"objectClassMandatory"]</item>
+       <item key="22">"printAGI":["objectClass"</item>
+       <item key="23">"objectClassMandatory"]</item>
+       <item key="24">"printPFP":["objectClass"</item>
+       <item key="25">"objectClassMandatory"]</item>
+       <item key="26">"webAGI":["objectClass"</item>
+       <item key="27">"objectClassMandatory"]</item>
+       <item key="28">"webPFP":["objectClass"</item>
+       <item key="29">"objectClassMandatory"]</item>
+       <item key="30">"webSCD":["objectClass"</item>
+       <item key="31">"objectClassMandatory"]</item>
+       <item key="32">"webDTS":["objectClass"</item>
+       <item key="33">"objectClassMandatory"]</item>
+       <item key="34">"webPRSIA_webDTS2":["objectClass"</item>
+       <item key="35">"objectClassMandatory"]</item>
+       <item key="36">"webOTP":["objectClass"</item>
+       <item key="37">"objectClassMandatory"]</item>
+       <item key="38">"webPRSIA":["objectClass"</item>
+       <item key="39">"objectClassMandatory"]</item>
+      </objectClassInfosByCanals>
+      <canauxCode/>
+      <enableCatWebForward>0</enableCatWebForward>
+      <id>1049</id>
+      <MelodyUUID>93727f09-4fea-11eb-a647-005056836375</MelodyUUID>
+     </thesaurus>
+     <isCatWebForward>0</isCatWebForward>
+    </category>
+   </categories>
+   <originalFile>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/b80ebe4037df59c0e501ebv_00308200?uniq=2025-07-0118:46:57&amp;monochrome=0</originalFile>
+   <WEB_HARDCROP_RESSOURCE>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/b80ebe4037df59c0e501ebv_00308200/1280/1280?crop={"crop_x":642,"crop_y":43,"crop_h":1802,"crop_w":2167}&amp;noCache=1&amp;uniq=2025-07-0118:46:57&amp;monochrome=0</WEB_HARDCROP_RESSOURCE>
+  </photo>
+  <photo type="object">
+   <legend>&lt;p&gt;Des TP sur les embouts à Lyceum, en Espagne, en partenariat avec Diploma.&lt;/p&gt;</legend>
+   <legend_raw><p>Des TP sur les embouts à Lyceum, en Espagne, en partenariat avec Diploma.</p></legend_raw>
+   <credit>Diploma/Lyceum</credit>
+   <credit_raw>Diploma/Lyceum</credit_raw>
+   <crop type="object">
+    <crop_x>370</crop_x>
+    <crop_y>392</crop_y>
+    <crop_h>760</crop_h>
+    <crop_w>830</crop_w>
+    <DPI>0</DPI>
+   </crop>
+   <rotate>0</rotate>
+   <mirroring>0</mirroring>
+   <webForward>0</webForward>
+   <webForwardBackground>0</webForwardBackground>
+   <customerId>21</customerId>
+   <description>Des TP sur les embouts à Lyceum, en Espagne, en partenariat avec Diploma.</description>
+   <auteur>Diploma/Lyceum</auteur>
+   <iptcTags/>
+   <xmpTags/>
+   <fileFormat>jpg</fileFormat>
+   <isBitmap>1</isBitmap>
+   <reference>4e24d1332f8f51234d1332f8fc534dv_</reference>
+   <file/>
+   <isGeneric>0</isGeneric>
+   <originalWidth>1200</originalWidth>
+   <originalHeight>1600</originalHeight>
+   <rights_media/>
+   <rights_geo/>
+   <rating>0</rating>
+   <dateTaken/>
+   <type>media</type>
+   <sourceId/>
+   <source/>
+   <complement/>
+   <originalWeight>302093</originalWeight>
+   <retouchedAt>2021-01-15 17:15:35</retouchedAt>
+   <diffusionCode/>
+   <similarityIndex/>
+   <ressourceActive>1</ressourceActive>
+   <importCode/>
+   <importReference/>
+   <melodyPortageId/>
+   <lastTransition_userId>2566</lastTransition_userId>
+   <lastTransition_groupId>13233</lastTransition_groupId>
+   <lastTransition_roleId>482</lastTransition_roleId>
+   <isFreeUse>1</isFreeUse>
+   <createdAt>2021-01-15 15:08:23</createdAt>
+   <createdBy>1144</createdBy>
+   <modifiedAt>2025-07-01 18:46:57</modifiedAt>
+   <modifiedBy>2101</modifiedBy>
+   <notepadEdito/>
+   <notepadAlert/>
+   <dateAlert/>
+   <stateId>69</stateId>
+   <lastTransition_id/>
+   <lastTransition_initialStateId>69</lastTransition_initialStateId>
+   <lastTransition_date>2020-10-20 19:49:38</lastTransition_date>
+   <id>455182</id>
+   <MelodyUUID>427528f9-4fe9-11eb-a647-005056836375</MelodyUUID>
+   <state type="object">
+    <id>69</id>
+    <code>PhotoValid</code>
+    <label>Valide</label>
+   </state>
+   <categories type="array">
+    <category type="object">
+     <parentId/>
+     <pathLabel>Dentoscope</pathLabel>
+     <pathRank type="array">
+      <item key="0">8</item>
+     </pathRank>
+     <name>Dentoscope</name>
+     <parameters/>
+     <suppParameters/>
+     <suppParameters2/>
+     <suppParameters3/>
+     <nbChildren>100</nbChildren>
+     <rank>8</rank>
+     <enable>1</enable>
+     <path type="array">
+      <item key="0">91066</item>
+     </path>
+     <description/>
+     <thesaurusId>1049</thesaurusId>
+     <externalSourceRef/>
+     <externalSource/>
+     <portageId/>
+     <melodyPortageId/>
+     <colorId/>
+     <id>91066</id>
+     <MelodyUUID>8e3249ea-4fea-11eb-a647-005056836375</MelodyUUID>
+     <pathParameters type="array">
+      <item key="0"/>
+     </pathParameters>
+     <pathNames type="array">
+      <item key="0">Dentoscope</item>
+     </pathNames>
+     <thesaurus type="object">
+      <name>Thématique</name>
+      <kind>edito</kind>
+      <order>0</order>
+      <customerId>21</customerId>
+      <isUnique>0</isUnique>
+      <isRussianDoll>0</isRussianDoll>
+      <uniqueCode>THEM_PRSIA</uniqueCode>
+      <defaultCategoryId>0</defaultCategoryId>
+      <objectClassMandatory type="array">
+       <item key="0">article</item>
+      </objectClassMandatory>
+      <objectClassFacet type="array">
+       <item key="0">article</item>
+       <item key="1">photo</item>
+      </objectClassFacet>
+      <objectClassUnique type="array"/>
+      <modifiableOnReadOnly>0</modifiableOnReadOnly>
+      <readOnly>0</readOnly>
+      <melodyPortageId/>
+      <deepDepthFacet>0</deepDepthFacet>
+      <isColorizable>0</isColorizable>
+      <isSystem>0</isSystem>
+      <objectClassInfosByCanals type="array">
+       <item key="0">"printAIF":["objectClass"</item>
+       <item key="1">"objectClassMandatory"]</item>
+       <item key="2">"printAGW":["objectClass"</item>
+       <item key="3">"objectClassMandatory"]</item>
+       <item key="4">"printBGI":["objectClass"</item>
+       <item key="5">"objectClassMandatory"]</item>
+       <item key="6">"printDTS":["objectClass"</item>
+       <item key="7">"objectClassMandatory"]</item>
+       <item key="8">"printSCD":["objectClass"</item>
+       <item key="9">"objectClassMandatory"]</item>
+       <item key="10">"printOTP":["objectClass"</item>
+       <item key="11">"objectClassMandatory"]</item>
+       <item key="12">"printNTI":["objectClass"</item>
+       <item key="13">"objectClassMandatory"]</item>
+       <item key="14">"webAIF":["objectClass"</item>
+       <item key="15">"objectClassMandatory"]</item>
+       <item key="16">"webAGW":["objectClass"</item>
+       <item key="17">"objectClassMandatory"]</item>
+       <item key="18">"webBGI":["objectClass"</item>
+       <item key="19">"objectClassMandatory"]</item>
+       <item key="20">"webNTI":["objectClass"</item>
+       <item key="21">"objectClassMandatory"]</item>
+       <item key="22">"printAGI":["objectClass"</item>
+       <item key="23">"objectClassMandatory"]</item>
+       <item key="24">"printPFP":["objectClass"</item>
+       <item key="25">"objectClassMandatory"]</item>
+       <item key="26">"webAGI":["objectClass"</item>
+       <item key="27">"objectClassMandatory"]</item>
+       <item key="28">"webPFP":["objectClass"</item>
+       <item key="29">"objectClassMandatory"]</item>
+       <item key="30">"webSCD":["objectClass"</item>
+       <item key="31">"objectClassMandatory"]</item>
+       <item key="32">"webDTS":["objectClass"</item>
+       <item key="33">"objectClassMandatory"]</item>
+       <item key="34">"webPRSIA_webDTS2":["objectClass"</item>
+       <item key="35">"objectClassMandatory"]</item>
+       <item key="36">"webOTP":["objectClass"</item>
+       <item key="37">"objectClassMandatory"]</item>
+       <item key="38">"webPRSIA":["objectClass"</item>
+       <item key="39">"objectClassMandatory"]</item>
+      </objectClassInfosByCanals>
+      <canauxCode/>
+      <enableCatWebForward>0</enableCatWebForward>
+      <id>1049</id>
+      <MelodyUUID>93727f09-4fea-11eb-a647-005056836375</MelodyUUID>
+     </thesaurus>
+     <isCatWebForward>0</isCatWebForward>
+    </category>
+   </categories>
+   <originalFile>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/4e24d1332f8f51234d1332f8fc534dv_?uniq=2025-07-0118:46:57&amp;monochrome=0</originalFile>
+   <WEB_HARDCROP_RESSOURCE>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/4e24d1332f8f51234d1332f8fc534dv_/830/830?crop={"crop_x":370,"crop_y":392,"crop_h":760,"crop_w":830}&amp;noCache=1&amp;uniq=2025-07-0118:46:57&amp;monochrome=0</WEB_HARDCROP_RESSOURCE>
+  </photo>
+  <photo type="object">
+   <legend>&lt;p&gt;Cours à Progress Santé&lt;/p&gt;</legend>
+   <legend_raw><p>Cours à Progress Santé</p></legend_raw>
+   <credit>Corinne Couté</credit>
+   <credit_raw>Corinne Couté</credit_raw>
+   <crop type="object">
+    <crop_x>0</crop_x>
+    <crop_y>0</crop_y>
+    <crop_h>0</crop_h>
+    <crop_w>0</crop_w>
+    <DPI>0</DPI>
+   </crop>
+   <rotate>0</rotate>
+   <mirroring>0</mirroring>
+   <webForward>0</webForward>
+   <webForwardBackground>0</webForwardBackground>
+   <customerId>21</customerId>
+   <description>Cours à Progress Santé</description>
+   <auteur>Corinne Couté</auteur>
+   <iptcTags>20190121 104451+0000</iptcTags>
+   <xmpTags/>
+   <fileFormat>jpg</fileFormat>
+   <isBitmap>1</isBitmap>
+   <reference>2be47ab1e4651473a3b9fcc3501f391c</reference>
+   <file/>
+   <isGeneric>0</isGeneric>
+   <originalWidth>1772</originalWidth>
+   <originalHeight>1181</originalHeight>
+   <rights_media/>
+   <rights_geo/>
+   <rating>0</rating>
+   <dateTaken>2019-01-21</dateTaken>
+   <type>media</type>
+   <sourceId/>
+   <source/>
+   <complement/>
+   <originalWeight>1228787</originalWeight>
+   <retouchedAt>2021-01-15 17:13:15</retouchedAt>
+   <diffusionCode/>
+   <similarityIndex/>
+   <ressourceActive>1</ressourceActive>
+   <importCode/>
+   <importReference/>
+   <melodyPortageId/>
+   <lastTransition_userId>2607</lastTransition_userId>
+   <lastTransition_groupId>13237</lastTransition_groupId>
+   <lastTransition_roleId>479</lastTransition_roleId>
+   <isFreeUse>1</isFreeUse>
+   <createdAt>2021-01-14 22:02:23</createdAt>
+   <createdBy>1213</createdBy>
+   <modifiedAt>2025-07-01 18:46:57</modifiedAt>
+   <modifiedBy>2101</modifiedBy>
+   <notepadEdito/>
+   <notepadAlert/>
+   <dateAlert/>
+   <stateId>69</stateId>
+   <lastTransition_id/>
+   <lastTransition_initialStateId>69</lastTransition_initialStateId>
+   <lastTransition_date>2019-10-17 12:52:25</lastTransition_date>
+   <id>454278</id>
+   <MelodyUUID>427528fa-4fe9-11eb-a647-005056836375</MelodyUUID>
+   <state type="object">
+    <id>69</id>
+    <code>PhotoValid</code>
+    <label>Valide</label>
+   </state>
+   <categories type="array">
+    <category type="object">
+     <parentId/>
+     <pathLabel>Dentoscope</pathLabel>
+     <pathRank type="array">
+      <item key="0">8</item>
+     </pathRank>
+     <name>Dentoscope</name>
+     <parameters/>
+     <suppParameters/>
+     <suppParameters2/>
+     <suppParameters3/>
+     <nbChildren>100</nbChildren>
+     <rank>8</rank>
+     <enable>1</enable>
+     <path type="array">
+      <item key="0">91066</item>
+     </path>
+     <description/>
+     <thesaurusId>1049</thesaurusId>
+     <externalSourceRef/>
+     <externalSource/>
+     <portageId/>
+     <melodyPortageId/>
+     <colorId/>
+     <id>91066</id>
+     <MelodyUUID>8e3249ea-4fea-11eb-a647-005056836375</MelodyUUID>
+     <pathParameters type="array">
+      <item key="0"/>
+     </pathParameters>
+     <pathNames type="array">
+      <item key="0">Dentoscope</item>
+     </pathNames>
+     <thesaurus type="object">
+      <name>Thématique</name>
+      <kind>edito</kind>
+      <order>0</order>
+      <customerId>21</customerId>
+      <isUnique>0</isUnique>
+      <isRussianDoll>0</isRussianDoll>
+      <uniqueCode>THEM_PRSIA</uniqueCode>
+      <defaultCategoryId>0</defaultCategoryId>
+      <objectClassMandatory type="array">
+       <item key="0">article</item>
+      </objectClassMandatory>
+      <objectClassFacet type="array">
+       <item key="0">article</item>
+       <item key="1">photo</item>
+      </objectClassFacet>
+      <objectClassUnique type="array"/>
+      <modifiableOnReadOnly>0</modifiableOnReadOnly>
+      <readOnly>0</readOnly>
+      <melodyPortageId/>
+      <deepDepthFacet>0</deepDepthFacet>
+      <isColorizable>0</isColorizable>
+      <isSystem>0</isSystem>
+      <objectClassInfosByCanals type="array">
+       <item key="0">"printAIF":["objectClass"</item>
+       <item key="1">"objectClassMandatory"]</item>
+       <item key="2">"printAGW":["objectClass"</item>
+       <item key="3">"objectClassMandatory"]</item>
+       <item key="4">"printBGI":["objectClass"</item>
+       <item key="5">"objectClassMandatory"]</item>
+       <item key="6">"printDTS":["objectClass"</item>
+       <item key="7">"objectClassMandatory"]</item>
+       <item key="8">"printSCD":["objectClass"</item>
+       <item key="9">"objectClassMandatory"]</item>
+       <item key="10">"printOTP":["objectClass"</item>
+       <item key="11">"objectClassMandatory"]</item>
+       <item key="12">"printNTI":["objectClass"</item>
+       <item key="13">"objectClassMandatory"]</item>
+       <item key="14">"webAIF":["objectClass"</item>
+       <item key="15">"objectClassMandatory"]</item>
+       <item key="16">"webAGW":["objectClass"</item>
+       <item key="17">"objectClassMandatory"]</item>
+       <item key="18">"webBGI":["objectClass"</item>
+       <item key="19">"objectClassMandatory"]</item>
+       <item key="20">"webNTI":["objectClass"</item>
+       <item key="21">"objectClassMandatory"]</item>
+       <item key="22">"printAGI":["objectClass"</item>
+       <item key="23">"objectClassMandatory"]</item>
+       <item key="24">"printPFP":["objectClass"</item>
+       <item key="25">"objectClassMandatory"]</item>
+       <item key="26">"webAGI":["objectClass"</item>
+       <item key="27">"objectClassMandatory"]</item>
+       <item key="28">"webPFP":["objectClass"</item>
+       <item key="29">"objectClassMandatory"]</item>
+       <item key="30">"webSCD":["objectClass"</item>
+       <item key="31">"objectClassMandatory"]</item>
+       <item key="32">"webDTS":["objectClass"</item>
+       <item key="33">"objectClassMandatory"]</item>
+       <item key="34">"webPRSIA_webDTS2":["objectClass"</item>
+       <item key="35">"objectClassMandatory"]</item>
+       <item key="36">"webOTP":["objectClass"</item>
+       <item key="37">"objectClassMandatory"]</item>
+       <item key="38">"webPRSIA":["objectClass"</item>
+       <item key="39">"objectClassMandatory"]</item>
+      </objectClassInfosByCanals>
+      <canauxCode/>
+      <enableCatWebForward>0</enableCatWebForward>
+      <id>1049</id>
+      <MelodyUUID>93727f09-4fea-11eb-a647-005056836375</MelodyUUID>
+     </thesaurus>
+     <isCatWebForward>0</isCatWebForward>
+    </category>
+   </categories>
+   <originalFile>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/2be47ab1e4651473a3b9fcc3501f391c?uniq=2025-07-0118:46:57&amp;monochrome=0</originalFile>
+   <WEB_HARDCROP_RESSOURCE>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/2be47ab1e4651473a3b9fcc3501f391c/1280/1280?crop={"crop_x":0,"crop_y":0,"crop_h":1181,"crop_w":1772}&amp;noCache=1&amp;uniq=2025-07-0118:46:57&amp;monochrome=0</WEB_HARDCROP_RESSOURCE>
+  </photo>
+ <photo type="object">
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  <legend/><legend_raw/><credit/><credit_raw/><crop type="object">
+    
+    
+    
+    
+    
+   <crop_x>0</crop_x><crop_y>0</crop_y><crop_h>0</crop_h><crop_w>0</crop_w><DPI>0</DPI></crop><rotate>0</rotate><mirroring>0</mirroring><webForward>0</webForward><webForwardBackground>0</webForwardBackground><customerId>21</customerId><description>Ivotion Digital Denture Solution</description><auteur>Ivoclar</auteur><iptcTags/><xmpTags/><fileFormat>jpg</fileFormat><isBitmap>1</isBitmap><reference>5f3dbeb892106944dbeb89210c84dbv_</reference><file/><isGeneric>0</isGeneric><originalWidth>1200</originalWidth><originalHeight>628</originalHeight><rights_media/><rights_geo/><rating>0</rating><dateTaken>2021-01-28</dateTaken><type>media</type><sourceId/><source/><complement/><originalWeight>161091</originalWeight><retouchedAt/><diffusionCode/><similarityIndex/><ressourceActive>1</ressourceActive><importCode/><importReference/><melodyPortageId/><lastTransition_userId>1126</lastTransition_userId><lastTransition_groupId>250</lastTransition_groupId><lastTransition_roleId>96</lastTransition_roleId><isFreeUse>1</isFreeUse><createdAt>2021-01-28 11:58:07</createdAt><createdBy>1126</createdBy><modifiedAt>2025-07-01 21:40:10</modifiedAt><modifiedBy>2585</modifiedBy><notepadEdito/><notepadAlert/><dateAlert/><stateId>69</stateId><lastTransition_id/><lastTransition_initialStateId>69</lastTransition_initialStateId><lastTransition_date>2021-01-28 11:58:07</lastTransition_date><id>460423</id><MelodyUUID>b3d2fd76-6157-11eb-a300-005056836375</MelodyUUID><state type="object">
+    
+    
+    
+   <id>69</id><code>PhotoValid</code><label>Valide</label></state><categories type="array">
+    
+   <category type="object">
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <parentId>91066</parentId><pathLabel>Dentoscope / Prothèse</pathLabel><pathRank type="array">
+      
+      
+     <item key="0">8</item><item key="1">95</item></pathRank><name>Prothèse</name><parameters/><suppParameters/><suppParameters2/><suppParameters3/><nbChildren>0</nbChildren><rank>95</rank><enable>1</enable><path type="array">
+      
+      
+     <item key="0">91066</item><item key="1">91159</item></path><description/><thesaurusId>1049</thesaurusId><externalSourceRef/><externalSource/><portageId/><melodyPortageId/><colorId/><id>91159</id><MelodyUUID>8e42651b-4fea-11eb-a647-005056836375</MelodyUUID><pathParameters type="array">
+      
+     <item key="0"/></pathParameters><pathNames type="array">
+      
+      
+     <item key="0">Prothèse</item><item key="1">Dentoscope</item></pathNames><thesaurus type="object">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+     <name>Thématique</name><kind>edito</kind><order>0</order><customerId>21</customerId><isUnique>0</isUnique><isRussianDoll>0</isRussianDoll><uniqueCode>THEM_PRSIA</uniqueCode><defaultCategoryId>0</defaultCategoryId><objectClassMandatory type="array">
+       
+      <item key="0">article</item></objectClassMandatory><objectClassFacet type="array">
+       
+       
+      <item key="0">article</item><item key="1">photo</item></objectClassFacet><objectClassUnique type="array"/><modifiableOnReadOnly>0</modifiableOnReadOnly><readOnly>0</readOnly><melodyPortageId/><deepDepthFacet>0</deepDepthFacet><isColorizable>0</isColorizable><isSystem>0</isSystem><objectClassInfosByCanals type="array">
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+      <item key="0">"printAIF":["objectClass"</item><item key="1">"objectClassMandatory"]</item><item key="2">"printAGW":["objectClass"</item><item key="3">"objectClassMandatory"]</item><item key="4">"printBGI":["objectClass"</item><item key="5">"objectClassMandatory"]</item><item key="6">"printDTS":["objectClass"</item><item key="7">"objectClassMandatory"]</item><item key="8">"printSCD":["objectClass"</item><item key="9">"objectClassMandatory"]</item><item key="10">"printOTP":["objectClass"</item><item key="11">"objectClassMandatory"]</item><item key="12">"printNTI":["objectClass"</item><item key="13">"objectClassMandatory"]</item><item key="14">"webAIF":["objectClass"</item><item key="15">"objectClassMandatory"]</item><item key="16">"webAGW":["objectClass"</item><item key="17">"objectClassMandatory"]</item><item key="18">"webBGI":["objectClass"</item><item key="19">"objectClassMandatory"]</item><item key="20">"webNTI":["objectClass"</item><item key="21">"objectClassMandatory"]</item><item key="22">"printAGI":["objectClass"</item><item key="23">"objectClassMandatory"]</item><item key="24">"printPFP":["objectClass"</item><item key="25">"objectClassMandatory"]</item><item key="26">"webAGI":["objectClass"</item><item key="27">"objectClassMandatory"]</item><item key="28">"webPFP":["objectClass"</item><item key="29">"objectClassMandatory"]</item><item key="30">"webSCD":["objectClass"</item><item key="31">"objectClassMandatory"]</item><item key="32">"webDTS":["objectClass"</item><item key="33">"objectClassMandatory"]</item><item key="34">"webPRSIA_webDTS2":["objectClass"</item><item key="35">"objectClassMandatory"]</item><item key="36">"webOTP":["objectClass"</item><item key="37">"objectClassMandatory"]</item><item key="38">"webPRSIA":["objectClass"</item><item key="39">"objectClassMandatory"]</item></objectClassInfosByCanals><canauxCode/><enableCatWebForward>0</enableCatWebForward><id>1049</id><MelodyUUID>93727f09-4fea-11eb-a647-005056836375</MelodyUUID></thesaurus><isCatWebForward>0</isCatWebForward></category></categories><originalFile>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/5f3dbeb892106944dbeb89210c84dbv_?uniq=2025-07-0121:40:10&amp;monochrome=0</originalFile><WEB_HARDCROP_RESSOURCE>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/5f3dbeb892106944dbeb89210c84dbv_/1200/1200?crop={"crop_x":0,"crop_y":0,"crop_h":628,"crop_w":1200}&amp;noCache=1&amp;uniq=2025-07-0121:40:10&amp;monochrome=0</WEB_HARDCROP_RESSOURCE></photo></photos>
+ <canalCode>webPRSIA</canalCode>
+ <canal type="object">
+  <name>Web</name>
+  <code>webPRSIA</code>
+  <type>web</type>
+  <customerId>21</customerId>
+  <order>200</order>
+  <pressTitleId/>
+  <associateKey/>
+  <initialWebFreeValue>1</initialWebFreeValue>
+  <isFreeableInForm>1</isFreeableInForm>
+  <isGeolocalisable>0</isGeolocalisable>
+  <multiGpsPointer>0</multiGpsPointer>
+  <isItemDockable>1</isItemDockable>
+  <pushOnMobile>0</pushOnMobile>
+  <webMoveOnFirst>1</webMoveOnFirst>
+  <homeSiteWebPosition>1</homeSiteWebPosition>
+  <limitArticlesWebHomePosition>10</limitArticlesWebHomePosition>
+  <homeSiteWebDirectActu>0</homeSiteWebDirectActu>
+  <specificWebFreeIcon>1</specificWebFreeIcon>
+  <fixedWebPublishDateAfterFirstPublish>1</fixedWebPublishDateAfterFirstPublish>
+  <noRichToolBarForSupTitle/>
+  <noRichToolBarForTitle>1</noRichToolBarForTitle>
+  <noRichToolBarForAbstract>1</noRichToolBarForAbstract>
+  <searchKeywords>0</searchKeywords>
+  <webPreview>1</webPreview>
+  <websiteWebservicesBaseDomain/>
+  <semanticUrl/>
+  <homeSiteWebUrl/>
+  <publicationWebUrl/>
+  <unPublishUrl/>
+  <webPublishDateFormat>datetime</webPublishDateFormat>
+  <webEndPublishDateFormat/>
+  <socialPushIfNotFree>0</socialPushIfNotFree>
+  <activatedSpecificTextWebField>0</activatedSpecificTextWebField>
+  <specificTextWebFieldNameCustom/>
+  <imageManagerPreProcessRepository/>
+  <multipleAuthors>0</multipleAuthors>
+  <cropOnlyFirstPhoto>0</cropOnlyFirstPhoto>
+  <useDoubleQuotesButton>0</useDoubleQuotesButton>
+  <webPhotoRatioArray>[]</webPhotoRatioArray>
+  <toolBarsInfos/>
+  <lastPlannedExportWebDate/>
+  <createCommandOnArticleCreation>0</createCommandOnArticleCreation>
+  <allowExportWebProgram>0</allowExportWebProgram>
+  <allowDiaporama>0</allowDiaporama>
+  <advancedEditorWebToolbar>[]</advancedEditorWebToolbar>
+  <useAlertPushWebArticle>0</useAlertPushWebArticle>
+  <demoWebPreviewUrlCode>melody</demoWebPreviewUrlCode>
+  <subType>MULTISITE-MONOPUBLICATION</subType>
+  <webRealTimePublish>1</webRealTimePublish>
+  <isItemDockableGeolocalisation>0</isItemDockableGeolocalisation>
+  <tinySetUpButtonsForFields type="array">
+   <item key="0">"synopsis":"[]"</item>
+   <item key="1">"supTitle":"[]"</item>
+   <item key="2">"title":"[]"</item>
+   <item key="3">"secondaryTitle":"[]"</item>
+   <item key="4">"subTitle":"[]"</item>
+   <item key="5">"abstract":"[]"</item>
+   <item key="6">"text":"[]"</item>
+   <item key="7">"author":"[]"</item>
+   <item key="8">"commune":"[]"</item>
+   <item key="9">"exergue":"[]"</item>
+   <item key="10">"note":"[]"</item>
+   <item key="11">"thematique":"[]"</item>
+   <item key="12">"complement":"[]"</item>
+   <item key="13">"webPushTitle":"[]"</item>
+   <item key="14">"webPushAbstract":"[]"</item>
+   <item key="15">"webWonderpushTitle":"[]"</item>
+   <item key="16">"webWonderpushAbstract":"[]"</item>
+  </tinySetUpButtonsForFields>
+  <formatsWebText>[{"title":"Texte","block":"p","attributes":{"melodyStyle":"texte"},"outPutMelodyStyle":"","outPutBlock":""},{"title":"Intertitre","block":"h3","attributes":{"melodyStyle":"intertitre"},"outPutMelodyStyle":"","outPutBlock":"h2"},{"title":"Intertitre 2","block":"h3","attributes":{"melodyStyle":"intertitre2"},"outPutMelodyStyle":"","outPutBlock":"h2"},{"title":"Intertitre 3","block":"h3","attributes":{"melodyStyle":"intertitre3"},"outPutMelodyStyle":"","outPutBlock":"h3"},{"title":"Intertitre 4","block":"h3","attributes":{"melodyStyle":"intertitre4"},"outPutMelodyStyle":"","outPutBlock":"h4"},{"title":"Intertitre 5","block":"h3","attributes":{"melodyStyle":"intertitre5"},"outPutMelodyStyle":"","outPutBlock":"h5"},{"title":"Intertitre 6","block":"h3","attributes":{"melodyStyle":"intertitre6"},"outPutMelodyStyle":"","outPutBlock":"h6"}]</formatsWebText>
+  <optionAncrageArray>[]</optionAncrageArray>
+  <optionAncrageArray2>[]</optionAncrageArray2>
+  <optionAncrageArray3>[]</optionAncrageArray3>
+  <optionAncrageArticleArray>[]</optionAncrageArticleArray>
+  <useSpecificRedaction>0</useSpecificRedaction>
+  <prolexisUrl/>
+  <useDiscoverTitle>0</useDiscoverTitle>
+  <nonliConfig/>
+  <useArticlePrintTitle>0</useArticlePrintTitle>
+  <over_sysPhotoVersionDefaultTag/>
+  <hyperlinkOpenOverwriting>0</hyperlinkOpenOverwriting>
+  <autoItalics>0</autoItalics>
+  <useFormatsAbstractWeb>0</useFormatsAbstractWeb>
+  <useListAbstractWeb>0</useListAbstractWeb>
+  <enableAutoPrintOnValidate>0</enableAutoPrintOnValidate>
+  <enableConnectedUserAccessOnly>1</enableConnectedUserAccessOnly>
+  <enableAllowWebComments>0</enableAllowWebComments>
+  <enableExclusiveContent>0</enableExclusiveContent>
+  <id>115</id>
+  <MelodyUUID>d8c5b70c-7557-11ed-9580-005056836375</MelodyUUID>
+ </canal>
+ <diaporama type="object">
+  <title>#6</title>
+  <customerId>21</customerId>
+  <nbPhoto>3</nbPhoto>
+  <createdAt>2025-07-01 15:25:25</createdAt>
+  <createdBy>-712</createdBy>
+  <modifiedAt>2025-07-01 19:35:34</modifiedAt>
+  <modifiedBy>-712</modifiedBy>
+  <notepadEdito/>
+  <notepadAlert/>
+  <dateAlert/>
+  <stateId>60006</stateId>
+  <lastTransition_id/>
+  <lastTransition_initialStateId>60006</lastTransition_initialStateId>
+  <lastTransition_date>2025-07-01 15:25:25</lastTransition_date>
+  <lastTransition_userId>-712</lastTransition_userId>
+  <lastTransition_groupId/>
+  <lastTransition_roleId/>
+  <id>6</id>
+  <MelodyUUID>d949bfd8-567e-11f0-80e0-005056836375</MelodyUUID>
+  <state type="object">
+   <id>60006</id>
+   <code>DiaporamaActive</code>
+   <label>Actif</label>
+  </state>
+  <photos type="array">
+   <photo type="object">
+    <legend>&lt;p&gt;Design and Disability Exhibition&lt;/p&gt;</legend>
+    <legend_raw><p>Design and Disability Exhibition</p></legend_raw>
+    <credit>Peter Kelleher</credit>
+    <credit_raw>Peter Kelleher</credit_raw>
+    <crop type="object">
+     <crop_x>0</crop_x>
+     <crop_y>0</crop_y>
+     <crop_h>0</crop_h>
+     <crop_w>0</crop_w>
+     <DPI>0</DPI>
+    </crop>
+    <rotate>0</rotate>
+    <mirroring>0</mirroring>
+    <webForward/>
+    <webForwardBackground/>
+    <customerId>21</customerId>
+    <description>Design and Disability Exhibition</description>
+    <auteur>Peter Kelleher</auteur>
+    <iptcTags>Peter Kelleher 20250603 093611+0100 Design and Disability Exhibition, 3rd June 2025 Design and Disability Exhibition, 3rd June 2025 093611+0100 20250603</iptcTags>
+    <xmpTags/>
+    <fileFormat>jpg</fileFormat>
+    <isBitmap>1</isBitmap>
+    <reference>65aba89fc368639aba89fc3683dabav_</reference>
+    <file/>
+    <isGeneric>0</isGeneric>
+    <originalWidth>3297</originalWidth>
+    <originalHeight>2124</originalHeight>
+    <rights_media/>
+    <rights_geo/>
+    <rating>0</rating>
+    <dateTaken>2025-06-03</dateTaken>
+    <type>media</type>
+    <sourceId/>
+    <source/>
+    <complement/>
+    <originalWeight>1720847</originalWeight>
+    <retouchedAt/>
+    <diffusionCode/>
+    <similarityIndex/>
+    <ressourceActive>1</ressourceActive>
+    <importCode/>
+    <importReference/>
+    <melodyPortageId/>
+    <lastTransition_userId>1140</lastTransition_userId>
+    <lastTransition_groupId>256</lastTransition_groupId>
+    <lastTransition_roleId>96</lastTransition_roleId>
+    <isFreeUse>1</isFreeUse>
+    <createdAt>2025-07-01 14:07:53</createdAt>
+    <createdBy>1140</createdBy>
+    <modifiedAt>2025-07-02 10:44:56</modifiedAt>
+    <modifiedBy>1140</modifiedBy>
+    <notepadEdito/>
+    <notepadAlert/>
+    <dateAlert/>
+    <stateId>69</stateId>
+    <lastTransition_id/>
+    <lastTransition_initialStateId>69</lastTransition_initialStateId>
+    <lastTransition_date>2025-07-01 14:07:53</lastTransition_date>
+    <id>1205321</id>
+    <MelodyUUID>0432380c-5674-11f0-80e0-005056836375</MelodyUUID>
+    <state type="object">
+     <id>69</id>
+     <code>PhotoValid</code>
+     <label>Valide</label>
+    </state>
+    <categories type="array">
+     <category type="object">
+      <parentId>91237</parentId>
+      <pathLabel>Audiology News UK et Audiology Worldnews / Hearing aid</pathLabel>
+      <pathRank type="array">
+       <item key="0">10</item>
+       <item key="1">57</item>
+      </pathRank>
+      <name>Hearing aid</name>
+      <parameters/>
+      <suppParameters/>
+      <suppParameters2/>
+      <suppParameters3/>
+      <nbChildren>0</nbChildren>
+      <rank>57</rank>
+      <enable>1</enable>
+      <path type="array">
+       <item key="0">91237</item>
+       <item key="1">91301</item>
+      </path>
+      <description/>
+      <thesaurusId>1049</thesaurusId>
+      <externalSourceRef/>
+      <externalSource/>
+      <portageId/>
+      <melodyPortageId/>
+      <colorId/>
+      <id>91301</id>
+      <MelodyUUID>8e4265d9-4fea-11eb-a647-005056836375</MelodyUUID>
+      <pathParameters type="array">
+       <item key="0"/>
+      </pathParameters>
+      <pathNames type="array">
+       <item key="0">Hearing aid</item>
+       <item key="1">Audiology News UK et Audiology Worldnews</item>
+      </pathNames>
+      <thesaurus type="object">
+       <name>Thématique</name>
+       <kind>edito</kind>
+       <order>0</order>
+       <customerId>21</customerId>
+       <isUnique>0</isUnique>
+       <isRussianDoll>0</isRussianDoll>
+       <uniqueCode>THEM_PRSIA</uniqueCode>
+       <defaultCategoryId>0</defaultCategoryId>
+       <objectClassMandatory type="array">
+        <item key="0">article</item>
+       </objectClassMandatory>
+       <objectClassFacet type="array">
+        <item key="0">article</item>
+        <item key="1">photo</item>
+       </objectClassFacet>
+       <objectClassUnique type="array"/>
+       <modifiableOnReadOnly>0</modifiableOnReadOnly>
+       <readOnly>0</readOnly>
+       <melodyPortageId/>
+       <deepDepthFacet>0</deepDepthFacet>
+       <isColorizable>0</isColorizable>
+       <isSystem>0</isSystem>
+       <objectClassInfosByCanals type="array">
+        <item key="0">"printAIF":["objectClass"</item>
+        <item key="1">"objectClassMandatory"]</item>
+        <item key="2">"printAGW":["objectClass"</item>
+        <item key="3">"objectClassMandatory"]</item>
+        <item key="4">"printBGI":["objectClass"</item>
+        <item key="5">"objectClassMandatory"]</item>
+        <item key="6">"printDTS":["objectClass"</item>
+        <item key="7">"objectClassMandatory"]</item>
+        <item key="8">"printSCD":["objectClass"</item>
+        <item key="9">"objectClassMandatory"]</item>
+        <item key="10">"printOTP":["objectClass"</item>
+        <item key="11">"objectClassMandatory"]</item>
+        <item key="12">"printNTI":["objectClass"</item>
+        <item key="13">"objectClassMandatory"]</item>
+        <item key="14">"webAIF":["objectClass"</item>
+        <item key="15">"objectClassMandatory"]</item>
+        <item key="16">"webAGW":["objectClass"</item>
+        <item key="17">"objectClassMandatory"]</item>
+        <item key="18">"webBGI":["objectClass"</item>
+        <item key="19">"objectClassMandatory"]</item>
+        <item key="20">"webNTI":["objectClass"</item>
+        <item key="21">"objectClassMandatory"]</item>
+        <item key="22">"printAGI":["objectClass"</item>
+        <item key="23">"objectClassMandatory"]</item>
+        <item key="24">"printPFP":["objectClass"</item>
+        <item key="25">"objectClassMandatory"]</item>
+        <item key="26">"webAGI":["objectClass"</item>
+        <item key="27">"objectClassMandatory"]</item>
+        <item key="28">"webPFP":["objectClass"</item>
+        <item key="29">"objectClassMandatory"]</item>
+        <item key="30">"webSCD":["objectClass"</item>
+        <item key="31">"objectClassMandatory"]</item>
+        <item key="32">"webDTS":["objectClass"</item>
+        <item key="33">"objectClassMandatory"]</item>
+        <item key="34">"webPRSIA_webDTS2":["objectClass"</item>
+        <item key="35">"objectClassMandatory"]</item>
+        <item key="36">"webOTP":["objectClass"</item>
+        <item key="37">"objectClassMandatory"]</item>
+        <item key="38">"webPRSIA":["objectClass"</item>
+        <item key="39">"objectClassMandatory"]</item>
+       </objectClassInfosByCanals>
+       <canauxCode/>
+       <enableCatWebForward>0</enableCatWebForward>
+       <id>1049</id>
+       <MelodyUUID>93727f09-4fea-11eb-a647-005056836375</MelodyUUID>
+      </thesaurus>
+      <isCatWebForward>0</isCatWebForward>
+     </category>
+    </categories>
+    <originalFile>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/65aba89fc368639aba89fc3683dabav_?uniq=2025-07-0210:44:56&amp;monochrome=0</originalFile>
+    <WEB_HARDCROP_RESSOURCE>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/65aba89fc368639aba89fc3683dabav_/1280/1280?crop={"crop_x":0,"crop_y":0,"crop_h":2124,"crop_w":3297}&amp;noCache=1&amp;uniq=2025-07-0210:44:56&amp;monochrome=0</WEB_HARDCROP_RESSOURCE>
+   </photo>
+   <photo type="object">
+    <legend>&lt;p&gt;Design and Disability Exhibition,&lt;/p&gt;</legend>
+    <legend_raw><p>Design and Disability Exhibition,</p></legend_raw>
+    <credit>Peter Kelleher</credit>
+    <credit_raw>Peter Kelleher</credit_raw>
+    <crop type="object">
+     <crop_x>0</crop_x>
+     <crop_y>0</crop_y>
+     <crop_h>0</crop_h>
+     <crop_w>0</crop_w>
+     <DPI>0</DPI>
+    </crop>
+    <rotate>0</rotate>
+    <mirroring>0</mirroring>
+    <webForward/>
+    <webForwardBackground/>
+    <customerId>21</customerId>
+    <description>Design and Disability Exhibition, </description>
+    <auteur>Peter Kelleher</auteur>
+    <iptcTags>Peter Kelleher 20250603 101122+0100 Design and Disability Exhibition, 3rd June 2025 Design and Disability Exhibition, 3rd June 2025 101122+0100 20250603</iptcTags>
+    <xmpTags/>
+    <fileFormat>jpg</fileFormat>
+    <isBitmap>1</isBitmap>
+    <reference>8435e4bfc36869835e4bfc3688c35ev_</reference>
+    <file/>
+    <isGeneric>0</isGeneric>
+    <originalWidth>4000</originalWidth>
+    <originalHeight>2036</originalHeight>
+    <rights_media/>
+    <rights_geo/>
+    <rating>0</rating>
+    <dateTaken>2025-06-03</dateTaken>
+    <type>media</type>
+    <sourceId/>
+    <source/>
+    <complement/>
+    <originalWeight>2651244</originalWeight>
+    <retouchedAt/>
+    <diffusionCode/>
+    <similarityIndex/>
+    <ressourceActive>1</ressourceActive>
+    <importCode/>
+    <importReference/>
+    <melodyPortageId/>
+    <lastTransition_userId>1140</lastTransition_userId>
+    <lastTransition_groupId>256</lastTransition_groupId>
+    <lastTransition_roleId>96</lastTransition_roleId>
+    <isFreeUse>1</isFreeUse>
+    <createdAt>2025-07-01 14:08:21</createdAt>
+    <createdBy>1140</createdBy>
+    <modifiedAt>2025-07-02 10:44:56</modifiedAt>
+    <modifiedBy>1140</modifiedBy>
+    <notepadEdito/>
+    <notepadAlert/>
+    <dateAlert/>
+    <stateId>69</stateId>
+    <lastTransition_id/>
+    <lastTransition_initialStateId>69</lastTransition_initialStateId>
+    <lastTransition_date>2025-07-01 14:08:21</lastTransition_date>
+    <id>1205322</id>
+    <MelodyUUID>1520bf6c-5674-11f0-80e0-005056836375</MelodyUUID>
+    <state type="object">
+     <id>69</id>
+     <code>PhotoValid</code>
+     <label>Valide</label>
+    </state>
+    <categories type="array">
+     <category type="object">
+      <parentId>91237</parentId>
+      <pathLabel>Audiology News UK et Audiology Worldnews / Hearing aid</pathLabel>
+      <pathRank type="array">
+       <item key="0">10</item>
+       <item key="1">57</item>
+      </pathRank>
+      <name>Hearing aid</name>
+      <parameters/>
+      <suppParameters/>
+      <suppParameters2/>
+      <suppParameters3/>
+      <nbChildren>0</nbChildren>
+      <rank>57</rank>
+      <enable>1</enable>
+      <path type="array">
+       <item key="0">91237</item>
+       <item key="1">91301</item>
+      </path>
+      <description/>
+      <thesaurusId>1049</thesaurusId>
+      <externalSourceRef/>
+      <externalSource/>
+      <portageId/>
+      <melodyPortageId/>
+      <colorId/>
+      <id>91301</id>
+      <MelodyUUID>8e4265d9-4fea-11eb-a647-005056836375</MelodyUUID>
+      <pathParameters type="array">
+       <item key="0"/>
+      </pathParameters>
+      <pathNames type="array">
+       <item key="0">Hearing aid</item>
+       <item key="1">Audiology News UK et Audiology Worldnews</item>
+      </pathNames>
+      <thesaurus type="object">
+       <name>Thématique</name>
+       <kind>edito</kind>
+       <order>0</order>
+       <customerId>21</customerId>
+       <isUnique>0</isUnique>
+       <isRussianDoll>0</isRussianDoll>
+       <uniqueCode>THEM_PRSIA</uniqueCode>
+       <defaultCategoryId>0</defaultCategoryId>
+       <objectClassMandatory type="array">
+        <item key="0">article</item>
+       </objectClassMandatory>
+       <objectClassFacet type="array">
+        <item key="0">article</item>
+        <item key="1">photo</item>
+       </objectClassFacet>
+       <objectClassUnique type="array"/>
+       <modifiableOnReadOnly>0</modifiableOnReadOnly>
+       <readOnly>0</readOnly>
+       <melodyPortageId/>
+       <deepDepthFacet>0</deepDepthFacet>
+       <isColorizable>0</isColorizable>
+       <isSystem>0</isSystem>
+       <objectClassInfosByCanals type="array">
+        <item key="0">"printAIF":["objectClass"</item>
+        <item key="1">"objectClassMandatory"]</item>
+        <item key="2">"printAGW":["objectClass"</item>
+        <item key="3">"objectClassMandatory"]</item>
+        <item key="4">"printBGI":["objectClass"</item>
+        <item key="5">"objectClassMandatory"]</item>
+        <item key="6">"printDTS":["objectClass"</item>
+        <item key="7">"objectClassMandatory"]</item>
+        <item key="8">"printSCD":["objectClass"</item>
+        <item key="9">"objectClassMandatory"]</item>
+        <item key="10">"printOTP":["objectClass"</item>
+        <item key="11">"objectClassMandatory"]</item>
+        <item key="12">"printNTI":["objectClass"</item>
+        <item key="13">"objectClassMandatory"]</item>
+        <item key="14">"webAIF":["objectClass"</item>
+        <item key="15">"objectClassMandatory"]</item>
+        <item key="16">"webAGW":["objectClass"</item>
+        <item key="17">"objectClassMandatory"]</item>
+        <item key="18">"webBGI":["objectClass"</item>
+        <item key="19">"objectClassMandatory"]</item>
+        <item key="20">"webNTI":["objectClass"</item>
+        <item key="21">"objectClassMandatory"]</item>
+        <item key="22">"printAGI":["objectClass"</item>
+        <item key="23">"objectClassMandatory"]</item>
+        <item key="24">"printPFP":["objectClass"</item>
+        <item key="25">"objectClassMandatory"]</item>
+        <item key="26">"webAGI":["objectClass"</item>
+        <item key="27">"objectClassMandatory"]</item>
+        <item key="28">"webPFP":["objectClass"</item>
+        <item key="29">"objectClassMandatory"]</item>
+        <item key="30">"webSCD":["objectClass"</item>
+        <item key="31">"objectClassMandatory"]</item>
+        <item key="32">"webDTS":["objectClass"</item>
+        <item key="33">"objectClassMandatory"]</item>
+        <item key="34">"webPRSIA_webDTS2":["objectClass"</item>
+        <item key="35">"objectClassMandatory"]</item>
+        <item key="36">"webOTP":["objectClass"</item>
+        <item key="37">"objectClassMandatory"]</item>
+        <item key="38">"webPRSIA":["objectClass"</item>
+        <item key="39">"objectClassMandatory"]</item>
+       </objectClassInfosByCanals>
+       <canauxCode/>
+       <enableCatWebForward>0</enableCatWebForward>
+       <id>1049</id>
+       <MelodyUUID>93727f09-4fea-11eb-a647-005056836375</MelodyUUID>
+      </thesaurus>
+      <isCatWebForward>0</isCatWebForward>
+     </category>
+    </categories>
+    <originalFile>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/8435e4bfc36869835e4bfc3688c35ev_?uniq=2025-07-0210:44:56&amp;monochrome=0</originalFile>
+    <WEB_HARDCROP_RESSOURCE>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/8435e4bfc36869835e4bfc3688c35ev_/1280/1280?crop={"crop_x":0,"crop_y":0,"crop_h":2036,"crop_w":4000}&amp;noCache=1&amp;uniq=2025-07-0210:44:56&amp;monochrome=0</WEB_HARDCROP_RESSOURCE>
+   </photo>
+   <photo type="object">
+    <legend>&lt;p&gt;de&lt;/p&gt;</legend>
+    <legend_raw><p>de</p></legend_raw>
+    <credit>GEERS / Dr. Claudia Posern</credit>
+    <credit_raw>GEERS / Dr. Claudia Posern</credit_raw>
+    <crop type="object">
+     <crop_x>0</crop_x>
+     <crop_y>0</crop_y>
+     <crop_h>0</crop_h>
+     <crop_w>0</crop_w>
+     <DPI>0</DPI>
+    </crop>
+    <rotate>0</rotate>
+    <mirroring>0</mirroring>
+    <webForward/>
+    <webForwardBackground/>
+    <customerId>21</customerId>
+    <description>de</description>
+    <auteur>GEERS / Dr. Claudia Posern </auteur>
+    <iptcTags>Dr. Claudia Posern / Fotostudio Essen 20250515 124211+0100 20250515 124211+0100 Dr. Claudia Posern Businessfotografie Fotostudio Essen Werbefotografie.</iptcTags>
+    <xmpTags/>
+    <fileFormat>jpg</fileFormat>
+    <isBitmap>1</isBitmap>
+    <reference>22f883b1d368696f883b1d368baf88v_</reference>
+    <file/>
+    <isGeneric>0</isGeneric>
+    <originalWidth>1276</originalWidth>
+    <originalHeight>850</originalHeight>
+    <rights_media/>
+    <rights_geo/>
+    <rating>0</rating>
+    <dateTaken>2025-05-15</dateTaken>
+    <type>media</type>
+    <sourceId/>
+    <source/>
+    <complement/>
+    <originalWeight>210347</originalWeight>
+    <retouchedAt/>
+    <diffusionCode/>
+    <similarityIndex/>
+    <ressourceActive>1</ressourceActive>
+    <importCode/>
+    <importReference/>
+    <melodyPortageId/>
+    <lastTransition_userId>1325</lastTransition_userId>
+    <lastTransition_groupId>262</lastTransition_groupId>
+    <lastTransition_roleId>96</lastTransition_roleId>
+    <isFreeUse>1</isFreeUse>
+    <createdAt>2025-07-01 14:16:52</createdAt>
+    <createdBy>1325</createdBy>
+    <modifiedAt>2025-07-01 21:20:28</modifiedAt>
+    <modifiedBy>1334</modifiedBy>
+    <notepadEdito/>
+    <notepadAlert/>
+    <dateAlert/>
+    <stateId>69</stateId>
+    <lastTransition_id/>
+    <lastTransition_initialStateId>69</lastTransition_initialStateId>
+    <lastTransition_date>2025-07-01 14:16:52</lastTransition_date>
+    <id>1205325</id>
+    <MelodyUUID>454640e4-5675-11f0-80e0-005056836375</MelodyUUID>
+    <state type="object">
+     <id>69</id>
+     <code>PhotoValid</code>
+     <label>Valide</label>
+    </state>
+    <categories type="array">
+     <category type="object">
+      <parentId>92364</parentId>
+      <pathLabel>Audio Infos Allemagne / Hearables</pathLabel>
+      <pathRank type="array">
+       <item key="0">4</item>
+       <item key="1">2</item>
+      </pathRank>
+      <name>Hearables</name>
+      <parameters/>
+      <suppParameters/>
+      <suppParameters2/>
+      <suppParameters3/>
+      <nbChildren>0</nbChildren>
+      <rank>2</rank>
+      <enable>1</enable>
+      <path type="array">
+       <item key="0">92364</item>
+       <item key="1">92410</item>
+      </path>
+      <description/>
+      <thesaurusId>1049</thesaurusId>
+      <externalSourceRef/>
+      <externalSource/>
+      <portageId/>
+      <melodyPortageId/>
+      <colorId/>
+      <id>92410</id>
+      <MelodyUUID>238f44f4-ae82-11eb-a31b-005056836375</MelodyUUID>
+      <pathParameters type="array">
+       <item key="0"/>
+      </pathParameters>
+      <pathNames type="array">
+       <item key="0">Hearables</item>
+       <item key="1">Audio Infos Allemagne</item>
+      </pathNames>
+      <thesaurus type="object">
+       <name>Thématique</name>
+       <kind>edito</kind>
+       <order>0</order>
+       <customerId>21</customerId>
+       <isUnique>0</isUnique>
+       <isRussianDoll>0</isRussianDoll>
+       <uniqueCode>THEM_PRSIA</uniqueCode>
+       <defaultCategoryId>0</defaultCategoryId>
+       <objectClassMandatory type="array">
+        <item key="0">article</item>
+       </objectClassMandatory>
+       <objectClassFacet type="array">
+        <item key="0">article</item>
+        <item key="1">photo</item>
+       </objectClassFacet>
+       <objectClassUnique type="array"/>
+       <modifiableOnReadOnly>0</modifiableOnReadOnly>
+       <readOnly>0</readOnly>
+       <melodyPortageId/>
+       <deepDepthFacet>0</deepDepthFacet>
+       <isColorizable>0</isColorizable>
+       <isSystem>0</isSystem>
+       <objectClassInfosByCanals type="array">
+        <item key="0">"printAIF":["objectClass"</item>
+        <item key="1">"objectClassMandatory"]</item>
+        <item key="2">"printAGW":["objectClass"</item>
+        <item key="3">"objectClassMandatory"]</item>
+        <item key="4">"printBGI":["objectClass"</item>
+        <item key="5">"objectClassMandatory"]</item>
+        <item key="6">"printDTS":["objectClass"</item>
+        <item key="7">"objectClassMandatory"]</item>
+        <item key="8">"printSCD":["objectClass"</item>
+        <item key="9">"objectClassMandatory"]</item>
+        <item key="10">"printOTP":["objectClass"</item>
+        <item key="11">"objectClassMandatory"]</item>
+        <item key="12">"printNTI":["objectClass"</item>
+        <item key="13">"objectClassMandatory"]</item>
+        <item key="14">"webAIF":["objectClass"</item>
+        <item key="15">"objectClassMandatory"]</item>
+        <item key="16">"webAGW":["objectClass"</item>
+        <item key="17">"objectClassMandatory"]</item>
+        <item key="18">"webBGI":["objectClass"</item>
+        <item key="19">"objectClassMandatory"]</item>
+        <item key="20">"webNTI":["objectClass"</item>
+        <item key="21">"objectClassMandatory"]</item>
+        <item key="22">"printAGI":["objectClass"</item>
+        <item key="23">"objectClassMandatory"]</item>
+        <item key="24">"printPFP":["objectClass"</item>
+        <item key="25">"objectClassMandatory"]</item>
+        <item key="26">"webAGI":["objectClass"</item>
+        <item key="27">"objectClassMandatory"]</item>
+        <item key="28">"webPFP":["objectClass"</item>
+        <item key="29">"objectClassMandatory"]</item>
+        <item key="30">"webSCD":["objectClass"</item>
+        <item key="31">"objectClassMandatory"]</item>
+        <item key="32">"webDTS":["objectClass"</item>
+        <item key="33">"objectClassMandatory"]</item>
+        <item key="34">"webPRSIA_webDTS2":["objectClass"</item>
+        <item key="35">"objectClassMandatory"]</item>
+        <item key="36">"webOTP":["objectClass"</item>
+        <item key="37">"objectClassMandatory"]</item>
+        <item key="38">"webPRSIA":["objectClass"</item>
+        <item key="39">"objectClassMandatory"]</item>
+       </objectClassInfosByCanals>
+       <canauxCode/>
+       <enableCatWebForward>0</enableCatWebForward>
+       <id>1049</id>
+       <MelodyUUID>93727f09-4fea-11eb-a647-005056836375</MelodyUUID>
+      </thesaurus>
+      <isCatWebForward>0</isCatWebForward>
+     </category>
+    </categories>
+    <originalFile>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/22f883b1d368696f883b1d368baf88v_?uniq=2025-07-0121:20:28&amp;monochrome=0</originalFile>
+    <WEB_HARDCROP_RESSOURCE>https://melody.parresia.demainunautrejour.com/IMAGEMANAGER/image/PRSIA/HOT/22f883b1d368696f883b1d368baf88v_/1276/1276?crop={"crop_x":0,"crop_y":0,"crop_h":850,"crop_w":1276}&amp;noCache=1&amp;uniq=2025-07-0121:20:28&amp;monochrome=0</WEB_HARDCROP_RESSOURCE>
+   </photo>
+  </photos>
+ </diaporama>
+ <webCategories>----</webCategories>
+ <jpgFile/>
+ <pages type="object"/>
+ <owner type="object">
+  <id>2585</id>
+  <signature/>
+  <nom>LEGRAND</nom>
+  <prenom>François</prenom>
+  <mail>francois.legrand@parresia.fr</mail>
+ </owner>
+ <authors type="array"/>
+ <MultipleGPS type="array"/>
+ <canonicalLink>https://preprod.dentaire365.fr/tests_melody_to_web/lorem-ipsum-lorem-ipsum-lorem-ipsum/</canonicalLink>
+ <webComputedText>&lt;p melodystyle="textnoprint"&gt;&lt;input type="button" disabled="disabled" class="dockedDiaporamaLogo" classname="diaporama" objectid="6"/&gt;&lt;input type="button" disabled="disabled" class="dockedDiaporamaText" value=" Diaporama" classname="diaporama" objectid="6"/&gt;&lt;/p&gt;
+&lt;h2 melodystyle=""&gt;Lorem ipsum dolor sit amet (intertitre),&lt;/h2&gt;
+&lt;p melodystyle="textnoprint"&gt;&lt;input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/e97c7584793e5fd7c7584793ee18c7v_/128/128?monochrome=0&amp;uniq=2021-01-1417:14:16');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="452192"/&gt;&lt;/p&gt;
+&lt;p melodystyle="texte"/&gt;
+&lt;p melodystyle="texte"&gt;consectetur adipiscing elit. Aenean porta diam dui, finibus porta nunc egestas sed. Sed quis metus quis odio ultricies malesuada. Integer vestibulum enim id tempor fermentum. Aliquam sit amet fringilla metus. Fusce sit amet dui sed nisi scelerisque faucibus vel ac lacus. Phasellus vitae justo egestas, semper quam id, finibus quam. Suspendisse at euismod lorem. Donec urna leo, dapibus bibendum congue nec, interdum nec lorem. Nullam luctus egestas imperdiet. Suspendisse sit amet placerat neque.&lt;/p&gt;
+&lt;h2 melodystyle=""&gt;Mauris laoreet tellus at velit sodales,(intertitre2)&lt;/h2&gt;
+&lt;p melodystyle="textnoprint"&gt;&lt;input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/b80ebe4037df59c0e501ebv_00308200/128/128?monochrome=0&amp;uniq=2021-02-0417:12:57');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="450379"/&gt;&lt;/p&gt;
+&lt;p melodystyle="texte"/&gt;
+&lt;p melodystyle="texte"&gt;ac pellentesque diam sollicitudin. Donec ac nisi aliquam lorem ultricies viverra vitae id risus. Nullam auctor, augue a tempor pharetra, tortor mi viverra lorem, sed ullamcorper dui nibh at massa. Curabitur a rhoncus sem. Maecenas ultricies sem ut dolor eleifend pharetra. Morbi hendrerit facilisis arcu in posuere. Aliquam et neque ex. Morbi accumsan erat et nibh luctus ornare. Quisque mollis congue eros, ut venenatis orci mattis et. Praesent ut ipsum in tortor laoreet accumsan. In laoreet egestas massa at aliquam. Cras at mattis ipsum, a facilisis tellus. In sed eleifend lorem, eget efficitur mauris. Aenean volutpat eget erat at iaculis. Quisque in dui eget erat varius porta volutpat feugiat libero.&lt;/p&gt;
+&lt;h3 melodystyle=""&gt;Quisque diam arcu, (intertitre3)&lt;/h3&gt;
+&lt;p melodystyle="texte"&gt;cursus nec imperdiet non, facilisis vel dui. Nam a auctor odio. Etiam quis posuere justo, quis rhoncus sapien. Nam venenatis tellus in elit finibus pellentesque. Vivamus laoreet sem et egestas lobortis. Vestibulum ac dolor non ligula bibendum feugiat. Aenean ac est condimentum, blandit nisl a, luctus diam.&lt;/p&gt;
+&lt;p melodystyle="texte"/&gt;
+&lt;p melodystyle="textnoprint"&gt;&lt;input type="button" disabled="disabled" class="dockedArticleLogo" classname="article" objectid="743705"/&gt;&lt;input type="button" disabled="disabled" class="dockedArticleText" value="Ivotion Digital Denture Solution recompense" classname="article" objectid="743705"/&gt;&lt;/p&gt;
+&lt;h4 melodystyle=""&gt;Duis porttitor sapien vitae mi aliquet (intertitre4),&lt;/h4&gt;
+&lt;p melodystyle="texte"&gt;ut tincidunt erat blandit. Suspendisse velit purus, varius nec tortor et, maximus congue lacus. Morbi nec elit tempor justo auctor euismod et eget orci. Donec at mattis lacus. Fusce eget venenatis libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Morbi nec fermentum libero, laoreet suscipit dolor. Donec diam nisi, consectetur eu facilisis malesuada, venenatis et odio. Proin eget vehicula sapien.&lt;/p&gt;
+&lt;p melodystyle="texte"&gt;Nulla at diam augue. Aliquam erat volutpat. Mauris ultrices nunc facilisis tortor porta, sit amet tristique eros convallis. Phasellus mollis est a interdum efficitur. Pellentesque efficitur metus id lacus posuere, sit amet posuere sem ullamcorper. Mauris ac libero id mauris pellentesque hendrerit. In eu mi ut felis blandit consectetur. Pellentesque mi leo, ultricies ut leo non, feugiat placerat erat.&lt;/p&gt;
+&lt;p melodystyle="textnoprint"&gt;&lt;input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/4e24d1332f8f51234d1332f8fc534dv_/128/128?monochrome=0&amp;uniq=2021-01-1709:51:47');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="455182"/&gt;&lt;/p&gt;
+&lt;p melodystyle="texte"/&gt;
+&lt;h5 melodystyle=""&gt;Maecenas faucibus condimentum dolor,(intertitre5) &lt;/h5&gt;
+&lt;p melodystyle="texte"&gt;nec tristique urna consectetur ac. Curabitur faucibus at ante vel dapibus. Nam eu efficitur lacus, nec sollicitudin turpis. Donec et arcu bibendum ante suscipit volutpat. Donec tristique, lorem ut semper porttitor, est purus sollicitudin mauris, in fringilla lorem mauris sed ex. Quisque eget tellus augue. Nulla nisl turpis, tincidunt tristique venenatis gravida, consequat eu magna. Donec gravida a ante id ornare. Morbi tempor neque sit amet aliquet fringilla. Donec sed enim porta, facilisis leo in, interdum enim. Curabitur efficitur sem enim, in malesuada massa cursus sit amet. In a laoreet enim. Sed quis mauris ac magna lobortis egestas eget nec magna. Etiam eu massa in ex pulvinar porta.&lt;/p&gt;
+&lt;h6 melodystyle=""&gt;&lt;span class="melodyOverrideStyle"&gt;&lt;b&gt;Aliquam erat volutpat.(intertitre6)&lt;/b&gt;&lt;/span&gt;&lt;/h6&gt;
+&lt;p melodystyle="textnoprint"&gt;&lt;input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/2be47ab1e4651473a3b9fcc3501f391c/128/128?monochrome=0&amp;uniq=2021-01-1709:51:08');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="454278"/&gt;&lt;/p&gt;
+&lt;p melodystyle="texte"/&gt;
+&lt;p melodystyle="texte"&gt;&lt;b&gt; Praesent ut felis maximus, tempor augue interdum, pharetra massa. Maecenas accumsan nisi eu varius cursus.&lt;/b&gt; Duis vulputate eros purus, vitae tempus neque hendrerit placerat. Praesent aliquam eu sem a elementum. Curabitur fermentum non nisl at imperdiet. Mauris sit amet mollis lorem. &lt;i&gt;Duis volutpat eget lacus non &lt;/i&gt;tincidunt. Aliquam erat volutpat.&lt;/p&gt;
+&lt;p melodystyle="texte"&gt;→Suspendisse potenti. Duis lacinia accumsan &lt;sup&gt;eros&lt;/sup&gt;, sed&lt;span class="mce-smallcaps-active" melodycharstyle="smallcaps"&gt; auctor&lt;/span&gt; nulla ultricies id. Phasellus eu dictum magna, venenatis tincidunt nibh. NULLAM VITAE tellus vitae nisl maximus gravida. Donec et dui eleifend, suscipit risus ut, rutrum eros. aenean fringilla vel Risus Vehicula ultrices. Pellentesque posuere augue eget tincidunt tristique. Etiam eu tortor vitae diam posuere maximus. Quisque purus lectus, imperdiet ut justo in, dignissim molestie odio.&lt;/p&gt;</webComputedText>
+ <webComputedText_raw><p melodystyle="textnoprint"><input type="button" disabled="disabled" class="dockedDiaporamaLogo" classname="diaporama" objectid="6"/><input type="button" disabled="disabled" class="dockedDiaporamaText" value=" Diaporama" classname="diaporama" objectid="6"/></p>
+<h2 melodystyle="">Lorem ipsum dolor sit amet (intertitre),</h2>
+<p melodystyle="textnoprint"><input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/e97c7584793e5fd7c7584793ee18c7v_/128/128?monochrome=0&amp;uniq=2021-01-1417:14:16');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="452192"/></p>
+<p melodystyle="texte"/>
+<p melodystyle="texte">consectetur adipiscing elit. Aenean porta diam dui, finibus porta nunc egestas sed. Sed quis metus quis odio ultricies malesuada. Integer vestibulum enim id tempor fermentum. Aliquam sit amet fringilla metus. Fusce sit amet dui sed nisi scelerisque faucibus vel ac lacus. Phasellus vitae justo egestas, semper quam id, finibus quam. Suspendisse at euismod lorem. Donec urna leo, dapibus bibendum congue nec, interdum nec lorem. Nullam luctus egestas imperdiet. Suspendisse sit amet placerat neque.</p>
+<h2 melodystyle="">Mauris laoreet tellus at velit sodales,(intertitre2)</h2>
+<p melodystyle="textnoprint"><input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/b80ebe4037df59c0e501ebv_00308200/128/128?monochrome=0&amp;uniq=2021-02-0417:12:57');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="450379"/></p>
+<p melodystyle="texte"/>
+<p melodystyle="texte">ac pellentesque diam sollicitudin. Donec ac nisi aliquam lorem ultricies viverra vitae id risus. Nullam auctor, augue a tempor pharetra, tortor mi viverra lorem, sed ullamcorper dui nibh at massa. Curabitur a rhoncus sem. Maecenas ultricies sem ut dolor eleifend pharetra. Morbi hendrerit facilisis arcu in posuere. Aliquam et neque ex. Morbi accumsan erat et nibh luctus ornare. Quisque mollis congue eros, ut venenatis orci mattis et. Praesent ut ipsum in tortor laoreet accumsan. In laoreet egestas massa at aliquam. Cras at mattis ipsum, a facilisis tellus. In sed eleifend lorem, eget efficitur mauris. Aenean volutpat eget erat at iaculis. Quisque in dui eget erat varius porta volutpat feugiat libero.</p>
+<h3 melodystyle="">Quisque diam arcu, (intertitre3)</h3>
+<p melodystyle="texte">cursus nec imperdiet non, facilisis vel dui. Nam a auctor odio. Etiam quis posuere justo, quis rhoncus sapien. Nam venenatis tellus in elit finibus pellentesque. Vivamus laoreet sem et egestas lobortis. Vestibulum ac dolor non ligula bibendum feugiat. Aenean ac est condimentum, blandit nisl a, luctus diam.</p>
+<p melodystyle="texte"/>
+<p melodystyle="textnoprint"><input type="button" disabled="disabled" class="dockedArticleLogo" classname="article" objectid="743705"/><input type="button" disabled="disabled" class="dockedArticleText" value="Ivotion Digital Denture Solution recompense" classname="article" objectid="743705"/></p>
+<h4 melodystyle="">Duis porttitor sapien vitae mi aliquet (intertitre4),</h4>
+<p melodystyle="texte">ut tincidunt erat blandit. Suspendisse velit purus, varius nec tortor et, maximus congue lacus. Morbi nec elit tempor justo auctor euismod et eget orci. Donec at mattis lacus. Fusce eget venenatis libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Morbi nec fermentum libero, laoreet suscipit dolor. Donec diam nisi, consectetur eu facilisis malesuada, venenatis et odio. Proin eget vehicula sapien.</p>
+<p melodystyle="texte">Nulla at diam augue. Aliquam erat volutpat. Mauris ultrices nunc facilisis tortor porta, sit amet tristique eros convallis. Phasellus mollis est a interdum efficitur. Pellentesque efficitur metus id lacus posuere, sit amet posuere sem ullamcorper. Mauris ac libero id mauris pellentesque hendrerit. In eu mi ut felis blandit consectetur. Pellentesque mi leo, ultricies ut leo non, feugiat placerat erat.</p>
+<p melodystyle="textnoprint"><input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/4e24d1332f8f51234d1332f8fc534dv_/128/128?monochrome=0&amp;uniq=2021-01-1709:51:47');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="455182"/></p>
+<p melodystyle="texte"/>
+<h5 melodystyle="">Maecenas faucibus condimentum dolor,(intertitre5) </h5>
+<p melodystyle="texte">nec tristique urna consectetur ac. Curabitur faucibus at ante vel dapibus. Nam eu efficitur lacus, nec sollicitudin turpis. Donec et arcu bibendum ante suscipit volutpat. Donec tristique, lorem ut semper porttitor, est purus sollicitudin mauris, in fringilla lorem mauris sed ex. Quisque eget tellus augue. Nulla nisl turpis, tincidunt tristique venenatis gravida, consequat eu magna. Donec gravida a ante id ornare. Morbi tempor neque sit amet aliquet fringilla. Donec sed enim porta, facilisis leo in, interdum enim. Curabitur efficitur sem enim, in malesuada massa cursus sit amet. In a laoreet enim. Sed quis mauris ac magna lobortis egestas eget nec magna. Etiam eu massa in ex pulvinar porta.</p>
+<h6 melodystyle=""><span class="melodyOverrideStyle"><b>Aliquam erat volutpat.(intertitre6)</b></span></h6>
+<p melodystyle="textnoprint"><input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/2be47ab1e4651473a3b9fcc3501f391c/128/128?monochrome=0&amp;uniq=2021-01-1709:51:08');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="454278"/></p>
+<p melodystyle="texte"/>
+<p melodystyle="texte"><b> Praesent ut felis maximus, tempor augue interdum, pharetra massa. Maecenas accumsan nisi eu varius cursus.</b> Duis vulputate eros purus, vitae tempus neque hendrerit placerat. Praesent aliquam eu sem a elementum. Curabitur fermentum non nisl at imperdiet. Mauris sit amet mollis lorem. <i>Duis volutpat eget lacus non </i>tincidunt. Aliquam erat volutpat.</p>
+<p melodystyle="texte">→Suspendisse potenti. Duis lacinia accumsan <sup>eros</sup>, sed<span class="mce-smallcaps-active" melodycharstyle="smallcaps"> auctor</span> nulla ultricies id. Phasellus eu dictum magna, venenatis tincidunt nibh. NULLAM VITAE tellus vitae nisl maximus gravida. Donec et dui eleifend, suscipit risus ut, rutrum eros. aenean fringilla vel Risus Vehicula ultrices. Pellentesque posuere augue eget tincidunt tristique. Etiam eu tortor vitae diam posuere maximus. Quisque purus lectus, imperdiet ut justo in, dignissim molestie odio.</p></webComputedText_raw>
+ <completeObjectText>&lt;p melodystyle="textnoprint"&gt;&lt;input type="button" disabled="disabled" class="dockedDiaporamaLogo" classname="diaporama" objectid="6"/&gt;&lt;input type="button" disabled="disabled" class="dockedDiaporamaText" value=" Diaporama" classname="diaporama" objectid="6"/&gt;&lt;/p&gt;
+&lt;h2 melodystyle=""&gt;Lorem ipsum dolor sit amet (intertitre),&lt;/h2&gt;
+&lt;p melodystyle="textnoprint"&gt;&lt;input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/e97c7584793e5fd7c7584793ee18c7v_/128/128?monochrome=0&amp;amp;uniq=2021-01-1417:14:16');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="452192"/&gt;&lt;/p&gt;
+&lt;p melodystyle="texte"/&gt;
+&lt;p melodystyle="texte"&gt;consectetur adipiscing elit. Aenean porta diam dui, finibus porta nunc egestas sed. Sed quis metus quis odio ultricies malesuada. Integer vestibulum enim id tempor fermentum. Aliquam sit amet fringilla metus. Fusce sit amet dui sed nisi scelerisque faucibus vel ac lacus. Phasellus vitae justo egestas, semper quam id, finibus quam. Suspendisse at euismod lorem. Donec urna leo, dapibus bibendum congue nec, interdum nec lorem. Nullam luctus egestas imperdiet. Suspendisse sit amet placerat neque.&lt;/p&gt;
+&lt;h2 melodystyle=""&gt;Mauris laoreet tellus at velit sodales,(intertitre2)&lt;/h2&gt;
+&lt;p melodystyle="textnoprint"&gt;&lt;input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/b80ebe4037df59c0e501ebv_00308200/128/128?monochrome=0&amp;amp;uniq=2021-02-0417:12:57');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="450379"/&gt;&lt;/p&gt;
+&lt;p melodystyle="texte"/&gt;
+&lt;p melodystyle="texte"&gt;ac pellentesque diam sollicitudin. Donec ac nisi aliquam lorem ultricies viverra vitae id risus. Nullam auctor, augue a tempor pharetra, tortor mi viverra lorem, sed ullamcorper dui nibh at massa. Curabitur a rhoncus sem. Maecenas ultricies sem ut dolor eleifend pharetra. Morbi hendrerit facilisis arcu in posuere. Aliquam et neque ex. Morbi accumsan erat et nibh luctus ornare. Quisque mollis congue eros, ut venenatis orci mattis et. Praesent ut ipsum in tortor laoreet accumsan. In laoreet egestas massa at aliquam. Cras at mattis ipsum, a facilisis tellus. In sed eleifend lorem, eget efficitur mauris. Aenean volutpat eget erat at iaculis. Quisque in dui eget erat varius porta volutpat feugiat libero.&lt;/p&gt;
+&lt;h3 melodystyle=""&gt;Quisque diam arcu, (intertitre3)&lt;/h3&gt;
+&lt;p melodystyle="texte"&gt;cursus nec imperdiet non, facilisis vel dui. Nam a auctor odio. Etiam quis posuere justo, quis rhoncus sapien. Nam venenatis tellus in elit finibus pellentesque. Vivamus laoreet sem et egestas lobortis. Vestibulum ac dolor non ligula bibendum feugiat. Aenean ac est condimentum, blandit nisl a, luctus diam.&lt;/p&gt;
+&lt;p melodystyle="texte"/&gt;
+&lt;div class="encadre"&gt;&lt;h3&gt;Ivotion Digital Denture Solution récompensé&lt;/h3&gt;&lt;p&gt;Le système d'Ivoclar Vivadent a reçu le prix de&lt;br/&gt;l'innovation de l'American College of Prosthodontics.&lt;/p&gt;&lt;p melodystyle="texte"&gt;&lt;allcaps&gt;L&lt;/allcaps&gt;&lt;allcaps&gt;'Ivotion Digital Denture System a reçu la majorité des suffrages des participants au Product Innovation Showcase présentant les derniers produits et matériaux dentaires de onze entreprises. L'événement s'est tenu lors de la session annuelle de l'American College of Prosthodontics (ACP) « Évolutions et révolutions en prothèse dentaire », qui s'est déroulée en version virtuelle du 1&lt;/allcaps&gt;&lt;sup&gt;er&lt;/sup&gt; au 7 novembre 2020. « &lt;i&gt;C'est une merveilleuse réalisation et un témoignage que l'innovation est au centre de notre organisation&lt;/i&gt; », s'est félicité le Dr George Tysowsky, vice-président senior de la technologie et des relations professionnelles.&lt;/p&gt;&lt;p melodystyle="texte"/&gt;&lt;p melodystyle="texte"&gt;Ivotion Digital Denture System est un flux de travail numérique complet pour la production de prothèses amovibles de haute qualité. En combinant le disque usinable monolithique bicolore Ivotion avec l'usineuse PrograMill, Ivotion permet de produire des prothèses maxillaires et mandibulaires au travers d'un seul processus d'usinage. Le système combine en un disque unique un matériau dentaire en PMMA réticulé éprouvé et une résine de base de haute qualité, permettant une fabrication rapide et prévisible des prothèses sans recourir à un long processus de collage manuel. À l'intérieur du disque, se trouve la « Shell Geometry » : une géométrie tridimensionnelle de l'arcade dentaire qui définit la transition entre la dent et la résine de base et offre un résultat sans contrainte, résistant et homogène. La conception d'Ivotion, qui est intégrée au logiciel CAD 3Shape Dental System 2020, permet d'adapter les prothèses amovibles aux besoins individuels du patient. Après le processus d'usinage dans l'usineuse PrograMill, il suffit de polir la prothèse.&lt;/p&gt;&lt;/div&gt;
+&lt;h4 melodystyle=""&gt;Duis porttitor sapien vitae mi aliquet (intertitre4),&lt;/h4&gt;
+&lt;p melodystyle="texte"&gt;ut tincidunt erat blandit. Suspendisse velit purus, varius nec tortor et, maximus congue lacus. Morbi nec elit tempor justo auctor euismod et eget orci. Donec at mattis lacus. Fusce eget venenatis libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Morbi nec fermentum libero, laoreet suscipit dolor. Donec diam nisi, consectetur eu facilisis malesuada, venenatis et odio. Proin eget vehicula sapien.&lt;/p&gt;
+&lt;p melodystyle="texte"&gt;Nulla at diam augue. Aliquam erat volutpat. Mauris ultrices nunc facilisis tortor porta, sit amet tristique eros convallis. Phasellus mollis est a interdum efficitur. Pellentesque efficitur metus id lacus posuere, sit amet posuere sem ullamcorper. Mauris ac libero id mauris pellentesque hendrerit. In eu mi ut felis blandit consectetur. Pellentesque mi leo, ultricies ut leo non, feugiat placerat erat.&lt;/p&gt;
+&lt;p melodystyle="textnoprint"&gt;&lt;input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/4e24d1332f8f51234d1332f8fc534dv_/128/128?monochrome=0&amp;amp;uniq=2021-01-1709:51:47');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="455182"/&gt;&lt;/p&gt;
+&lt;p melodystyle="texte"/&gt;
+&lt;h5 melodystyle=""&gt;Maecenas faucibus condimentum dolor,(intertitre5) &lt;/h5&gt;
+&lt;p melodystyle="texte"&gt;nec tristique urna consectetur ac. Curabitur faucibus at ante vel dapibus. Nam eu efficitur lacus, nec sollicitudin turpis. Donec et arcu bibendum ante suscipit volutpat. Donec tristique, lorem ut semper porttitor, est purus sollicitudin mauris, in fringilla lorem mauris sed ex. Quisque eget tellus augue. Nulla nisl turpis, tincidunt tristique venenatis gravida, consequat eu magna. Donec gravida a ante id ornare. Morbi tempor neque sit amet aliquet fringilla. Donec sed enim porta, facilisis leo in, interdum enim. Curabitur efficitur sem enim, in malesuada massa cursus sit amet. In a laoreet enim. Sed quis mauris ac magna lobortis egestas eget nec magna. Etiam eu massa in ex pulvinar porta.&lt;/p&gt;
+&lt;h6 melodystyle=""&gt;&lt;span class="melodyOverrideStyle"&gt;&lt;b&gt;Aliquam erat volutpat.(intertitre6)&lt;/b&gt;&lt;/span&gt;&lt;/h6&gt;
+&lt;p melodystyle="textnoprint"&gt;&lt;input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/2be47ab1e4651473a3b9fcc3501f391c/128/128?monochrome=0&amp;amp;uniq=2021-01-1709:51:08');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="454278"/&gt;&lt;/p&gt;
+&lt;p melodystyle="texte"/&gt;
+&lt;p melodystyle="texte"&gt;&lt;b&gt; Praesent ut felis maximus, tempor augue interdum, pharetra massa. Maecenas accumsan nisi eu varius cursus.&lt;/b&gt; Duis vulputate eros purus, vitae tempus neque hendrerit placerat. Praesent aliquam eu sem a elementum. Curabitur fermentum non nisl at imperdiet. Mauris sit amet mollis lorem. &lt;i&gt;Duis volutpat eget lacus non &lt;/i&gt;tincidunt. Aliquam erat volutpat.&lt;/p&gt;
+&lt;p melodystyle="texte"&gt;→Suspendisse potenti. Duis lacinia accumsan &lt;sup&gt;eros&lt;/sup&gt;, sed&lt;span class="mce-smallcaps-active" melodycharstyle="smallcaps"&gt; auctor&lt;/span&gt; nulla ultricies id. Phasellus eu dictum magna, venenatis tincidunt nibh. NULLAM VITAE tellus vitae nisl maximus gravida. Donec et dui eleifend, suscipit risus ut, rutrum eros. aenean fringilla vel Risus Vehicula ultrices. Pellentesque posuere augue eget tincidunt tristique. Etiam eu tortor vitae diam posuere maximus. Quisque purus lectus, imperdiet ut justo in, dignissim molestie odio.&lt;/p&gt;</completeObjectText>
+ <completeObjectText_raw><p melodystyle="textnoprint"><input type="button" disabled="disabled" class="dockedDiaporamaLogo" classname="diaporama" objectid="6"/><input type="button" disabled="disabled" class="dockedDiaporamaText" value=" Diaporama" classname="diaporama" objectid="6"/></p>
+<h2 melodystyle="">Lorem ipsum dolor sit amet (intertitre),</h2>
+<p melodystyle="textnoprint"><input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/e97c7584793e5fd7c7584793ee18c7v_/128/128?monochrome=0&amp;uniq=2021-01-1417:14:16');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="452192"/></p>
+<p melodystyle="texte"/>
+<p melodystyle="texte">consectetur adipiscing elit. Aenean porta diam dui, finibus porta nunc egestas sed. Sed quis metus quis odio ultricies malesuada. Integer vestibulum enim id tempor fermentum. Aliquam sit amet fringilla metus. Fusce sit amet dui sed nisi scelerisque faucibus vel ac lacus. Phasellus vitae justo egestas, semper quam id, finibus quam. Suspendisse at euismod lorem. Donec urna leo, dapibus bibendum congue nec, interdum nec lorem. Nullam luctus egestas imperdiet. Suspendisse sit amet placerat neque.</p>
+<h2 melodystyle="">Mauris laoreet tellus at velit sodales,(intertitre2)</h2>
+<p melodystyle="textnoprint"><input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/b80ebe4037df59c0e501ebv_00308200/128/128?monochrome=0&amp;uniq=2021-02-0417:12:57');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="450379"/></p>
+<p melodystyle="texte"/>
+<p melodystyle="texte">ac pellentesque diam sollicitudin. Donec ac nisi aliquam lorem ultricies viverra vitae id risus. Nullam auctor, augue a tempor pharetra, tortor mi viverra lorem, sed ullamcorper dui nibh at massa. Curabitur a rhoncus sem. Maecenas ultricies sem ut dolor eleifend pharetra. Morbi hendrerit facilisis arcu in posuere. Aliquam et neque ex. Morbi accumsan erat et nibh luctus ornare. Quisque mollis congue eros, ut venenatis orci mattis et. Praesent ut ipsum in tortor laoreet accumsan. In laoreet egestas massa at aliquam. Cras at mattis ipsum, a facilisis tellus. In sed eleifend lorem, eget efficitur mauris. Aenean volutpat eget erat at iaculis. Quisque in dui eget erat varius porta volutpat feugiat libero.</p>
+<h3 melodystyle="">Quisque diam arcu, (intertitre3)</h3>
+<p melodystyle="texte">cursus nec imperdiet non, facilisis vel dui. Nam a auctor odio. Etiam quis posuere justo, quis rhoncus sapien. Nam venenatis tellus in elit finibus pellentesque. Vivamus laoreet sem et egestas lobortis. Vestibulum ac dolor non ligula bibendum feugiat. Aenean ac est condimentum, blandit nisl a, luctus diam.</p>
+<p melodystyle="texte"/>
+<div class="encadre"><h3>Ivotion Digital Denture Solution récompensé</h3><p>Le système d'Ivoclar Vivadent a reçu le prix de<br/>l'innovation de l'American College of Prosthodontics.</p><p melodystyle="texte"><allcaps>L</allcaps><allcaps>'Ivotion Digital Denture System a reçu la majorité des suffrages des participants au Product Innovation Showcase présentant les derniers produits et matériaux dentaires de onze entreprises. L'événement s'est tenu lors de la session annuelle de l'American College of Prosthodontics (ACP) « Évolutions et révolutions en prothèse dentaire », qui s'est déroulée en version virtuelle du 1</allcaps><sup>er</sup> au 7 novembre 2020. « <i>C'est une merveilleuse réalisation et un témoignage que l'innovation est au centre de notre organisation</i> », s'est félicité le Dr George Tysowsky, vice-président senior de la technologie et des relations professionnelles.</p><p melodystyle="texte"/><p melodystyle="texte">Ivotion Digital Denture System est un flux de travail numérique complet pour la production de prothèses amovibles de haute qualité. En combinant le disque usinable monolithique bicolore Ivotion avec l'usineuse PrograMill, Ivotion permet de produire des prothèses maxillaires et mandibulaires au travers d'un seul processus d'usinage. Le système combine en un disque unique un matériau dentaire en PMMA réticulé éprouvé et une résine de base de haute qualité, permettant une fabrication rapide et prévisible des prothèses sans recourir à un long processus de collage manuel. À l'intérieur du disque, se trouve la « Shell Geometry » : une géométrie tridimensionnelle de l'arcade dentaire qui définit la transition entre la dent et la résine de base et offre un résultat sans contrainte, résistant et homogène. La conception d'Ivotion, qui est intégrée au logiciel CAD 3Shape Dental System 2020, permet d'adapter les prothèses amovibles aux besoins individuels du patient. Après le processus d'usinage dans l'usineuse PrograMill, il suffit de polir la prothèse.</p></div>
+<h4 melodystyle="">Duis porttitor sapien vitae mi aliquet (intertitre4),</h4>
+<p melodystyle="texte">ut tincidunt erat blandit. Suspendisse velit purus, varius nec tortor et, maximus congue lacus. Morbi nec elit tempor justo auctor euismod et eget orci. Donec at mattis lacus. Fusce eget venenatis libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Morbi nec fermentum libero, laoreet suscipit dolor. Donec diam nisi, consectetur eu facilisis malesuada, venenatis et odio. Proin eget vehicula sapien.</p>
+<p melodystyle="texte">Nulla at diam augue. Aliquam erat volutpat. Mauris ultrices nunc facilisis tortor porta, sit amet tristique eros convallis. Phasellus mollis est a interdum efficitur. Pellentesque efficitur metus id lacus posuere, sit amet posuere sem ullamcorper. Mauris ac libero id mauris pellentesque hendrerit. In eu mi ut felis blandit consectetur. Pellentesque mi leo, ultricies ut leo non, feugiat placerat erat.</p>
+<p melodystyle="textnoprint"><input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/4e24d1332f8f51234d1332f8fc534dv_/128/128?monochrome=0&amp;uniq=2021-01-1709:51:47');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="455182"/></p>
+<p melodystyle="texte"/>
+<h5 melodystyle="">Maecenas faucibus condimentum dolor,(intertitre5) </h5>
+<p melodystyle="texte">nec tristique urna consectetur ac. Curabitur faucibus at ante vel dapibus. Nam eu efficitur lacus, nec sollicitudin turpis. Donec et arcu bibendum ante suscipit volutpat. Donec tristique, lorem ut semper porttitor, est purus sollicitudin mauris, in fringilla lorem mauris sed ex. Quisque eget tellus augue. Nulla nisl turpis, tincidunt tristique venenatis gravida, consequat eu magna. Donec gravida a ante id ornare. Morbi tempor neque sit amet aliquet fringilla. Donec sed enim porta, facilisis leo in, interdum enim. Curabitur efficitur sem enim, in malesuada massa cursus sit amet. In a laoreet enim. Sed quis mauris ac magna lobortis egestas eget nec magna. Etiam eu massa in ex pulvinar porta.</p>
+<h6 melodystyle=""><span class="melodyOverrideStyle"><b>Aliquam erat volutpat.(intertitre6)</b></span></h6>
+<p melodystyle="textnoprint"><input style="background-image: url('../IMAGEMANAGER/image/PRSIA/HOT/2be47ab1e4651473a3b9fcc3501f391c/128/128?monochrome=0&amp;uniq=2021-01-1709:51:08');" type="button" disabled="disabled" class="dockedPhotoLogo" classname="photo" objectid="454278"/></p>
+<p melodystyle="texte"/>
+<p melodystyle="texte"><b> Praesent ut felis maximus, tempor augue interdum, pharetra massa. Maecenas accumsan nisi eu varius cursus.</b> Duis vulputate eros purus, vitae tempus neque hendrerit placerat. Praesent aliquam eu sem a elementum. Curabitur fermentum non nisl at imperdiet. Mauris sit amet mollis lorem. <i>Duis volutpat eget lacus non </i>tincidunt. Aliquam erat volutpat.</p>
+<p melodystyle="texte">→Suspendisse potenti. Duis lacinia accumsan <sup>eros</sup>, sed<span class="mce-smallcaps-active" melodycharstyle="smallcaps"> auctor</span> nulla ultricies id. Phasellus eu dictum magna, venenatis tincidunt nibh. NULLAM VITAE tellus vitae nisl maximus gravida. Donec et dui eleifend, suscipit risus ut, rutrum eros. aenean fringilla vel Risus Vehicula ultrices. Pellentesque posuere augue eget tincidunt tristique. Etiam eu tortor vitae diam posuere maximus. Quisque purus lectus, imperdiet ut justo in, dignissim molestie odio.</p></completeObjectText_raw>
+</article>

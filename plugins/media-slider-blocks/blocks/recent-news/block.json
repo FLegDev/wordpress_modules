@@ -1,0 +1,52 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "media-slider-blocks/recent-news",
+    "version": "1.0.0",
+    "title": "Recent News",
+    "category": "media",
+    "icon": "megaphone",
+    "description": "Bloc actualités : 1 article principal (gauche) + 2 articles secondaires (droite).",
+    "keywords": [ "news", "actualités", "articles", "blog" ],
+    "textdomain": "media-slider-blocks",
+    "supports": {
+        "html":    false,
+        "align":   [ "wide", "full" ],
+        "spacing": { "margin": true, "padding": true }
+    },
+    "attributes": {
+        "sectionTitle": { "type": "string", "default": "Recent News" },
+
+        "mainImageUrl":   { "type": "string", "default": "" },
+        "mainImageId":    { "type": "number", "default": 0  },
+        "mainImageAlt":   { "type": "string", "default": "" },
+        "mainTitle":      { "type": "string", "default": "Colorize Your Classroom Challenge" },
+        "mainExcerpt":    { "type": "string", "default": "As we set up our classroom for a new year, the organization is always one of our big focuses. We like to think that we are organized by nature; our minds.." },
+        "mainUrl":        { "type": "string", "default": "#" },
+        "mainBarColor":   { "type": "string", "default": "#9AC14E" },
+
+        "news1ImageUrl":  { "type": "string", "default": "" },
+        "news1ImageId":   { "type": "number", "default": 0  },
+        "news1ImageAlt":  { "type": "string", "default": "" },
+        "news1Title":     { "type": "string", "default": "Ready Made for First Grade" },
+        "news1Excerpt":   { "type": "string", "default": "Summer is quickly approaching and we are all excited! But it is nerve-racking to send your sweet little kinder off for summer and wonder..." },
+        "news1Url":       { "type": "string", "default": "#" },
+        "news1BarColor":  { "type": "string", "default": "#78ABF1" },
+
+        "news2ImageUrl":  { "type": "string", "default": "" },
+        "news2ImageId":   { "type": "number", "default": 0  },
+        "news2ImageAlt":  { "type": "string", "default": "" },
+        "news2Title":     { "type": "string", "default": "Ready Made for First Grade" },
+        "news2Excerpt":   { "type": "string", "default": "Summer is quickly approaching and we are all excited! But it is nerve-racking to send your sweet little kinder off for summer and wonder..." },
+        "news2Url":       { "type": "string", "default": "#" },
+        "news2BarColor":  { "type": "string", "default": "#FF9138" },
+
+        "titleColor":       { "type": "string", "default": "#151515" },
+        "excerptColor":     { "type": "string", "default": "#9B9B9B" },
+        "sectionTitleColor":{ "type": "string", "default": "#151515" }
+    },
+    "editorScript": "file:./editor.js",
+    "editorStyle":  "file:./editor.css",
+    "style":        "file:./style.css",
+    "render":       "file:./render.php"
+}

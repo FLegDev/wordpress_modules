@@ -1,0 +1,139 @@
+.vsspa-reading-slider {
+  margin: 40px 0;
+  padding: 24px 0;
+  border-top: 1px solid #dcdcde;
+  border-bottom: 1px solid #dcdcde;
+}
+
+.vsspa-reading-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.vsspa-reading-head h2 {
+  margin: 0;
+  font-size: clamp(22px, 3vw, 30px);
+}
+
+.vsspa-reading-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.vsspa-slider-prev,
+.vsspa-slider-next,
+.vsspa-popup-open,
+.vsspa-popup__close {
+  cursor: pointer;
+  border: 1px solid #1d2327;
+  background: #1d2327;
+  color: #fff;
+  min-height: 38px;
+  padding: 8px 12px;
+  font: inherit;
+}
+
+.vsspa-reading-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(240px, 32%);
+  gap: 16px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  padding-bottom: 6px;
+}
+
+.vsspa-reading-slide {
+  scroll-snap-align: start;
+  min-height: 190px;
+  border: 1px solid #dcdcde;
+  background: #fff;
+}
+
+.vsspa-reading-slide a {
+  display: flex;
+  min-height: 190px;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.vsspa-reading-theme {
+  width: fit-content;
+  border: 1px solid #dcdcde;
+  padding: 2px 8px;
+  font-size: 12px;
+  color: #50575e;
+}
+
+.vsspa-reading-slide h3 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.vsspa-reading-slide p {
+  margin: 0;
+  color: #50575e;
+}
+
+.vsspa-reading-anchor {
+  margin-top: auto;
+  font-weight: 700;
+}
+
+.vsspa-reading-popup {
+  margin: 24px 0;
+}
+
+.vsspa-popup[hidden] {
+  display: none;
+}
+
+.vsspa-popup {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+}
+
+.vsspa-popup__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.vsspa-popup__dialog {
+  position: relative;
+  width: min(920px, calc(100vw - 32px));
+  max-height: calc(100vh - 48px);
+  margin: 24px auto;
+  overflow: auto;
+  background: #fff;
+  padding: 24px;
+}
+
+.vsspa-popup__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  min-width: 38px;
+  padding: 8px;
+}
+
+@media (max-width: 760px) {
+  .vsspa-reading-head {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .vsspa-reading-track {
+    grid-auto-columns: minmax(240px, 86%);
+  }
+}

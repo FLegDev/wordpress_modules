@@ -1,0 +1,201 @@
+/* ============================================================
+   Recent News Block — Frontend CSS v1.1
+   ============================================================ */
+
+.msb-recent-news {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* ── Titre de section ─────────────────────────────────────── */
+.msb-rn-section-title {
+    font-size: clamp(28px, 4vw, 48px);
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 32px;
+    padding: 0;
+    line-height: 1.2;
+}
+
+/* ── Grille principale : 2 colonnes égales ────────────────── */
+.msb-rn-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: stretch;   /* les 2 colonnes ont la même hauteur */
+}
+
+/* ════════════════════════════════════════════════════════════
+   COLONNE GAUCHE — Article principal
+   ════════════════════════════════════════════════════════════ */
+.msb-rn-main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Grande image pleine largeur */
+.msb-rn-main__img-wrap {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    background: #f0f0f0;
+    flex-shrink: 0;
+}
+
+.msb-rn-main__img-wrap img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.msb-rn-main__img-wrap:hover img { transform: scale(1.03); }
+
+.msb-rn-main__body {
+    padding: 16px 0 12px;
+    flex: 1;            /* prend l'espace restant */
+}
+
+/* ════════════════════════════════════════════════════════════
+   COLONNE DROITE — 2 cartes empilées
+   ════════════════════════════════════════════════════════════ */
+.msb-rn-secondary {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+/* Chaque carte prend exactement la moitié de la hauteur */
+.msb-rn-card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;        /* hauteurs égales entre les 2 cartes */
+}
+
+/* ── Layout interne de la carte : image | texte ───────────── */
+/* C'est .msb-rn-card__inner qui porte le grid — pas .msb-rn-card */
+.msb-rn-card__inner {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    gap: 16px;
+    align-items: start;
+    flex: 1;
+}
+
+/* Image petite */
+.msb-rn-card__img-wrap {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    background: #f0f0f0;
+    border-radius: 2px;
+}
+
+.msb-rn-card__img-wrap img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.msb-rn-card__img-wrap:hover img { transform: scale(1.03); }
+
+.msb-rn-card__body {
+    padding: 4px 0;
+}
+
+/* ════════════════════════════════════════════════════════════
+   Texte commun
+   ════════════════════════════════════════════════════════════ */
+.msb-rn-title {
+    font-size: clamp(16px, 1.8vw, 22px);
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.msb-rn-title a {
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.2s;
+}
+
+.msb-rn-title a:hover { opacity: 0.75; }
+
+.msb-rn-excerpt {
+    font-size: clamp(12px, 1.2vw, 14px);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* ── Barre colorée ────────────────────────────────────────── */
+.msb-rn-bar {
+    height: 5px;
+    width: 100%;
+    margin-top: 16px;
+    border-radius: 2px;
+    display: block;
+    flex-shrink: 0;
+}
+
+/* ── Placeholder (pas d'image) ────────────────────────────── */
+.msb-rn-placeholder {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e8e8e8;
+    border: 2px dashed #ccc;
+    color: #999;
+    font-size: 12px;
+}
+
+/* ════════════════════════════════════════════════════════════
+   RESPONSIVE
+   ════════════════════════════════════════════════════════════ */
+
+/* Tablette ≤ 900px : colonnes empilées */
+@media (max-width: 900px) {
+    .msb-rn-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .msb-rn-section-title { font-size: 32px; margin-bottom: 24px; }
+
+    .msb-rn-secondary {
+        gap: 20px;
+    }
+
+    .msb-rn-card {
+        flex: unset;
+    }
+}
+
+/* Mobile ≤ 600px : carte secondaire empile image au-dessus du texte */
+@media (max-width: 600px) {
+    .msb-rn-card__inner {
+        grid-template-columns: 1fr;
+    }
+
+    .msb-rn-card__img-wrap {
+        aspect-ratio: 16/9;
+    }
+
+    .msb-rn-section-title { font-size: 26px; }
+}

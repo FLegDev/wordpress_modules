@@ -1,0 +1,35 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "media-slider-blocks/diagonal-image",
+    "version": "1.0.0",
+    "title": "Image Diagonale",
+    "category": "media",
+    "icon": "format-image",
+    "description": "Image simple avec découpe diagonale configurable (clip-path).",
+    "keywords": [ "image", "diagonal", "angle", "clip", "coupe" ],
+    "textdomain": "media-slider-blocks",
+    "supports": {
+        "html":    false,
+        "align":   [ "wide", "full" ],
+        "spacing": { "margin": true, "padding": true }
+    },
+    "attributes": {
+        "imageUrl":   { "type": "string",  "default": "" },
+        "imageId":    { "type": "number",  "default": 0  },
+        "imageAlt":   { "type": "string",  "default": "" },
+        "imageRatio": { "type": "string",  "default": "16/9" },
+        "objectFit":  { "type": "string",  "default": "cover" },
+        "linkUrl":    { "type": "string",  "default": "" },
+        "linkTarget": { "type": "boolean", "default": false },
+        "enableLightbox": { "type": "boolean", "default": false },
+        "borderRadius": { "type": "number", "default": 0 },
+
+        "angleSize":      { "type": "number", "default": 0 },
+        "angleDirection": { "type": "string", "default": "bottom-right" }
+    },
+    "editorScript": "file:./editor.js",
+    "editorStyle":  "file:./editor.css",
+    "style":        "file:./style.css",
+    "render":       "file:./render.php"
+}

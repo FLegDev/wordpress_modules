@@ -1,0 +1,5 @@
+/* Media Slider Blocks — Admin */
+.msb-media-cats{max-height:160px;overflow-y:auto;padding:6px 2px;border:1px solid #ddd;border-radius:4px;background:#fafafa}
+.msb-media-cats label{display:block;padding:3px 8px;margin:0;cursor:pointer;font-size:13px;transition:background .15s}
+.msb-media-cats label:hover{background:#f0f0f0}
+.msb-media-cats input[type="checkbox"]{margin-right:6px}

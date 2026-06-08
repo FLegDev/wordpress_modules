@@ -1,0 +1,9 @@
+.parresia-block-editor {
+  border: 1px dashed #ccd3df;
+  padding: 10px;
+}
+
+.parresia-block-editor .components-placeholder {
+  min-height: 120px;
+}
+

@@ -21,6 +21,11 @@ class GD_WP_Sync
     private $advanced_ads_collector;
 
     /**
+     * @var GD_WP_Sync_Advanced_Ads_Advertisers
+     */
+    private $advanced_ads_advertisers;
+
+    /**
      * @var GD_WP_Sync_API
      */
     private $api;
@@ -34,7 +39,9 @@ class GD_WP_Sync
     {
         $this->collector = new GD_WP_Sync_Collector();
         $this->advanced_ads_collector = new GD_WP_Sync_Advanced_Ads_Collector();
+        $this->advanced_ads_advertisers = new GD_WP_Sync_Advanced_Ads_Advertisers();
         $this->api = new GD_WP_Sync_API();
+        $this->advanced_ads_advertisers->init();
 
         add_action(self::CRON_HOOK, array($this, 'run_cron_sync'));
 
@@ -77,6 +84,8 @@ class GD_WP_Sync
             'django_stats_auth_header_prefix' => 'Bearer',
             'advanced_ads_impressions_table' => '',
             'advanced_ads_clicks_table' => '',
+            'advanced_ads_advertiser_taxonomy_enabled' => 1,
+            'advanced_ads_ad_post_types' => 'advanced_ads',
             'schedule_enabled' => 0,
             'schedule_period' => 'previous_day',
             'article_post_types' => 'post',

@@ -1,6 +1,6 @@
 # Global Digital WP Sync
 
-Plugin WordPress pour collecter les indicateurs Global Digital dont la source est WordPress, puis les pousser vers une API Global Digital. Il peut aussi envoyer les statistiques Advanced Ads locales vers une API de statistiques Django.
+Plugin WordPress pour collecter les indicateurs Global Digital dont la source est WordPress, puis les pousser vers une API Global Digital. Il peut aussi etendre Advanced Ads avec des annonceurs taggables et envoyer les statistiques Advanced Ads locales vers une API de statistiques Django.
 
 ## Indicateurs inclus
 
@@ -24,6 +24,12 @@ Si l'option Advanced Ads est activee, le plugin collecte les statistiques locale
 
 Le flux Advanced Ads est envoye vers un endpoint Django separe de l'endpoint Global Digital. Le plugin tente de detecter automatiquement les tables `advads_impressions` et `advads_clicks` avec le prefixe WordPress courant. Si un site utilise un schema different, les noms de tables peuvent etre renseignes dans les reglages.
 
+## Annonceurs Advanced Ads
+
+Le plugin ajoute une taxonomie WordPress `gd_advertiser` nommee `Annonceurs` sur les publicites Advanced Ads. Elle permet de tagger une ou plusieurs publicites avec un annonceur directement dans l'admin WordPress.
+
+Par defaut, la taxonomie est attachee au post type `advanced_ads`. Le champ `Types de contenus publicites` permet d'ajouter d'autres post types si un site utilise une variante.
+
 ## Installation
 
 1. Installer le ZIP depuis `Extensions > Ajouter > Televerser une extension`.
@@ -32,6 +38,7 @@ Le flux Advanced Ads est envoye vers un endpoint Django separe de l'endpoint Glo
 4. Renseigner l'endpoint API Global Digital, le jeton et le header d'authentification.
 5. Adapter les meta keys, taxonomies, slugs et types de contenus selon le WordPress cible.
 6. Optionnel: activer Advanced Ads, renseigner l'endpoint Django et ajuster les tables de tracking.
+7. Dans les publicites Advanced Ads, renseigner les `Annonceurs` pour alimenter les exports Django par annonceur.
 
 ## Payload envoye
 
@@ -52,7 +59,7 @@ Le plugin envoie un POST JSON:
   "generated_at": "2026-06-08T09:00:00+00:00",
   "plugin": {
     "name": "global-digital-wp-sync",
-    "version": "0.1.0"
+    "version": "0.3.0"
   },
   "metrics": {
     "wp_articles_published": {
@@ -76,6 +83,8 @@ Le plugin envoie un POST JSON:
 - `Activer Advanced Ads`: active le payload Django.
 - `Endpoint statistiques Django`: endpoint POST JSON pour les stats Advanced Ads.
 - `Table impressions Advanced Ads` et `Table clics Advanced Ads`: laisser vide pour detection automatique.
+- `Activer les annonceurs`: ajoute ou retire la taxonomie `Annonceurs` sur les publicites Advanced Ads.
+- `Types de contenus publicites`: par defaut `advanced_ads`.
 
 ## Payload Django Advanced Ads
 
@@ -102,12 +111,31 @@ Le plugin envoie un POST JSON separe vers l'API statistiques Django:
       "clicks": 120,
       "ctr": 1.2
     },
+    "advertisers": [
+      {
+        "term_id": 12,
+        "name": "Annonceur exemple",
+        "slug": "annonceur-exemple",
+        "impressions": 5000,
+        "clicks": 75,
+        "ctr": 1.5,
+        "ad_ids": [123]
+      }
+    ],
     "ads": [
       {
         "ad_id": 123,
         "title": "Banniere exemple",
         "status": "publish",
         "post_type": "advanced_ads",
+        "advertisers": [
+          {
+            "term_id": 12,
+            "name": "Annonceur exemple",
+            "slug": "annonceur-exemple"
+          }
+        ],
+        "advertiser_slugs": ["annonceur-exemple"],
         "impressions": 5000,
         "clicks": 75,
         "ctr": 1.5

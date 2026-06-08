@@ -48,6 +48,7 @@ class GD_WP_Sync_Advanced_Ads_Collector
             'advanced_ads' => array(
                 'available' => $impressions['available'] || $clicks['available'],
                 'totals' => $totals,
+                'advertisers' => $this->build_advertiser_totals($ads),
                 'ads' => $ads,
                 'detected' => array(
                     'impressions' => $impressions['detected'],
@@ -280,12 +281,15 @@ class GD_WP_Sync_Advanced_Ads_Collector
             $impression_count = isset($impressions[$ad_id]) ? (int) $impressions[$ad_id] : 0;
             $click_count = isset($clicks[$ad_id]) ? (int) $clicks[$ad_id] : 0;
             $post = ctype_digit((string) $ad_id) ? get_post((int) $ad_id) : null;
+            $advertisers = $post ? $this->advertisers_for_ad((int) $ad_id) : array();
 
             $ads[] = array(
                 'ad_id' => ctype_digit((string) $ad_id) ? (int) $ad_id : $ad_id,
                 'title' => $post ? get_the_title($post) : '',
                 'status' => $post ? $post->post_status : '',
                 'post_type' => $post ? $post->post_type : '',
+                'advertisers' => $advertisers,
+                'advertiser_slugs' => wp_list_pluck($advertisers, 'slug'),
                 'impressions' => $impression_count,
                 'clicks' => $click_count,
                 'ctr' => $this->ctr($click_count, $impression_count),
@@ -293,6 +297,80 @@ class GD_WP_Sync_Advanced_Ads_Collector
         }
 
         return $ads;
+    }
+
+    private function advertisers_for_ad($post_id)
+    {
+        $taxonomy = apply_filters('gd_wp_sync_advertiser_taxonomy', 'gd_advertiser');
+
+        if (!taxonomy_exists($taxonomy)) {
+            return array();
+        }
+
+        $terms = wp_get_post_terms($post_id, $taxonomy, array(
+            'fields' => 'all',
+        ));
+
+        if (is_wp_error($terms) || empty($terms)) {
+            return array();
+        }
+
+        $advertisers = array();
+
+        foreach ($terms as $term) {
+            $advertisers[] = array(
+                'term_id' => (int) $term->term_id,
+                'name' => $term->name,
+                'slug' => $term->slug,
+            );
+        }
+
+        return $advertisers;
+    }
+
+    private function build_advertiser_totals($ads)
+    {
+        $totals = array();
+
+        foreach ($ads as $ad) {
+            if (empty($ad['advertisers']) || !is_array($ad['advertisers'])) {
+                continue;
+            }
+
+            foreach ($ad['advertisers'] as $advertiser) {
+                $slug = isset($advertiser['slug']) ? $advertiser['slug'] : '';
+
+                if ('' === $slug) {
+                    continue;
+                }
+
+                if (!isset($totals[$slug])) {
+                    $totals[$slug] = array(
+                        'term_id' => isset($advertiser['term_id']) ? (int) $advertiser['term_id'] : 0,
+                        'name' => isset($advertiser['name']) ? $advertiser['name'] : '',
+                        'slug' => $slug,
+                        'impressions' => 0,
+                        'clicks' => 0,
+                        'ctr' => 0.0,
+                        'ad_ids' => array(),
+                    );
+                }
+
+                $totals[$slug]['impressions'] += isset($ad['impressions']) ? (int) $ad['impressions'] : 0;
+                $totals[$slug]['clicks'] += isset($ad['clicks']) ? (int) $ad['clicks'] : 0;
+
+                if (isset($ad['ad_id'])) {
+                    $totals[$slug]['ad_ids'][] = $ad['ad_id'];
+                }
+            }
+        }
+
+        foreach ($totals as $slug => $row) {
+            $totals[$slug]['ad_ids'] = array_values(array_unique($row['ad_ids']));
+            $totals[$slug]['ctr'] = $this->ctr($row['clicks'], $row['impressions']);
+        }
+
+        return array_values($totals);
     }
 
     private function sum_event_rows($rows)

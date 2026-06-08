@@ -71,6 +71,8 @@ class GD_WP_Sync_Admin
         $this->field('django_stats_auth_header_prefix', __('Prefixe authentification Django', 'global-digital-wp-sync'), 'text', 'gd_wp_sync_django_stats');
         $this->field('advanced_ads_impressions_table', __('Table impressions Advanced Ads', 'global-digital-wp-sync'), 'text', 'gd_wp_sync_django_stats');
         $this->field('advanced_ads_clicks_table', __('Table clics Advanced Ads', 'global-digital-wp-sync'), 'text', 'gd_wp_sync_django_stats');
+        $this->field('advanced_ads_advertiser_taxonomy_enabled', __('Activer les annonceurs', 'global-digital-wp-sync'), 'checkbox', 'gd_wp_sync_django_stats');
+        $this->field('advanced_ads_ad_post_types', __('Types de contenus publicites', 'global-digital-wp-sync'), 'textarea', 'gd_wp_sync_django_stats');
 
         add_settings_section(
             'gd_wp_sync_collection',
@@ -130,7 +132,7 @@ class GD_WP_Sync_Admin
 
         foreach ($defaults as $key => $default) {
             if (!isset($input[$key])) {
-                if ('schedule_enabled' === $key || 'advanced_ads_enabled' === $key) {
+                if ('schedule_enabled' === $key || 'advanced_ads_enabled' === $key || 'advanced_ads_advertiser_taxonomy_enabled' === $key) {
                     $clean[$key] = 0;
                 }
                 continue;
@@ -148,7 +150,7 @@ class GD_WP_Sync_Admin
                 continue;
             }
 
-            if ('schedule_enabled' === $key || 'advanced_ads_enabled' === $key) {
+            if ('schedule_enabled' === $key || 'advanced_ads_enabled' === $key || 'advanced_ads_advertiser_taxonomy_enabled' === $key) {
                 $clean[$key] = empty($value) ? 0 : 1;
                 continue;
             }
@@ -194,6 +196,10 @@ class GD_WP_Sync_Admin
 
             if ('advanced_ads_enabled' === $key) {
                 $description = __('Collecter les impressions et clics Advanced Ads et les pousser vers l API statistiques Django.', 'global-digital-wp-sync');
+            }
+
+            if ('advanced_ads_advertiser_taxonomy_enabled' === $key) {
+                $description = __('Ajouter une taxonomie Annonceurs aux publicites Advanced Ads.', 'global-digital-wp-sync');
             }
 
             printf(

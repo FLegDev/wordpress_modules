@@ -15,7 +15,7 @@ Depot central des plugins et outils WordPress Parresia / Global Digital.
 | `plugins/auto-menu-updater` | Auto Menu Updater | 1.0 | Plugin mono-fichier de navigation automatique. |
 | `plugins/campaigns-redirector` | Campaigns Redirector | 1.6.8 | Version courante propre. |
 | `plugins/geo-ai-optimizer` | GEO AI Optimizer - Alpha | 0.1.0-alpha | Optimisation GEO, llms.txt, miroirs Markdown et briefs LLM. |
-| `plugins/global-digital-wp-sync` | Global Digital WP Sync | 0.2.0 | Synchronisation des indicateurs WordPress et stats Advanced Ads vers APIs Global Digital/Django. |
+| `plugins/global-digital-wp-sync` | Global Digital WP Sync | 0.3.0 | Synchronisation WordPress/Advanced Ads, annonceurs taggables et exports APIs Global Digital/Django. |
 | `plugins/media-slider-blocks` | Media Slider Blocks | 1.2.4 | Blocs Gutenberg medias et slider. |
 | `plugins/melody2wp` | Melody2WP | 1.0 | Envoi des articles Melody vers WordPress. |
 | `plugins/omr-word-importer` | OMR Word Importer | 0.5.1 | Import `.docx` vers blocs Gutenberg. |

@@ -1,0 +1,196 @@
+.vgeo-wrap {
+  max-width: 1600px;
+}
+
+.vgeo-lead {
+  max-width: 920px;
+}
+
+.vgeo-grid {
+  display: grid;
+  grid-template-columns: minmax(360px, 2fr) minmax(300px, 1fr);
+  gap: 16px;
+  align-items: start;
+  margin: 16px 0;
+}
+
+.vgeo-panel {
+  background: #fff;
+  border: 1px solid #dcdcde;
+  padding: 16px;
+}
+
+.vgeo-panel h2,
+.vgeo-panel h3 {
+  margin-top: 0;
+}
+
+.vgeo-check {
+  display: inline-block;
+  margin: 0 16px 8px 0;
+}
+
+.vgeo-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 12px 0;
+}
+
+.vgeo-active-provider {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 10px;
+  border: 1px solid #dcdcde;
+  background: #f6f7f7;
+}
+
+.vgeo-score-card {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid #dcdcde;
+  background: #f6f7f7;
+  margin-bottom: 12px;
+}
+
+.vgeo-score-card strong {
+  font-size: 30px;
+  line-height: 1;
+}
+
+.vgeo-checklist {
+  margin: 0 0 16px;
+}
+
+.vgeo-checklist li {
+  margin: 4px 0;
+}
+
+.vgeo-checklist .is-ok {
+  color: #008a20;
+}
+
+.vgeo-checklist .is-warning {
+  color: #b32d2e;
+}
+
+.vgeo-preview {
+  min-height: 280px;
+  font-family: Consolas, Monaco, monospace;
+}
+
+.vgeo-table {
+  margin-top: 12px;
+}
+
+.vgeo-table th:nth-child(1),
+.vgeo-table td:nth-child(1) {
+  width: 24%;
+}
+
+.vgeo-table th:nth-child(2),
+.vgeo-table td:nth-child(2) {
+  width: 10%;
+}
+
+.vgeo-table th:nth-child(3),
+.vgeo-table td:nth-child(3) {
+  width: 50%;
+}
+
+.vgeo-table th:nth-child(4),
+.vgeo-table td:nth-child(4) {
+  width: 16%;
+}
+
+.vgeo-content-cell strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.vgeo-meta-line {
+  color: #646970;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.vgeo-url {
+  display: block;
+  overflow-wrap: anywhere;
+  font-size: 12px;
+}
+
+.vgeo-score {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.vgeo-table label,
+.vgeo-editor-box label {
+  display: block;
+  margin: 8px 0 2px;
+  color: #1d2327;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.vgeo-button-cell .button {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.vgeo-status {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.vgeo-status.is-loading {
+  color: #8a6100;
+}
+
+.vgeo-status.is-ok {
+  color: #008a20;
+}
+
+.vgeo-status.is-error {
+  color: #b32d2e;
+}
+
+.vgeo-editor-box .vgeo-actions {
+  margin: 8px 0 12px;
+}
+
+@media (max-width: 1100px) {
+  .vgeo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vgeo-table,
+  .vgeo-table thead,
+  .vgeo-table tbody,
+  .vgeo-table th,
+  .vgeo-table td,
+  .vgeo-table tr {
+    display: block;
+  }
+
+  .vgeo-table thead {
+    display: none;
+  }
+
+  .vgeo-table td {
+    width: auto !important;
+    border-bottom: 0;
+  }
+
+  .vgeo-table tr {
+    border-bottom: 1px solid #dcdcde;
+  }
+}
